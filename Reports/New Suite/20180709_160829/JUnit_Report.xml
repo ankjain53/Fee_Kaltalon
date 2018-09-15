@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Suite" time="119" tests="5" failures="0" errors="0">
+   <testsuite name="New Suite" tests="5" failures="0" errors="0" time="119" timestamp="2018-07-09 16:08:56" hostname="Ankur.Jain - LT0021232" id="Test Suites/New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_160829"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_160829\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_160829\\1531132842606.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_160829\\1531132852391.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.85"/>
+         <property name="sessionId" value="4ee0073b39a988b323b4feffaaafcde9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-09 16:08:58 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-09 16:09:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-09 16:09:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:09:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-09 16:09:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:09:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-09 16:09:55 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-09 16:09:55 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-09 16:10:15 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-09 16:10:15 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-09 16:10:17 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-09 16:10:17 - [TEST_STEP][PASSED] - setText: Text 'Word03Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-09 16:10:18 - [MESSAGE][PASSED] - Text 'Word03Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-09 16:10:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-09 16:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-09 16:10:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-09 16:10:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:10:23 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC47_JPB Profile Search with Customer_number" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC47_JPB Profile Search with Customer_number" status="PASSED">
+         <system-out><![CDATA[2018-07-09 16:10:29 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC47_JPB Profile Search with Customer_number: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC47_JPB Profile Search with Customer_number
+
+2018-07-09 16:10:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC47_AM/Cust_Tab' is clicked on
+
+2018-07-09 16:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC47_AM/Cust_Tab' is clicked on
+
+2018-07-09 16:10:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC47_AM/JPB_ComboBox' is clicked on
+
+2018-07-09 16:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC47_AM/JPB_ComboBox' is clicked on
+
+2018-07-09 16:10:35 - [TEST_STEP][PASSED] - setText: Text '4000000451' is set on object 'Object Repository/TC47_AM/Customer_input'
+
+2018-07-09 16:10:36 - [MESSAGE][PASSED] - Text '4000000451' is set on object 'Object Repository/TC47_AM/Customer_input'
+
+2018-07-09 16:10:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-09 16:10:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:10:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC47_AM/Customer_input'
+
+2018-07-09 16:10:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC47_AM/Customer_input'
+
+2018-07-09 16:10:39 - [TEST_STEP][PASSED] - comment: JPB Customer Details Displayed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC48_JPB Customer Details" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC48_JPB Customer Details" status="PASSED">
+         <system-out><![CDATA[2018-07-09 16:10:40 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC48_JPB Customer Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC48_JPB Customer Details
+
+2018-07-09 16:10:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC47_AM/Cust_Name' are matched.
+
+2018-07-09 16:10:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC47_AM/Cust_Name' are matched.
+
+2018-07-09 16:10:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC47_AM/Cust-id' are matched.
+
+2018-07-09 16:10:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC47_AM/Cust-id' are matched.
+
+2018-07-09 16:10:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC47_AM/Risk_Details' are matched.
+
+2018-07-09 16:10:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC47_AM/Risk_Details' are matched.
+
+2018-07-09 16:10:42 - [TEST_STEP][PASSED] - comment: JPB Customer Detail Validated Sucesfully
+
+2018-07-09 16:10:42 - [TEST_STEP][PASSED] - Statement - JPB_CustDetails = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-09 16:10:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_160829\\1531132842606.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC49_JPB Profile Search with Account_number" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC49_JPB Profile Search with Account_number" status="PASSED">
+         <system-out><![CDATA[2018-07-09 16:10:44 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC49_JPB Profile Search with Account_number: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC49_JPB Profile Search with Account_number
+
+2018-07-09 16:10:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC47_AM/Cust_Tab' is clicked on
+
+2018-07-09 16:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC47_AM/Cust_Tab' is clicked on
+
+2018-07-09 16:10:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC47_AM/JPB_ComboBox' is clicked on
+
+2018-07-09 16:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC47_AM/JPB_ComboBox' is clicked on
+
+2018-07-09 16:10:46 - [TEST_STEP][PASSED] - setText: Text '30000001021502' is set on object 'Object Repository/TC47_AM/Customer_input'
+
+2018-07-09 16:10:47 - [MESSAGE][PASSED] - Text '30000001021502' is set on object 'Object Repository/TC47_AM/Customer_input'
+
+2018-07-09 16:10:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-09 16:10:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:10:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC47_AM/Customer_input'
+
+2018-07-09 16:10:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC47_AM/Customer_input'
+
+2018-07-09 16:10:50 - [TEST_STEP][PASSED] - comment: JPB Customer Details through id is Displayed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details" status="PASSED">
+         <system-out><![CDATA[2018-07-09 16:10:51 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details
+
+2018-07-09 16:10:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC47_AM/POI_Name' are matched.
+
+2018-07-09 16:10:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC47_AM/POI_Name' are matched.
+
+2018-07-09 16:10:52 - [TEST_STEP][PASSED] - comment: JPB Customer Detail trhough account no is Validated Sucesfully
+
+2018-07-09 16:10:52 - [TEST_STEP][PASSED] - Statement - JPB_CustDetails_Id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-09 16:10:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_160829\\1531132852391.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 16:08:56 - [TEST_SUITE][PASSED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

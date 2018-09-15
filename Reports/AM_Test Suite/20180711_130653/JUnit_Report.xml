@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="13" tests="0" failures="9" errors="0">
+   <testsuite name="AM_Test Suite" tests="0" failures="9" errors="0" time="13" timestamp="2018-07-11 13:07:02" hostname="Ankur.Jain - LT0021232" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180711_130653"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180711_130653\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="hostAddress" value="10.50.88.85"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/TC47_58 AM/POI_Name' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-11 13:07:04 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details FAILED because (of) Verify element text of test object 'Object Repository/TC47_58 AM/POI_Name' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:05 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/TC47_58 AM/POI_Name' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:07 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:07 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TC47_58 AM/POI_Name' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:07 - [TEST_STEP][PASSED] - comment: JPB Customer Detail trhough account no is Validated Sucesfully
+
+2018-07-11 13:07:07 - [TEST_STEP][FAILED] - Statement - JPB_CustDetails_Id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:07 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:07 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:07:04 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details FAILED because (of) Verify element text of test object 'Object Repository/TC47_58 AM/POI_Name' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/TC47_58 AM/Customer_Activity Period' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-11 13:07:07 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details FAILED because (of) Unable to get text of object 'Object Repository/TC47_58 AM/Customer_Activity Period' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:08 - [TEST_STEP][FAILED] - getText: Unable to get text of object 'Object Repository/TC47_58 AM/Customer_Activity Period' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:08 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/TC47_58 AM/Customer_Activity Period' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:08 - [TEST_STEP][PASSED] - comment: Customer activity period details are displayed
+
+2018-07-11 13:07:08 - [TEST_STEP][FAILED] - Statement - Cust_Activity_Period = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:08 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:07:07 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details FAILED because (of) Unable to get text of object 'Object Repository/TC47_58 AM/Customer_Activity Period' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/TC47_58 AM/Cust_TransDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-11 13:07:08 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details FAILED because (of) Unable to get text of object 'Object Repository/TC47_58 AM/Cust_TransDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:09 - [TEST_STEP][FAILED] - getText: Unable to get text of object 'Object Repository/TC47_58 AM/Cust_TransDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:09 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:09 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/TC47_58 AM/Cust_TransDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:09 - [TEST_STEP][PASSED] - comment: Customer Transcation details displayed]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:07:08 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details FAILED because (of) Unable to get text of object 'Object Repository/TC47_58 AM/Cust_TransDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC53_JPB Customer Fraud Details" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC53_JPB Customer Fraud Details" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/TC47_58 AM/Cust_FraudDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-11 13:07:09 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC53_JPB Customer Fraud Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC53_JPB Customer Fraud Details FAILED because (of) Unable to get text of object 'Object Repository/TC47_58 AM/Cust_FraudDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:10 - [TEST_STEP][FAILED] - getText: Unable to get text of object 'Object Repository/TC47_58 AM/Cust_FraudDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:10 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:10 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/TC47_58 AM/Cust_FraudDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:10 - [TEST_STEP][PASSED] - comment: Customer Fraud Details Displayed]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:07:09 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC53_JPB Customer Fraud Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC53_JPB Customer Fraud Details FAILED because (of) Unable to get text of object 'Object Repository/TC47_58 AM/Cust_FraudDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC54_JPB Transactions Transaction Density Details" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC54_JPB Transactions Transaction Density Details" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransDensity' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-11 13:07:10 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC54_JPB Transactions Transaction Density Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC54_JPB Transactions Transaction Density Details FAILED because (of) Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransDensity' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:10 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransDensity' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-11 13:07:10 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:10 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransDensity' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:10 - [TEST_STEP][PASSED] - comment: Customer Transaction Density displayed]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:07:10 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC54_JPB Transactions Transaction Density Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC54_JPB Transactions Transaction Density Details FAILED because (of) Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransDensity' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC55_JPB Customer transaction Statistic" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC55_JPB Customer transaction Statistic" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TC47_58 AM/Cust_Transcation Stat' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-11 13:07:10 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC55_JPB Customer transaction Statistic: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC55_JPB Customer transaction Statistic FAILED because (of) Unable to verify object 'Object Repository/TC47_58 AM/Cust_Transcation Stat' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:11 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TC47_58 AM/Cust_Transcation Stat' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-11 13:07:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:11 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TC47_58 AM/Cust_Transcation Stat' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:11 - [TEST_STEP][PASSED] - comment: Customer Transcation Stats Displayed]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:07:10 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC55_JPB Customer transaction Statistic: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC55_JPB Customer transaction Statistic FAILED because (of) Unable to verify object 'Object Repository/TC47_58 AM/Cust_Transcation Stat' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC56_JPB Customer transaction History" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC56_JPB Customer transaction History" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransHistory' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-11 13:07:11 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC56_JPB Customer transaction History: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC56_JPB Customer transaction History FAILED because (of) Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransHistory' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:11 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransHistory' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-11 13:07:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:11 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransHistory' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:07:11 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC56_JPB Customer transaction History: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC56_JPB Customer transaction History FAILED because (of) Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransHistory' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC57_JPB Customer Status Log Details" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC57_JPB Customer Status Log Details" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC47_58 AM/StatusLog' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-11 13:07:11 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC57_JPB Customer Status Log Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC57_JPB Customer Status Log Details FAILED because (of) Unable to click on object 'Object Repository/TC47_58 AM/StatusLog' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC47_58 AM/StatusLog' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC47_58 AM/StatusLog' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC47_58 AM/SerachButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC47_58 AM/SerachButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:12 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TC47_58 AM/History' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-11 13:07:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:12 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TC47_58 AM/History' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:12 - [TEST_STEP][PASSED] - comment: Customer transaction History is not displayed
+
+2018-07-11 13:07:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC47_58 AM/Close_Button' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC47_58 AM/Close_Button' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:07:11 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC57_JPB Customer Status Log Details: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC57_JPB Customer Status Log Details FAILED because (of) Unable to click on object 'Object Repository/TC47_58 AM/StatusLog' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC58_JPB-Jio Money Customer Search" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC58_JPB-Jio Money Customer Search" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC47_58 AM/Cust_Tab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-11 13:07:12 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC58_JPB-Jio Money Customer Search: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC58_JPB-Jio Money Customer Search FAILED because (of) Unable to click on object 'Object Repository/TC47_58 AM/Cust_Tab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC47_58 AM/Cust_Tab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC47_58 AM/Cust_Tab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC47_58 AM/JM_Combobox' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC47_58 AM/JM_Combobox' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:13 - [TEST_STEP][FAILED] - setText: Unable to set text '1100205989' of object 'Object Repository/TC47_58 AM/Customer_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:13 - [MESSAGE][FAILED] - Unable to set text '1100205989' of object 'Object Repository/TC47_58 AM/Customer_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 13:07:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 13:07:16 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '' to object 'Object Repository/TC47_58 AM/Customer_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:16 - [MESSAGE][FAILED] - Unable to send keys '' to object 'Object Repository/TC47_58 AM/Customer_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:16 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransHistory' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-11 13:07:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-11 13:07:16 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TC47_58 AM/Cust_TransHistory' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-11 13:07:16 - [TEST_STEP][PASSED] - comment: Jio Money Customer  History is displayed]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:07:12 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC58_JPB-Jio Money Customer Search: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC58_JPB-Jio Money Customer Search FAILED because (of) Unable to click on object 'Object Repository/TC47_58 AM/Cust_Tab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 13:07:02 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details FAILED because (of) Verify element text of test object 'Object Repository/TC47_58 AM/POI_Name' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-07-11 13:07:02 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details FAILED because (of) Verify element text of test object 'Object Repository/TC47_58 AM/POI_Name' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

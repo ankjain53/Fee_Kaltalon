@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="119" tests="3" failures="1" errors="0">
+   <testsuite name="AM_Test Suite" tests="3" failures="1" errors="0" time="119" timestamp="2018-07-03 13:42:08" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_134157"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_134157\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_134157\\1530605644564.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_134157\\1530605645551.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="9440fc58a69daf1a1d1568628410f55c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-03 13:42:10 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-03 13:42:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 13:42:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 13:42:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-03 13:42:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 13:42:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 13:42:30 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 13:42:30 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-03 13:42:50 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-03 13:42:50 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 13:42:51 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 13:42:51 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 13:42:51 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 13:42:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 13:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" status="PASSED">
+         <system-out><![CDATA[2018-07-03 13:42:51 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD
+
+2018-07-03 13:42:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-03 13:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-03 13:42:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-03 13:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-03 13:42:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-03 13:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-03 13:43:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:43:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 13:43:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-03 13:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-03 13:43:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-03 13:43:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 13:43:11 - [TEST_STEP][PASSED] - setText: Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-03 13:43:12 - [MESSAGE][PASSED] - Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-03 13:43:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-03 13:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-03 13:43:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-03 13:43:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 13:43:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-03 13:43:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-03 13:43:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:43:17 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-03 13:43:18 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud
+
+2018-07-03 13:43:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-03 13:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-03 13:43:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-03 13:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-03 13:43:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:43:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 13:43:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-03 13:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-03 13:43:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:43:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 13:43:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Not Fraud' is clicked on
+
+2018-07-03 13:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Not Fraud' is clicked on
+
+2018-07-03 13:43:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-03 13:43:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 13:43:36 - [TEST_STEP][PASSED] - setText: Text 'Not Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-03 13:43:37 - [MESSAGE][PASSED] - Text 'Not Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-03 13:43:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:43:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 13:43:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Not Fraud_1' is clicked on
+
+2018-07-03 13:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Not Fraud_1' is clicked on
+
+2018-07-03 13:43:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:43:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 13:43:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Not Fraud' are matched.
+
+2018-07-03 13:43:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Not Fraud' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/TC05-07_AM/Status_Suspious' FAILED. (Root cause: Actual text 'Suspicious' and expected text 'Sus' of test object 'Object Repository/TC05-07_AM/Status_Suspious' are NOT matched.)"/>
+         <system-out><![CDATA[2018-07-03 13:43:42 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious FAILED because (of) Verify element text of test object 'Object Repository/TC05-07_AM/Status_Suspious' FAILED. (Root cause: Actual text 'Suspicious' and expected text 'Sus' of test object 'Object Repository/TC05-07_AM/Status_Suspious' are NOT matched.)
+
+2018-07-03 13:43:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-03 13:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-03 13:43:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-03 13:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-03 13:43:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-03 13:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-03 13:43:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:43:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 13:43:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-03 13:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-03 13:43:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:43:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 13:43:59 - [TEST_STEP][PASSED] - setText: Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-03 13:43:59 - [MESSAGE][PASSED] - Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-03 13:43:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:44:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 13:44:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-03 13:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-03 13:44:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 13:44:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 13:44:04 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/TC05-07_AM/Status_Suspious' FAILED. (Root cause: Actual text 'Suspicious' and expected text 'Sus' of test object 'Object Repository/TC05-07_AM/Status_Suspious' are NOT matched.)
+
+2018-07-03 13:44:05 - [MESSAGE][FAILED] - Actual text 'Suspicious' and expected text 'Sus' of test object 'Object Repository/TC05-07_AM/Status_Suspious' are NOT matched.
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_134157\\1530605644564.png]]
+
+2018-07-03 13:44:06 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TC05-07_AM/Status_Suspious' FAILED. (Root cause: Actual text 'Suspicious' and expected text 'Sus' of test object 'Object Repository/TC05-07_AM/Status_Suspious' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_134157\\1530605645551.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-03 13:43:42 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious FAILED because (of) Verify element text of test object 'Object Repository/TC05-07_AM/Status_Suspious' FAILED. (Root cause: Actual text 'Suspicious' and expected text 'Sus' of test object 'Object Repository/TC05-07_AM/Status_Suspious' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 13:42:08 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious FAILED because (of) Verify element text of test object 'Object Repository/TC05-07_AM/Status_Suspious' FAILED. (Root cause: Actual text 'Suspicious' and expected text 'Sus' of test object 'Object Repository/TC05-07_AM/Status_Suspious' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-07-03 13:42:08 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious FAILED because (of) Verify element text of test object 'Object Repository/TC05-07_AM/Status_Suspious' FAILED. (Root cause: Actual text 'Suspicious' and expected text 'Sus' of test object 'Object Repository/TC05-07_AM/Status_Suspious' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Mer_id_Valid</name>
+   <tag></tag>
+   <elementGuidId>6c1105db-f30b-44ca-924b-fb84d16af99e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[6]/span</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC63_Validate LMW transaction details in Alert Manager</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a90a1330-591b-46c3-968b-8bc80cd88964</testCaseGuid>
+</TestCaseEntity>

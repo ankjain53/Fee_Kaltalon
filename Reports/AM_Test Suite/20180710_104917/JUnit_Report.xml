@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="38" tests="0" failures="1" errors="0">
+   <testsuite name="AM_Test Suite" tests="0" failures="1" errors="0" time="38" timestamp="2018-07-10 10:49:27" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180710_104917"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180710_104917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="hostAddress" value="10.50.88.85"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel" status="FAILED">
+         <failure type="FAILED" message="Unable to clear text of object 'Object Repository/TC_24_36 AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-10 10:49:29 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel FAILED because (of) Unable to clear text of object 'Object Repository/TC_24_36 AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:31 - [TEST_STEP][FAILED] - clearText: Unable to clear text of object 'Object Repository/TC_24_36 AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:33 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:49:33 - [MESSAGE][FAILED] - Unable to clear text of object 'Object Repository/TC_24_36 AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-10 10:49:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-10 10:49:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_24_36 AM/Done_Button' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:38 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:49:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_24_36 AM/Done_Button' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-10 10:49:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-10 10:49:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_24_36 AM/button_Advanced Search' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:43 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:49:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_24_36 AM/button_Advanced Search' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-10 10:49:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-10 10:49:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_24_36 AM/Chaneel_Click' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:49:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_24_36 AM/Chaneel_Click' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:45 - [TEST_STEP][FAILED] - setText: Unable to set text 'P2M' of object 'Object Repository/TC_24_36 AM/Channel_Input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:49:45 - [MESSAGE][FAILED] - Unable to set text 'P2M' of object 'Object Repository/TC_24_36 AM/Channel_Input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-10 10:49:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-10 10:49:50 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '' to object 'Object Repository/TC_24_36 AM/Channel_Input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:49:50 - [MESSAGE][FAILED] - Unable to send keys '' to object 'Object Repository/TC_24_36 AM/Channel_Input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:50 - [TEST_STEP][PASSED] - delay: Delayed 9 second(s)
+
+2018-07-10 10:49:59 - [MESSAGE][PASSED] - Delayed 9 second(s)
+
+2018-07-10 10:49:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_24_36 AM/button_Search' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:49:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_24_36 AM/button_Search' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:49:59 - [TEST_STEP][FAILED] - getText: Unable to get text of object 'Object Repository/TC_24_36 AM/Cust_Details' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:50:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:50:00 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/TC_24_36 AM/Cust_Details' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:50:00 - [TEST_STEP][PASSED] - comment: P2M Details Displayed
+
+2018-07-10 10:50:00 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/TC_24_36 AM/Chaneel_id_Valid' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:50:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:50:00 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TC_24_36 AM/Chaneel_id_Valid' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:50:00 - [TEST_STEP][FAILED] - Statement - Chaneel_Details = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:50:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:50:00 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:50:00 - [TEST_STEP][FAILED] - refresh: Unable to refresh page (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:50:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 10:50:00 - [MESSAGE][FAILED] - Unable to refresh page (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 10:50:00 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-10 10:50:06 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[2018-07-10 10:49:29 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel FAILED because (of) Unable to clear text of object 'Object Repository/TC_24_36 AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 10:49:27 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel FAILED because (of) Unable to clear text of object 'Object Repository/TC_24_36 AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-07-10 10:49:27 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel FAILED because (of) Unable to clear text of object 'Object Repository/TC_24_36 AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

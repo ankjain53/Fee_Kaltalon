@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_icon-tab-application-32</name>
+   <tag></tag>
+   <elementGuidId>2ce41d32-fcb1-449a-b29c-3359e7109ff6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-tab-application-32</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;fdz-js-lang-en-US&quot;]/div[@class=&quot;fdz-js-pulse-management fdz-css-pulse-management&quot;]/div[@class=&quot;fdz-js-pulse-container fdz-css-pulse-container interface&quot;]/div[@class=&quot;fdz-js-pulse-left-column fdz-css-pulse-left-column&quot;]/div[@class=&quot;fdz-js-menu-container fdz-css-menu-container&quot;]/ul[@class=&quot;nav builderSectionList&quot;]/li[@class=&quot;back-to-apps&quot;]/a[@class=&quot;redirect&quot;]/span[@class=&quot;menu-content&quot;]/i[@class=&quot;icon-tab-application-32&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

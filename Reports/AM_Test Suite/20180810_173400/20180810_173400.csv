@@ -1,0 +1,523 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AM_Test Suite,,,2018-08-10 17:34:23,2018-08-10 17:43:40,9m - 16.533s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Login,,,2018-08-10 17:34:26,2018-08-10 17:36:29,2m - 3.115s,FAILED
+openBrowser,,,2018-08-10 17:34:27,2018-08-10 17:36:02,1m - 34.799s,FAILED
+maximizeWindow,,,2018-08-10 17:36:02,2018-08-10 17:36:02,0.088s,FAILED
+navigateToUrl,,,2018-08-10 17:36:02,2018-08-10 17:36:06,3.567s,FAILED
+delay,,,2018-08-10 17:36:06,2018-08-10 17:36:26,20.084s,PASSED
+setText,,,2018-08-10 17:36:26,2018-08-10 17:36:26,0.324s,FAILED
+setText,,,2018-08-10 17:36:26,2018-08-10 17:36:26,0.167s,FAILED
+click,,,2018-08-10 17:36:26,2018-08-10 17:36:27,0.306s,FAILED
+delay,,,2018-08-10 17:36:27,2018-08-10 17:36:29,1.988s,PASSED
+comment,,,2018-08-10 17:36:29,2018-08-10 17:36:29,0.032s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud,,,2018-08-10 17:36:29,2018-08-10 17:36:30,1.358s,FAILED
+click,,,2018-08-10 17:36:30,2018-08-10 17:36:30,0.096s,FAILED
+click,,,2018-08-10 17:36:30,2018-08-10 17:36:30,0.096s,FAILED
+click,,,2018-08-10 17:36:30,2018-08-10 17:36:30,0.034s,FAILED
+setText,,,2018-08-10 17:36:30,2018-08-10 17:36:30,0.052s,FAILED
+click,,,2018-08-10 17:36:30,2018-08-10 17:36:30,0.019s,FAILED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)),,,2018-08-10 17:36:30,2018-08-10 17:36:30,0.081s,FAILED
+"Statement - If (text.contains(""Not Fraud""))",,,2018-08-10 17:36:30,2018-08-10 17:36:30,0.002s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud,,,2018-08-10 17:36:30,2018-08-10 17:36:31,0.946s,FAILED
+click,,,2018-08-10 17:36:31,2018-08-10 17:36:31,0.064s,FAILED
+setText,,,2018-08-10 17:36:31,2018-08-10 17:36:31,0.033s,FAILED
+click,,,2018-08-10 17:36:31,2018-08-10 17:36:31,0.051s,FAILED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)),,,2018-08-10 17:36:31,2018-08-10 17:36:31,0.017s,FAILED
+"Statement - If (text.contains(""Fraud""))",,,2018-08-10 17:36:31,2018-08-10 17:36:31,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious,,,2018-08-10 17:36:31,2018-08-10 17:36:38,7.203s,FAILED
+click,,,2018-08-10 17:36:32,2018-08-10 17:36:32,0.047s,FAILED
+setText,,,2018-08-10 17:36:32,2018-08-10 17:36:32,0.037s,FAILED
+delay,,,2018-08-10 17:36:32,2018-08-10 17:36:35,2.987s,PASSED
+click,,,2018-08-10 17:36:35,2018-08-10 17:36:35,0.080s,FAILED
+setText,,,2018-08-10 17:36:35,2018-08-10 17:36:35,0.054s,FAILED
+delay,,,2018-08-10 17:36:35,2018-08-10 17:36:38,2.987s,PASSED
+sendKeys,,,2018-08-10 17:36:38,2018-08-10 17:36:38,0.327s,FAILED
+click,,,2018-08-10 17:36:38,2018-08-10 17:36:38,0.087s,FAILED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)),,,2018-08-10 17:36:38,2018-08-10 17:36:38,0.018s,FAILED
+"Statement - If (text.contains(""Suspicious""))",,,2018-08-10 17:36:38,2018-08-10 17:36:38,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD,,,2018-08-10 17:36:38,2018-08-10 17:36:44,6.065s,FAILED
+click,,,2018-08-10 17:36:39,2018-08-10 17:36:39,0.051s,FAILED
+click,,,2018-08-10 17:36:39,2018-08-10 17:36:39,0.033s,FAILED
+click,,,2018-08-10 17:36:39,2018-08-10 17:36:39,0.035s,FAILED
+delay,,,2018-08-10 17:36:39,2018-08-10 17:36:41,2.025s,PASSED
+click,,,2018-08-10 17:36:41,2018-08-10 17:36:41,0.036s,FAILED
+delay,,,2018-08-10 17:36:41,2018-08-10 17:36:44,2.992s,PASSED
+setText,,,2018-08-10 17:36:44,2018-08-10 17:36:44,0.075s,FAILED
+click,,,2018-08-10 17:36:44,2018-08-10 17:36:44,0.083s,FAILED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)),,,2018-08-10 17:36:44,2018-08-10 17:36:44,0.019s,FAILED
+"Statement - If (text.contains(""Fraud""))",,,2018-08-10 17:36:44,2018-08-10 17:36:44,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud,,,2018-08-10 17:36:44,2018-08-10 17:36:57,12.135s,FAILED
+click,,,2018-08-10 17:36:45,2018-08-10 17:36:45,0.052s,FAILED
+click,,,2018-08-10 17:36:45,2018-08-10 17:36:45,0.001s,FAILED
+delay,,,2018-08-10 17:36:45,2018-08-10 17:36:47,1.992s,PASSED
+click,,,2018-08-10 17:36:47,2018-08-10 17:36:47,0.033s,FAILED
+delay,,,2018-08-10 17:36:47,2018-08-10 17:36:49,1.976s,PASSED
+click,,,2018-08-10 17:36:49,2018-08-10 17:36:49,0.025s,FAILED
+delay,,,2018-08-10 17:36:49,2018-08-10 17:36:52,3.009s,PASSED
+setText,,,2018-08-10 17:36:52,2018-08-10 17:36:52,0.019s,FAILED
+delay,,,2018-08-10 17:36:52,2018-08-10 17:36:54,2.006s,PASSED
+click,,,2018-08-10 17:36:54,2018-08-10 17:36:54,0.156s,FAILED
+comment,,,2018-08-10 17:36:54,2018-08-10 17:36:54,0.001s,PASSED
+delay,,,2018-08-10 17:36:54,2018-08-10 17:36:56,1.976s,PASSED
+verifyElementText,,,2018-08-10 17:36:56,2018-08-10 17:36:57,0.121s,FAILED
+comment,,,2018-08-10 17:36:57,2018-08-10 17:36:57,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious,,,2018-08-10 17:36:57,2018-08-10 17:37:08,11.004s,FAILED
+click,,,2018-08-10 17:36:57,2018-08-10 17:36:57,0.023s,FAILED
+click,,,2018-08-10 17:36:57,2018-08-10 17:36:57,0.043s,FAILED
+click,,,2018-08-10 17:36:57,2018-08-10 17:36:57,0.012s,FAILED
+delay,,,2018-08-10 17:36:57,2018-08-10 17:36:59,2.009s,PASSED
+click,,,2018-08-10 17:36:59,2018-08-10 17:36:59,0.082s,FAILED
+delay,,,2018-08-10 17:36:59,2018-08-10 17:37:01,1.986s,PASSED
+setText,,,2018-08-10 17:37:01,2018-08-10 17:37:01,0.052s,FAILED
+delay,,,2018-08-10 17:37:01,2018-08-10 17:37:03,1.972s,PASSED
+click,,,2018-08-10 17:37:03,2018-08-10 17:37:03,0.020s,FAILED
+Statement - Transcation_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:37:03,2018-08-10 17:37:03,0.034s,FAILED
+comment,,,2018-08-10 17:37:03,2018-08-10 17:37:03,0.017s,PASSED
+delay,,,2018-08-10 17:37:03,2018-08-10 17:37:05,2.005s,PASSED
+verifyElementText,,,2018-08-10 17:37:05,2018-08-10 17:37:06,0.098s,FAILED
+comment,,,2018-08-10 17:37:06,2018-08-10 17:37:06,0.000s,PASSED
+delay,,,2018-08-10 17:37:06,2018-08-10 17:37:08,1.989s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number,,,2018-08-10 17:37:08,2018-08-10 17:37:20,12.577s,FAILED
+click,,,2018-08-10 17:37:08,2018-08-10 17:37:08,0.110s,FAILED
+delay,,,2018-08-10 17:37:08,2018-08-10 17:37:10,1.989s,PASSED
+setText,,,2018-08-10 17:37:10,2018-08-10 17:37:11,0.597s,FAILED
+delay,,,2018-08-10 17:37:11,2018-08-10 17:37:13,2.022s,PASSED
+setText,,,2018-08-10 17:37:13,2018-08-10 17:37:13,0.034s,FAILED
+delay,,,2018-08-10 17:37:13,2018-08-10 17:37:18,4.988s,PASSED
+verifyElementText,,,2018-08-10 17:37:18,2018-08-10 17:37:18,0.078s,FAILED
+comment,,,2018-08-10 17:37:18,2018-08-10 17:37:18,0.000s,PASSED
+Statement - CustomerSerach_MobileNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:37:18,2018-08-10 17:37:18,0.000s,FAILED
+delay,,,2018-08-10 17:37:18,2018-08-10 17:37:20,2.003s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID,,,2018-08-10 17:37:20,2018-08-10 17:37:32,12.059s,FAILED
+click,,,2018-08-10 17:37:21,2018-08-10 17:37:21,0.020s,FAILED
+delay,,,2018-08-10 17:37:21,2018-08-10 17:37:23,1.989s,PASSED
+setText,,,2018-08-10 17:37:23,2018-08-10 17:37:23,0.129s,FAILED
+delay,,,2018-08-10 17:37:23,2018-08-10 17:37:25,1.987s,PASSED
+setText,,,2018-08-10 17:37:25,2018-08-10 17:37:25,0.021s,FAILED
+delay,,,2018-08-10 17:37:25,2018-08-10 17:37:30,4.990s,PASSED
+verifyElementText,,,2018-08-10 17:37:30,2018-08-10 17:37:30,0.091s,FAILED
+comment,,,2018-08-10 17:37:30,2018-08-10 17:37:30,0.000s,PASSED
+delay,,,2018-08-10 17:37:30,2018-08-10 17:37:32,1.990s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation,,,2018-08-10 17:37:32,2018-08-10 17:37:33,0.824s,FAILED
+click,,,2018-08-10 17:37:33,2018-08-10 17:37:33,0.081s,FAILED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC08_18 AM/Cust_Detail)),,,2018-08-10 17:37:33,2018-08-10 17:37:33,0.017s,FAILED
+"Statement - If (text.contains(""1100231482""))",,,2018-08-10 17:37:33,2018-08-10 17:37:33,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation,,,2018-08-10 17:37:33,2018-08-10 17:37:34,0.622s,FAILED
+click,,,2018-08-10 17:37:34,2018-08-10 17:37:34,0.064s,FAILED
+verifyElementPresent,,,2018-08-10 17:37:34,2018-08-10 17:37:34,0.068s,FAILED
+getText,,,2018-08-10 17:37:34,2018-08-10 17:37:34,0.001s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation,,,2018-08-10 17:37:34,2018-08-10 17:37:34,0.521s,FAILED
+click,,,2018-08-10 17:37:34,2018-08-10 17:37:34,0.058s,FAILED
+verifyElementPresent,,,2018-08-10 17:37:34,2018-08-10 17:37:34,0.043s,FAILED
+getText,,,2018-08-10 17:37:34,2018-08-10 17:37:34,0.001s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation,,,2018-08-10 17:37:34,2018-08-10 17:37:35,0.604s,FAILED
+click,,,2018-08-10 17:37:35,2018-08-10 17:37:35,0.028s,FAILED
+verifyElementPresent,,,2018-08-10 17:37:35,2018-08-10 17:37:35,0.019s,FAILED
+getText,,,2018-08-10 17:37:35,2018-08-10 17:37:35,0.017s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation,,,2018-08-10 17:37:35,2018-08-10 17:37:35,0.588s,FAILED
+click,,,2018-08-10 17:37:35,2018-08-10 17:37:35,0.103s,FAILED
+verifyElementPresent,,,2018-08-10 17:37:35,2018-08-10 17:37:35,0.036s,FAILED
+getText,,,2018-08-10 17:37:35,2018-08-10 17:37:35,0.017s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History,,,2018-08-10 17:37:36,2018-08-10 17:37:36,0.563s,FAILED
+click,,,2018-08-10 17:37:36,2018-08-10 17:37:36,0.080s,FAILED
+verifyElementPresent,,,2018-08-10 17:37:36,2018-08-10 17:37:36,0.020s,FAILED
+getText,,,2018-08-10 17:37:36,2018-08-10 17:37:36,0.018s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics,,,2018-08-10 17:37:36,2018-08-10 17:37:37,0.538s,FAILED
+click,,,2018-08-10 17:37:37,2018-08-10 17:37:37,0.033s,FAILED
+verifyElementPresent,,,2018-08-10 17:37:37,2018-08-10 17:37:37,0.002s,FAILED
+getText,,,2018-08-10 17:37:37,2018-08-10 17:37:37,0.000s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation,,,2018-08-10 17:37:37,2018-08-10 17:37:37,0.533s,FAILED
+click,,,2018-08-10 17:37:37,2018-08-10 17:37:37,0.017s,FAILED
+verifyElementVisible,,,2018-08-10 17:37:37,2018-08-10 17:37:37,0.034s,FAILED
+Statement - Customer_Search_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:37:37,2018-08-10 17:37:37,0.000s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo,,,2018-08-10 17:37:37,2018-08-10 17:37:46,9.322s,FAILED
+click,,,2018-08-10 17:37:38,2018-08-10 17:37:38,0.050s,FAILED
+delay,,,2018-08-10 17:37:38,2018-08-10 17:37:40,1.992s,PASSED
+setText,,,2018-08-10 17:37:40,2018-08-10 17:37:40,0.202s,FAILED
+delay,,,2018-08-10 17:37:40,2018-08-10 17:37:42,1.990s,PASSED
+setText,,,2018-08-10 17:37:42,2018-08-10 17:37:42,0.050s,FAILED
+delay,,,2018-08-10 17:37:42,2018-08-10 17:37:44,2.005s,PASSED
+verifyElementText,,,2018-08-10 17:37:44,2018-08-10 17:37:44,0.062s,FAILED
+getText,,,2018-08-10 17:37:44,2018-08-10 17:37:44,0.088s,FAILED
+verifyElementPresent,,,2018-08-10 17:37:44,2018-08-10 17:37:44,0.037s,FAILED
+getText,,,2018-08-10 17:37:44,2018-08-10 17:37:44,0.036s,FAILED
+getText,,,2018-08-10 17:37:44,2018-08-10 17:37:44,0.050s,FAILED
+getText,,,2018-08-10 17:37:44,2018-08-10 17:37:44,0.027s,FAILED
+getText,,,2018-08-10 17:37:44,2018-08-10 17:37:44,0.072s,FAILED
+verifyElementPresent,,,2018-08-10 17:37:44,2018-08-10 17:37:44,0.017s,FAILED
+delay,,,2018-08-10 17:37:44,2018-08-10 17:37:46,1.990s,PASSED
+comment,,,2018-08-10 17:37:46,2018-08-10 17:37:46,0.000s,PASSED
+Statement - Merchant_Search_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:37:46,2018-08-10 17:37:46,0.032s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID,,,2018-08-10 17:37:46,2018-08-10 17:37:53,6.913s,FAILED
+click,,,2018-08-10 17:37:47,2018-08-10 17:37:47,0.032s,FAILED
+delay,,,2018-08-10 17:37:47,2018-08-10 17:37:49,1.989s,PASSED
+setText,,,2018-08-10 17:37:49,2018-08-10 17:37:49,0.137s,FAILED
+delay,,,2018-08-10 17:37:49,2018-08-10 17:37:51,1.991s,PASSED
+setText,,,2018-08-10 17:37:51,2018-08-10 17:37:51,0.036s,FAILED
+delay,,,2018-08-10 17:37:51,2018-08-10 17:37:53,1.989s,PASSED
+verifyElementText,,,2018-08-10 17:37:53,2018-08-10 17:37:53,0.081s,FAILED
+comment,,,2018-08-10 17:37:53,2018-08-10 17:37:53,0.003s,PASSED
+Statement - Merchant_Search_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:37:53,2018-08-10 17:37:53,0.059s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search,,,2018-08-10 17:37:53,2018-08-10 17:38:10,16.523s,FAILED
+click,,,2018-08-10 17:37:54,2018-08-10 17:37:54,0.098s,FAILED
+delay,,,2018-08-10 17:37:54,2018-08-10 17:37:56,1.988s,PASSED
+setText,,,2018-08-10 17:37:56,2018-08-10 17:37:56,0.131s,FAILED
+delay,,,2018-08-10 17:37:56,2018-08-10 17:38:05,8.988s,PASSED
+setText,,,2018-08-10 17:38:05,2018-08-10 17:38:05,0.019s,FAILED
+delay,,,2018-08-10 17:38:05,2018-08-10 17:38:07,1.989s,PASSED
+verifyElementText,,,2018-08-10 17:38:07,2018-08-10 17:38:08,0.139s,FAILED
+getText,,,2018-08-10 17:38:08,2018-08-10 17:38:08,0.076s,FAILED
+verifyElementPresent,,,2018-08-10 17:38:08,2018-08-10 17:38:08,0.095s,FAILED
+getText,,,2018-08-10 17:38:08,2018-08-10 17:38:08,0.036s,FAILED
+getText,,,2018-08-10 17:38:08,2018-08-10 17:38:08,0.035s,FAILED
+getText,,,2018-08-10 17:38:08,2018-08-10 17:38:08,0.036s,FAILED
+getText,,,2018-08-10 17:38:08,2018-08-10 17:38:08,0.018s,FAILED
+verifyElementPresent,,,2018-08-10 17:38:08,2018-08-10 17:38:08,0.028s,FAILED
+delay,,,2018-08-10 17:38:08,2018-08-10 17:38:10,2.006s,PASSED
+comment,,,2018-08-10 17:38:10,2018-08-10 17:38:10,0.000s,PASSED
+Statement - Agent_Search_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:38:10,2018-08-10 17:38:10,0.001s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Reports/TC23_Validation of Reports,,,2018-08-10 17:38:10,2018-08-10 17:38:13,2.741s,FAILED
+click,,,2018-08-10 17:38:10,2018-08-10 17:38:11,0.070s,FAILED
+delay,,,2018-08-10 17:38:11,2018-08-10 17:38:13,2.008s,PASSED
+click,,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.077s,FAILED
+Statement - Report_Download = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.017s,FAILED
+comment,,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id,,,2018-08-10 17:38:13,2018-08-10 17:38:32,19.404s,FAILED
+openBrowser,,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.004s,NOT_RUN
+navigateToUrl,,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.019s,NOT_RUN
+maximizeWindow,,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.000s,NOT_RUN
+setText,,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.000s,NOT_RUN
+setText,,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.000s,NOT_RUN
+sendKeys,,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.000s,NOT_RUN
+click,,,2018-08-10 17:38:13,2018-08-10 17:38:13,0.062s,FAILED
+clearText,,,2018-08-10 17:38:13,2018-08-10 17:38:14,0.079s,FAILED
+click,,,2018-08-10 17:38:14,2018-08-10 17:38:14,0.019s,FAILED
+delay,,,2018-08-10 17:38:14,2018-08-10 17:38:16,2.007s,PASSED
+click,,,2018-08-10 17:38:16,2018-08-10 17:38:16,0.057s,FAILED
+click,,,2018-08-10 17:38:16,2018-08-10 17:38:16,0.034s,FAILED
+setText,,,2018-08-10 17:38:16,2018-08-10 17:38:16,0.107s,FAILED
+delay,,,2018-08-10 17:38:16,2018-08-10 17:38:18,1.989s,PASSED
+sendKeys,,,2018-08-10 17:38:18,2018-08-10 17:38:18,0.018s,FAILED
+delay,,,2018-08-10 17:38:18,2018-08-10 17:38:20,2.005s,PASSED
+click,,,2018-08-10 17:38:20,2018-08-10 17:38:20,0.100s,FAILED
+getText,,,2018-08-10 17:38:20,2018-08-10 17:38:20,0.036s,FAILED
+comment,,,2018-08-10 17:38:20,2018-08-10 17:38:20,0.000s,PASSED
+Statement - Customer_Details = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:38:20,2018-08-10 17:38:20,0.033s,FAILED
+verifyElementText,,,2018-08-10 17:38:20,2018-08-10 17:38:20,0.019s,FAILED
+refresh,,,2018-08-10 17:38:20,2018-08-10 17:38:20,0.032s,FAILED
+delay,,,2018-08-10 17:38:20,2018-08-10 17:38:32,12.001s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC25_Validate Advance search through Merchant id,,,2018-08-10 17:38:32,2018-08-10 17:38:56,24.093s,FAILED
+clearText,,,2018-08-10 17:38:33,2018-08-10 17:38:33,0.031s,FAILED
+click,,,2018-08-10 17:38:33,2018-08-10 17:38:33,0.001s,FAILED
+delay,,,2018-08-10 17:38:33,2018-08-10 17:38:38,4.989s,PASSED
+click,,,2018-08-10 17:38:38,2018-08-10 17:38:38,0.087s,FAILED
+delay,,,2018-08-10 17:38:38,2018-08-10 17:38:40,1.990s,PASSED
+click,,,2018-08-10 17:38:40,2018-08-10 17:38:40,0.100s,FAILED
+setText,,,2018-08-10 17:38:40,2018-08-10 17:38:40,0.117s,FAILED
+delay,,,2018-08-10 17:38:40,2018-08-10 17:38:45,4.988s,PASSED
+sendKeys,,,2018-08-10 17:38:45,2018-08-10 17:38:45,0.034s,FAILED
+delay,,,2018-08-10 17:38:45,2018-08-10 17:38:50,5.006s,PASSED
+click,,,2018-08-10 17:38:50,2018-08-10 17:38:50,0.019s,FAILED
+getText,,,2018-08-10 17:38:50,2018-08-10 17:38:50,0.037s,FAILED
+comment,,,2018-08-10 17:38:50,2018-08-10 17:38:50,0.000s,PASSED
+verifyElementText,,,2018-08-10 17:38:50,2018-08-10 17:38:50,0.070s,FAILED
+Statement - Merchant_Details = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:38:50,2018-08-10 17:38:50,0.001s,FAILED
+refresh,,,2018-08-10 17:38:50,2018-08-10 17:38:50,0.002s,FAILED
+delay,,,2018-08-10 17:38:50,2018-08-10 17:38:56,6.006s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel,,,2018-08-10 17:38:56,2018-08-10 17:39:30,33.383s,FAILED
+clearText,,,2018-08-10 17:38:57,2018-08-10 17:38:57,0.047s,FAILED
+delay,,,2018-08-10 17:38:57,2018-08-10 17:39:02,4.971s,PASSED
+click,,,2018-08-10 17:39:02,2018-08-10 17:39:02,0.021s,FAILED
+delay,,,2018-08-10 17:39:02,2018-08-10 17:39:07,5.003s,PASSED
+click,,,2018-08-10 17:39:07,2018-08-10 17:39:07,0.017s,FAILED
+delay,,,2018-08-10 17:39:07,2018-08-10 17:39:09,2.007s,PASSED
+click,,,2018-08-10 17:39:09,2018-08-10 17:39:09,0.158s,FAILED
+setText,,,2018-08-10 17:39:09,2018-08-10 17:39:09,0.047s,FAILED
+delay,,,2018-08-10 17:39:09,2018-08-10 17:39:14,5.024s,PASSED
+sendKeys,,,2018-08-10 17:39:14,2018-08-10 17:39:14,0.018s,FAILED
+delay,,,2018-08-10 17:39:14,2018-08-10 17:39:23,9.023s,PASSED
+click,,,2018-08-10 17:39:23,2018-08-10 17:39:24,0.035s,FAILED
+getText,,,2018-08-10 17:39:24,2018-08-10 17:39:24,0.035s,FAILED
+comment,,,2018-08-10 17:39:24,2018-08-10 17:39:24,0.000s,PASSED
+verifyElementText,,,2018-08-10 17:39:24,2018-08-10 17:39:24,0.036s,FAILED
+Statement - Chaneel_Details = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:39:24,2018-08-10 17:39:24,0.021s,FAILED
+refresh,,,2018-08-10 17:39:24,2018-08-10 17:39:24,0.000s,FAILED
+delay,,,2018-08-10 17:39:24,2018-08-10 17:39:30,5.988s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC27_Validate Advance search through Agent Id,,,2018-08-10 17:39:30,2018-08-10 17:40:15,45.114s,FAILED
+clearText,,,2018-08-10 17:39:30,2018-08-10 17:39:30,0.016s,FAILED
+click,,,2018-08-10 17:39:30,2018-08-10 17:39:30,0.001s,FAILED
+delay,,,2018-08-10 17:39:30,2018-08-10 17:39:35,5.008s,PASSED
+click,,,2018-08-10 17:39:35,2018-08-10 17:39:35,0.052s,FAILED
+delay,,,2018-08-10 17:39:35,2018-08-10 17:39:37,1.990s,PASSED
+click,,,2018-08-10 17:39:37,2018-08-10 17:39:37,0.069s,FAILED
+setText,,,2018-08-10 17:39:37,2018-08-10 17:39:38,0.167s,FAILED
+delay,,,2018-08-10 17:39:38,2018-08-10 17:39:53,14.986s,PASSED
+sendKeys,,,2018-08-10 17:39:53,2018-08-10 17:39:53,0.016s,FAILED
+delay,,,2018-08-10 17:39:53,2018-08-10 17:40:03,10.008s,PASSED
+click,,,2018-08-10 17:40:03,2018-08-10 17:40:03,0.050s,FAILED
+getText,,,2018-08-10 17:40:03,2018-08-10 17:40:03,0.018s,FAILED
+comment,,,2018-08-10 17:40:03,2018-08-10 17:40:03,0.000s,PASSED
+Statement - Agent_Details = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:40:03,2018-08-10 17:40:03,0.001s,FAILED
+refresh,,,2018-08-10 17:40:03,2018-08-10 17:40:03,0.000s,FAILED
+delay,,,2018-08-10 17:40:03,2018-08-10 17:40:15,12.005s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC28_Validate Advance search through customer phone number,,,2018-08-10 17:40:15,2018-08-10 17:40:36,20.994s,FAILED
+clearText,,,2018-08-10 17:40:15,2018-08-10 17:40:15,0.037s,FAILED
+delay,,,2018-08-10 17:40:15,2018-08-10 17:40:17,1.987s,PASSED
+click,,,2018-08-10 17:40:17,2018-08-10 17:40:17,0.018s,FAILED
+delay,,,2018-08-10 17:40:17,2018-08-10 17:40:19,1.989s,PASSED
+click,,,2018-08-10 17:40:19,2018-08-10 17:40:20,0.033s,FAILED
+click,,,2018-08-10 17:40:20,2018-08-10 17:40:20,0.023s,FAILED
+setText,,,2018-08-10 17:40:20,2018-08-10 17:40:20,0.110s,FAILED
+delay,,,2018-08-10 17:40:20,2018-08-10 17:40:22,1.987s,PASSED
+sendKeys,,,2018-08-10 17:40:22,2018-08-10 17:40:22,0.030s,FAILED
+delay,,,2018-08-10 17:40:22,2018-08-10 17:40:24,1.986s,PASSED
+click,,,2018-08-10 17:40:24,2018-08-10 17:40:24,0.033s,FAILED
+getText,,,2018-08-10 17:40:24,2018-08-10 17:40:24,0.016s,FAILED
+comment,,,2018-08-10 17:40:24,2018-08-10 17:40:24,0.018s,PASSED
+Statement - Customer_Details_phone = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:40:24,2018-08-10 17:40:24,0.000s,FAILED
+verifyElementText,,,2018-08-10 17:40:24,2018-08-10 17:40:24,0.018s,FAILED
+refresh,,,2018-08-10 17:40:24,2018-08-10 17:40:24,0.037s,FAILED
+delay,,,2018-08-10 17:40:24,2018-08-10 17:40:36,11.974s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC29_Validate Advance search through merchant phone number,,,2018-08-10 17:40:36,2018-08-10 17:41:07,30.927s,FAILED
+clearText,,,2018-08-10 17:40:36,2018-08-10 17:40:36,0.026s,FAILED
+click,,,2018-08-10 17:40:36,2018-08-10 17:40:36,0.028s,FAILED
+delay,,,2018-08-10 17:40:36,2018-08-10 17:40:41,4.986s,PASSED
+click,,,2018-08-10 17:40:41,2018-08-10 17:40:41,0.030s,FAILED
+delay,,,2018-08-10 17:40:41,2018-08-10 17:40:43,1.987s,PASSED
+click,,,2018-08-10 17:40:43,2018-08-10 17:40:43,0.017s,FAILED
+setText,,,2018-08-10 17:40:43,2018-08-10 17:40:44,0.124s,FAILED
+delay,,,2018-08-10 17:40:44,2018-08-10 17:40:55,11.989s,PASSED
+sendKeys,,,2018-08-10 17:40:56,2018-08-10 17:40:56,0.061s,FAILED
+delay,,,2018-08-10 17:40:56,2018-08-10 17:41:01,5.006s,PASSED
+click,,,2018-08-10 17:41:01,2018-08-10 17:41:01,0.034s,FAILED
+getText,,,2018-08-10 17:41:01,2018-08-10 17:41:01,0.037s,FAILED
+verifyElementText,,,2018-08-10 17:41:01,2018-08-10 17:41:01,0.000s,FAILED
+comment,,,2018-08-10 17:41:01,2018-08-10 17:41:01,0.019s,PASSED
+Statement - Merchant_Details_phoneNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:41:01,2018-08-10 17:41:01,0.000s,FAILED
+refresh,,,2018-08-10 17:41:01,2018-08-10 17:41:01,0.000s,FAILED
+delay,,,2018-08-10 17:41:01,2018-08-10 17:41:07,5.988s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC30_Validate Advance search through Source Institution ID,,,2018-08-10 17:41:07,2018-08-10 17:41:14,7.030s,FAILED
+clearText,,,2018-08-10 17:41:07,2018-08-10 17:41:07,0.025s,FAILED
+click,,,2018-08-10 17:41:07,2018-08-10 17:41:07,0.037s,FAILED
+delay,,,2018-08-10 17:41:07,2018-08-10 17:41:09,2.004s,PASSED
+click,,,2018-08-10 17:41:09,2018-08-10 17:41:09,0.034s,FAILED
+click,,,2018-08-10 17:41:09,2018-08-10 17:41:09,0.053s,FAILED
+setText,,,2018-08-10 17:41:09,2018-08-10 17:41:09,0.034s,FAILED
+delay,,,2018-08-10 17:41:09,2018-08-10 17:41:11,1.986s,PASSED
+sendKeys,,,2018-08-10 17:41:11,2018-08-10 17:41:11,0.029s,FAILED
+delay,,,2018-08-10 17:41:11,2018-08-10 17:41:13,1.986s,PASSED
+click,,,2018-08-10 17:41:13,2018-08-10 17:41:14,0.030s,FAILED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_24_36 AM/Src_id)),,,2018-08-10 17:41:14,2018-08-10 17:41:14,0.245s,FAILED
+"Statement - If (text.contains(""3132""))",,,2018-08-10 17:41:14,2018-08-10 17:41:14,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC31_Validate Advance search through response code,,,2018-08-10 17:41:14,2018-08-10 17:41:33,18.855s,FAILED
+clearText,,,2018-08-10 17:41:14,2018-08-10 17:41:14,0.017s,FAILED
+click,,,2018-08-10 17:41:14,2018-08-10 17:41:14,0.019s,FAILED
+delay,,,2018-08-10 17:41:14,2018-08-10 17:41:16,1.987s,PASSED
+click,,,2018-08-10 17:41:16,2018-08-10 17:41:16,0.030s,FAILED
+click,,,2018-08-10 17:41:16,2018-08-10 17:41:16,0.018s,FAILED
+setText,,,2018-08-10 17:41:16,2018-08-10 17:41:16,0.036s,FAILED
+delay,,,2018-08-10 17:41:16,2018-08-10 17:41:18,2.007s,PASSED
+sendKeys,,,2018-08-10 17:41:18,2018-08-10 17:41:18,0.033s,FAILED
+delay,,,2018-08-10 17:41:18,2018-08-10 17:41:20,1.988s,PASSED
+click,,,2018-08-10 17:41:20,2018-08-10 17:41:20,0.001s,FAILED
+getText,,,2018-08-10 17:41:21,2018-08-10 17:41:21,0.001s,FAILED
+comment,,,2018-08-10 17:41:21,2018-08-10 17:41:21,0.018s,PASSED
+Statement - Response_Code = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:41:21,2018-08-10 17:41:21,0.000s,FAILED
+verifyElementText,,,2018-08-10 17:41:21,2018-08-10 17:41:21,0.063s,FAILED
+refresh,,,2018-08-10 17:41:21,2018-08-10 17:41:21,0.017s,FAILED
+delay,,,2018-08-10 17:41:21,2018-08-10 17:41:33,11.988s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code,,,2018-08-10 17:41:33,2018-08-10 17:41:55,21.968s,FAILED
+clearText,,,2018-08-10 17:41:33,2018-08-10 17:41:33,0.028s,FAILED
+click,,,2018-08-10 17:41:33,2018-08-10 17:41:33,0.018s,FAILED
+delay,,,2018-08-10 17:41:33,2018-08-10 17:41:35,1.989s,PASSED
+click,,,2018-08-10 17:41:35,2018-08-10 17:41:35,0.033s,FAILED
+click,,,2018-08-10 17:41:35,2018-08-10 17:41:35,0.018s,FAILED
+setText,,,2018-08-10 17:41:35,2018-08-10 17:41:35,0.017s,FAILED
+delay,,,2018-08-10 17:41:35,2018-08-10 17:41:37,2.008s,PASSED
+sendKeys,,,2018-08-10 17:41:37,2018-08-10 17:41:37,0.037s,FAILED
+delay,,,2018-08-10 17:41:37,2018-08-10 17:41:42,4.989s,PASSED
+click,,,2018-08-10 17:41:42,2018-08-10 17:41:42,0.035s,FAILED
+getText,,,2018-08-10 17:41:42,2018-08-10 17:41:43,0.023s,FAILED
+comment,,,2018-08-10 17:41:43,2018-08-10 17:41:43,0.000s,PASSED
+Statement - Resp_code = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:41:43,2018-08-10 17:41:43,0.001s,FAILED
+verifyElementText,,,2018-08-10 17:41:43,2018-08-10 17:41:43,0.050s,FAILED
+refresh,,,2018-08-10 17:41:43,2018-08-10 17:41:43,0.019s,FAILED
+delay,,,2018-08-10 17:41:43,2018-08-10 17:41:55,11.989s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC33_Validate Advance search through Hashed card pan,,,2018-08-10 17:41:55,2018-08-10 17:42:20,25.239s,FAILED
+clearText,,,2018-08-10 17:41:55,2018-08-10 17:41:55,0.028s,FAILED
+delay,,,2018-08-10 17:41:55,2018-08-10 17:41:57,1.987s,PASSED
+click,,,2018-08-10 17:41:57,2018-08-10 17:41:57,0.038s,FAILED
+delay,,,2018-08-10 17:41:57,2018-08-10 17:42:01,3.989s,PASSED
+click,,,2018-08-10 17:42:01,2018-08-10 17:42:01,0.035s,FAILED
+delay,,,2018-08-10 17:42:01,2018-08-10 17:42:03,2.008s,PASSED
+click,,,2018-08-10 17:42:03,2018-08-10 17:42:03,0.095s,FAILED
+setText,,,2018-08-10 17:42:03,2018-08-10 17:42:04,0.135s,FAILED
+delay,,,2018-08-10 17:42:04,2018-08-10 17:42:06,1.990s,PASSED
+sendKeys,,,2018-08-10 17:42:06,2018-08-10 17:42:06,0.017s,FAILED
+delay,,,2018-08-10 17:42:06,2018-08-10 17:42:08,1.973s,PASSED
+click,,,2018-08-10 17:42:08,2018-08-10 17:42:08,0.023s,FAILED
+getText,,,2018-08-10 17:42:08,2018-08-10 17:42:08,0.002s,FAILED
+comment,,,2018-08-10 17:42:08,2018-08-10 17:42:08,0.004s,PASSED
+Statement - Hash_Card = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:42:08,2018-08-10 17:42:08,0.001s,FAILED
+click,,,2018-08-10 17:42:08,2018-08-10 17:42:08,0.093s,FAILED
+verifyElementText,,,2018-08-10 17:42:08,2018-08-10 17:42:08,0.086s,FAILED
+back,,,2018-08-10 17:42:08,2018-08-10 17:42:08,0.019s,FAILED
+delay,,,2018-08-10 17:42:08,2018-08-10 17:42:20,11.987s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID,,,2018-08-10 17:42:20,2018-08-10 17:42:41,21.100s,FAILED
+clearText,,,2018-08-10 17:42:20,2018-08-10 17:42:21,0.030s,FAILED
+click,,,2018-08-10 17:42:21,2018-08-10 17:42:21,0.000s,FAILED
+delay,,,2018-08-10 17:42:21,2018-08-10 17:42:23,1.988s,PASSED
+click,,,2018-08-10 17:42:23,2018-08-10 17:42:23,0.037s,FAILED
+delay,,,2018-08-10 17:42:23,2018-08-10 17:42:25,1.988s,PASSED
+click,,,2018-08-10 17:42:25,2018-08-10 17:42:25,0.063s,FAILED
+setText,,,2018-08-10 17:42:25,2018-08-10 17:42:25,0.136s,FAILED
+delay,,,2018-08-10 17:42:25,2018-08-10 17:42:27,1.989s,PASSED
+sendKeys,,,2018-08-10 17:42:27,2018-08-10 17:42:27,0.018s,FAILED
+delay,,,2018-08-10 17:42:27,2018-08-10 17:42:29,1.990s,PASSED
+click,,,2018-08-10 17:42:29,2018-08-10 17:42:29,0.035s,FAILED
+getText,,,2018-08-10 17:42:29,2018-08-10 17:42:29,0.033s,FAILED
+comment,,,2018-08-10 17:42:29,2018-08-10 17:42:29,0.001s,PASSED
+Statement - Customer_App_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:42:29,2018-08-10 17:42:29,0.000s,FAILED
+click,,,2018-08-10 17:42:29,2018-08-10 17:42:29,0.032s,FAILED
+verifyElementText,,,2018-08-10 17:42:29,2018-08-10 17:42:29,0.075s,FAILED
+back,,,2018-08-10 17:42:29,2018-08-10 17:42:29,0.006s,FAILED
+delay,,,2018-08-10 17:42:29,2018-08-10 17:42:41,12.007s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC35_Validate Advance search through Sender pan or Card pan,,,2018-08-10 17:42:41,2018-08-10 17:43:02,21.234s,FAILED
+clearText,,,2018-08-10 17:42:42,2018-08-10 17:42:42,0.020s,FAILED
+click,,,2018-08-10 17:42:42,2018-08-10 17:42:42,0.015s,FAILED
+delay,,,2018-08-10 17:42:42,2018-08-10 17:42:44,2.006s,PASSED
+click,,,2018-08-10 17:42:44,2018-08-10 17:42:44,0.033s,FAILED
+delay,,,2018-08-10 17:42:44,2018-08-10 17:42:46,1.998s,PASSED
+click,,,2018-08-10 17:42:46,2018-08-10 17:42:46,0.097s,FAILED
+setText,,,2018-08-10 17:42:46,2018-08-10 17:42:46,0.146s,FAILED
+delay,,,2018-08-10 17:42:46,2018-08-10 17:42:48,2.008s,PASSED
+sendKeys,,,2018-08-10 17:42:48,2018-08-10 17:42:48,0.020s,FAILED
+delay,,,2018-08-10 17:42:48,2018-08-10 17:42:50,1.989s,PASSED
+click,,,2018-08-10 17:42:50,2018-08-10 17:42:50,0.036s,FAILED
+getText,,,2018-08-10 17:42:50,2018-08-10 17:42:50,0.035s,FAILED
+comment,,,2018-08-10 17:42:50,2018-08-10 17:42:50,0.000s,PASSED
+Statement - Customer_App_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:42:50,2018-08-10 17:42:50,0.016s,FAILED
+click,,,2018-08-10 17:42:50,2018-08-10 17:42:50,0.018s,FAILED
+verifyElementText,,,2018-08-10 17:42:50,2018-08-10 17:42:50,0.085s,FAILED
+back,,,2018-08-10 17:42:50,2018-08-10 17:42:50,0.000s,FAILED
+delay,,,2018-08-10 17:42:50,2018-08-10 17:43:02,11.988s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC36_Validate Advance search through Card bin,,,2018-08-10 17:43:02,2018-08-10 17:43:23,21.097s,FAILED
+clearText,,,2018-08-10 17:43:03,2018-08-10 17:43:03,0.030s,FAILED
+click,,,2018-08-10 17:43:03,2018-08-10 17:43:03,0.000s,FAILED
+delay,,,2018-08-10 17:43:03,2018-08-10 17:43:05,2.006s,PASSED
+click,,,2018-08-10 17:43:05,2018-08-10 17:43:05,0.051s,FAILED
+delay,,,2018-08-10 17:43:05,2018-08-10 17:43:07,1.990s,PASSED
+click,,,2018-08-10 17:43:07,2018-08-10 17:43:07,0.079s,FAILED
+setText,,,2018-08-10 17:43:07,2018-08-10 17:43:07,0.098s,FAILED
+delay,,,2018-08-10 17:43:07,2018-08-10 17:43:09,2.004s,PASSED
+sendKeys,,,2018-08-10 17:43:09,2018-08-10 17:43:09,0.016s,FAILED
+delay,,,2018-08-10 17:43:09,2018-08-10 17:43:11,1.991s,PASSED
+click,,,2018-08-10 17:43:11,2018-08-10 17:43:11,0.071s,FAILED
+getText,,,2018-08-10 17:43:11,2018-08-10 17:43:11,0.017s,FAILED
+comment,,,2018-08-10 17:43:11,2018-08-10 17:43:11,0.000s,PASSED
+Statement - Card_Bin_Search = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:43:11,2018-08-10 17:43:11,0.032s,FAILED
+click,,,2018-08-10 17:43:11,2018-08-10 17:43:11,0.001s,FAILED
+verifyElementText,,,2018-08-10 17:43:11,2018-08-10 17:43:11,0.050s,FAILED
+delay,,,2018-08-10 17:43:11,2018-08-10 17:43:23,12.008s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC47_JPB Profile Search with Customer_number,,,2018-08-10 17:43:23,2018-08-10 17:43:27,3.967s,FAILED
+click,,,2018-08-10 17:43:24,2018-08-10 17:43:24,0.159s,FAILED
+click,,,2018-08-10 17:43:24,2018-08-10 17:43:24,0.113s,FAILED
+setText,,,2018-08-10 17:43:24,2018-08-10 17:43:24,0.071s,FAILED
+delay,,,2018-08-10 17:43:24,2018-08-10 17:43:27,2.990s,PASSED
+sendKeys,,,2018-08-10 17:43:27,2018-08-10 17:43:27,0.019s,FAILED
+comment,,,2018-08-10 17:43:27,2018-08-10 17:43:27,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC48_JPB Customer Details,,,2018-08-10 17:43:27,2018-08-10 17:43:28,0.635s,FAILED
+verifyElementText,,,2018-08-10 17:43:28,2018-08-10 17:43:28,0.060s,FAILED
+verifyElementText,,,2018-08-10 17:43:28,2018-08-10 17:43:28,0.022s,FAILED
+verifyElementText,,,2018-08-10 17:43:28,2018-08-10 17:43:28,0.035s,FAILED
+comment,,,2018-08-10 17:43:28,2018-08-10 17:43:28,0.000s,PASSED
+Statement - JPB_CustDetails = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:43:28,2018-08-10 17:43:28,0.000s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC49_JPB Profile Search with Account_number,,,2018-08-10 17:43:28,2018-08-10 17:43:32,3.527s,FAILED
+click,,,2018-08-10 17:43:28,2018-08-10 17:43:28,0.028s,FAILED
+click,,,2018-08-10 17:43:28,2018-08-10 17:43:28,0.017s,FAILED
+setText,,,2018-08-10 17:43:28,2018-08-10 17:43:29,0.032s,FAILED
+delay,,,2018-08-10 17:43:29,2018-08-10 17:43:31,2.975s,PASSED
+sendKeys,,,2018-08-10 17:43:32,2018-08-10 17:43:32,0.033s,FAILED
+comment,,,2018-08-10 17:43:32,2018-08-10 17:43:32,0.017s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details,,,2018-08-10 17:43:32,2018-08-10 17:43:32,0.591s,FAILED
+verifyElementText,,,2018-08-10 17:43:32,2018-08-10 17:43:32,0.015s,FAILED
+comment,,,2018-08-10 17:43:32,2018-08-10 17:43:32,0.003s,PASSED
+Statement - JPB_CustDetails_Id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:43:32,2018-08-10 17:43:32,0.009s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details,,,2018-08-10 17:43:32,2018-08-10 17:43:33,0.578s,FAILED
+getText,,,2018-08-10 17:43:33,2018-08-10 17:43:33,0.084s,FAILED
+comment,,,2018-08-10 17:43:33,2018-08-10 17:43:33,0.019s,PASSED
+Statement - Cust_Activity_Period = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-08-10 17:43:33,2018-08-10 17:43:33,0.000s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details,,,2018-08-10 17:43:33,2018-08-10 17:43:33,0.466s,FAILED
+getText,,,2018-08-10 17:43:33,2018-08-10 17:43:33,0.038s,FAILED
+comment,,,2018-08-10 17:43:33,2018-08-10 17:43:33,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC53_JPB Customer Fraud Details,,,2018-08-10 17:43:33,2018-08-10 17:43:34,0.431s,FAILED
+getText,,,2018-08-10 17:43:34,2018-08-10 17:43:34,0.021s,FAILED
+comment,,,2018-08-10 17:43:34,2018-08-10 17:43:34,0.018s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC54_JPB Transactions Transaction Density Details,,,2018-08-10 17:43:34,2018-08-10 17:43:34,0.442s,FAILED
+verifyElementPresent,,,2018-08-10 17:43:34,2018-08-10 17:43:34,0.031s,FAILED
+comment,,,2018-08-10 17:43:34,2018-08-10 17:43:34,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC55_JPB Customer transaction Statistic,,,2018-08-10 17:43:34,2018-08-10 17:43:35,0.504s,FAILED
+verifyElementPresent,,,2018-08-10 17:43:34,2018-08-10 17:43:35,0.066s,FAILED
+comment,,,2018-08-10 17:43:35,2018-08-10 17:43:35,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC56_JPB Customer transaction History,,,2018-08-10 17:43:35,2018-08-10 17:43:35,0.536s,FAILED
+verifyElementPresent,,,2018-08-10 17:43:35,2018-08-10 17:43:35,0.042s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC57_JPB Customer Status Log Details,,,2018-08-10 17:43:35,2018-08-10 17:43:36,0.699s,FAILED
+click,,,2018-08-10 17:43:36,2018-08-10 17:43:36,0.034s,FAILED
+click,,,2018-08-10 17:43:36,2018-08-10 17:43:36,0.035s,FAILED
+verifyElementPresent,,,2018-08-10 17:43:36,2018-08-10 17:43:36,0.048s,FAILED
+comment,,,2018-08-10 17:43:36,2018-08-10 17:43:36,0.000s,PASSED
+click,,,2018-08-10 17:43:36,2018-08-10 17:43:36,0.036s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC58_JPB-Jio Money Customer Search,,,2018-08-10 17:43:36,2018-08-10 17:43:40,3.690s,FAILED
+click,,,2018-08-10 17:43:36,2018-08-10 17:43:36,0.014s,FAILED
+click,,,2018-08-10 17:43:36,2018-08-10 17:43:36,0.032s,FAILED
+setText,,,2018-08-10 17:43:36,2018-08-10 17:43:36,0.016s,FAILED
+delay,,,2018-08-10 17:43:36,2018-08-10 17:43:39,2.988s,PASSED
+sendKeys,,,2018-08-10 17:43:39,2018-08-10 17:43:39,0.033s,FAILED
+verifyElementPresent,,,2018-08-10 17:43:39,2018-08-10 17:43:40,0.046s,FAILED
+comment,,,2018-08-10 17:43:40,2018-08-10 17:43:40,0.003s,PASSED

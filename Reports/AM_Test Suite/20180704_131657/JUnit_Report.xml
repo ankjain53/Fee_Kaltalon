@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="218" tests="16" failures="0" errors="1">
+   <testsuite name="AM_Test Suite" tests="16" failures="0" errors="1" time="218" timestamp="2018-07-04 13:17:07" hostname="Ankur.Jain - LT0021232" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690492974.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690506482.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690527186.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690548925.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690596210.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690615844.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="a1ee90d961cf86a063ac1ecc13efea69"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:17:08 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-04 13:17:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 13:17:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 13:17:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 13:17:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 13:17:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 13:17:34 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 13:17:34 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-04 13:17:54 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-04 13:17:54 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 13:17:55 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 13:17:55 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 13:17:56 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 13:17:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 13:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 13:17:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:17:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:17:58 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:17:58 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud
+
+2018-07-04 13:17:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-04 13:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-04 13:17:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-04 13:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-04 13:18:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-04 13:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-04 13:18:11 - [TEST_STEP][PASSED] - setText: Text 'ok' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:18:12 - [MESSAGE][PASSED] - Text 'ok' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:18:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-04 13:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-04 13:18:12 - [TEST_STEP][PASSED] - comment: Alert is Marked as Not Fraud
+
+2018-07-04 13:18:12 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-04 13:18:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690492974.png]]
+
+2018-07-04 13:18:13 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-04 13:18:23 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:18:23 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud
+
+2018-07-04 13:18:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-04 13:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-04 13:18:25 - [TEST_STEP][PASSED] - setText: Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:18:26 - [MESSAGE][PASSED] - Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:18:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-04 13:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-04 13:18:26 - [TEST_STEP][PASSED] - Statement - Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:18:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690506482.png]]
+
+2018-07-04 13:18:27 - [TEST_STEP][PASSED] - comment: Alert Marked as Fraud
+
+2018-07-04 13:18:27 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-04 13:18:37 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:18:37 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious
+
+2018-07-04 13:18:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-04 13:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-04 13:18:38 - [TEST_STEP][PASSED] - setText: Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:18:39 - [MESSAGE][PASSED] - Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:18:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:18:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:18:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-04 13:18:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-04 13:18:43 - [TEST_STEP][PASSED] - setText: Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 13:18:43 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 13:18:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:18:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:18:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 13:18:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 13:18:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 13:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 13:18:47 - [TEST_STEP][PASSED] - Statement - Alert_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:18:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690527186.png]]
+
+2018-07-04 13:18:47 - [TEST_STEP][PASSED] - comment: Alert Marked as Suspious
+
+2018-07-04 13:18:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:18:50 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:18:50 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD
+
+2018-07-04 13:18:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:18:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:18:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:19:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:19:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-04 13:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-04 13:19:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:19:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:19:08 - [TEST_STEP][PASSED] - setText: Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:19:08 - [MESSAGE][PASSED] - Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:19:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-04 13:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-04 13:19:08 - [TEST_STEP][PASSED] - Statement - Transcation_Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:19:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690548925.png]]
+
+2018-07-04 13:19:09 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Fraud
+
+2018-07-04 13:19:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:19:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:19:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-04 13:19:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-04 13:19:12 - [TEST_STEP][PASSED] - comment: Transcation Status Verifed
+
+2018-07-04 13:19:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:19:15 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud
+
+2018-07-04 13:19:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:19:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:19:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:19:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:19:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:19:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Not Fraud' is clicked on
+
+2018-07-04 13:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Not Fraud' is clicked on
+
+2018-07-04 13:19:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:19:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:19:32 - [TEST_STEP][PASSED] - setText: Text 'Not Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:19:33 - [MESSAGE][PASSED] - Text 'Not Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:19:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:19:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Not Fraud_1' is clicked on
+
+2018-07-04 13:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Not Fraud_1' is clicked on
+
+2018-07-04 13:19:35 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Not Fraud
+
+2018-07-04 13:19:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:19:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Not Fraud' are matched.
+
+2018-07-04 13:19:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Not Fraud' are matched.
+
+2018-07-04 13:19:37 - [TEST_STEP][PASSED] - comment: Transcation status is verifed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:19:37 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious
+
+2018-07-04 13:19:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:19:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:19:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:19:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:19:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-04 13:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-04 13:19:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:19:53 - [TEST_STEP][PASSED] - setText: Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:19:53 - [MESSAGE][PASSED] - Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:19:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:19:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 13:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 13:19:56 - [TEST_STEP][PASSED] - Statement - Transcation_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:19:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690596210.png]]
+
+2018-07-04 13:19:57 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Suspious
+
+2018-07-04 13:19:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:19:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:19:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Suspious' are matched.
+
+2018-07-04 13:19:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Suspious' are matched.
+
+2018-07-04 13:19:59 - [TEST_STEP][PASSED] - comment: Transation status is verifed
+
+2018-07-04 13:19:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:20:01 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:20:01 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number
+
+2018-07-04 13:20:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 13:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 13:20:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:20:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:20:05 - [TEST_STEP][PASSED] - setText: Text '+919860606030' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:20:06 - [MESSAGE][PASSED] - Text '+919860606030' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:20:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:20:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:20:08 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:20:08 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:20:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-04 13:20:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-04 13:20:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC08_18 AM/div_919860606030' are matched.
+
+2018-07-04 13:20:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC08_18 AM/div_919860606030' are matched.
+
+2018-07-04 13:20:15 - [TEST_STEP][PASSED] - comment: Customer Search through Mobile no is sucesfull
+
+2018-07-04 13:20:15 - [TEST_STEP][PASSED] - Statement - CustomerSerach_MobileNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:20:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_131657\\1530690615844.png]]
+
+2018-07-04 13:20:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:20:18 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:20:18 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID
+
+2018-07-04 13:20:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 13:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 13:20:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:20:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:20:21 - [TEST_STEP][PASSED] - setText: Text '1100231482' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:20:22 - [MESSAGE][PASSED] - Text '1100231482' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:20:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:20:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:20:24 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:20:24 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:20:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-04 13:20:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-04 13:20:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC08_18 AM/div_1100231482' are matched.
+
+2018-07-04 13:20:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC08_18 AM/div_1100231482' are matched.
+
+2018-07-04 13:20:30 - [TEST_STEP][PASSED] - comment: Customer Serach through id is sucesfull
+
+2018-07-04 13:20:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:20:32 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:20:32 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation
+
+2018-07-04 13:20:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/Cust_Detail' is clicked on
+
+2018-07-04 13:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/Cust_Detail' is clicked on
+
+2018-07-04 13:20:35 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC08_18 AM/Cust_Detail)): Text of object 'Object Repository/TC08_18 AM/Cust_Detail' is: 'Customer Name
+XXX RESHMA SHETTY
+Customer ID
+1100231482
+Status
+Active
+Account Date
+19-02-2018 (4 months ago)
+Account Number
+1000000000281488
+KYC
+Low
+Account Upgrade Date
+Unknown
+Mobile Number
++919821370176
+Email
+Unknown
+Customer App ID
+420346fbb4ab3200_Samsung SM-G355H
+Customer Jio Money ID
+Unknown
+Customer Risk
+Unknown
+PIN Area (Zip Code)
+Unknown
+Address'
+
+2018-07-04 13:20:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC08_18 AM/Cust_Detail' is: 'Customer Name
+XXX RESHMA SHETTY
+Customer ID
+1100231482
+Status
+Active
+Account Date
+19-02-2018 (4 months ago)
+Account Number
+1000000000281488
+KYC
+Low
+Account Upgrade Date
+Unknown
+Mobile Number
++919821370176
+Email
+Unknown
+Customer App ID
+420346fbb4ab3200_Samsung SM-G355H
+Customer Jio Money ID
+Unknown
+Customer Risk
+Unknown
+PIN Area (Zip Code)
+Unknown
+Address'
+
+2018-07-04 13:20:35 - [TEST_STEP][PASSED] - Statement - If (text.contains("1100231482")): Customer Details Matched
+
+2018-07-04 13:20:35 - [TEST_STEP][PASSED] - comment: Customer Details Matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:20:35 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation
+
+2018-07-04 13:20:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/Transcation Details' is clicked on
+
+2018-07-04 13:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/Transcation Details' is clicked on
+
+2018-07-04 13:20:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC08_18 AM/Transcation Details' is present
+
+2018-07-04 13:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 13:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/TC08_18 AM/Transcation Details' is present
+
+2018-07-04 13:20:36 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC08_18 AM/Transcation Details' is: 'Number of Transactions
+18
+Total Amount (₹)
+2,107.00
+Average Amount (₹)
+117.06
+Amount Std. Deviation (₹)
+321.24'
+
+2018-07-04 13:20:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC08_18 AM/Transcation Details' is: 'Number of Transactions
+18
+Total Amount (₹)
+2,107.00
+Average Amount (₹)
+117.06
+Amount Std. Deviation (₹)
+321.24']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:20:36 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation
+
+2018-07-04 13:20:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/Activity_Period' is clicked on
+
+2018-07-04 13:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/Activity_Period' is clicked on
+
+2018-07-04 13:20:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC08_18 AM/Activity_Period' is present
+
+2018-07-04 13:20:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 13:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/TC08_18 AM/Activity_Period' is present
+
+2018-07-04 13:20:37 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC08_18 AM/Activity_Period' is: 'From
+19-02-2018 11:25:40
+To
+01-03-2018 22:30:53
+Period
+10 days'
+
+2018-07-04 13:20:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC08_18 AM/Activity_Period' is: 'From
+19-02-2018 11:25:40
+To
+01-03-2018 22:30:53
+Period
+10 days']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:20:37 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation
+
+2018-07-04 13:20:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/Transcation Details' is clicked on
+
+2018-07-04 13:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/Transcation Details' is clicked on
+
+2018-07-04 13:20:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC08_18 AM/Transcation Details' is present
+
+2018-07-04 13:20:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 13:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/TC08_18 AM/Transcation Details' is present
+
+2018-07-04 13:20:38 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC08_18 AM/Transcation Details' is: 'Number of Transactions
+18
+Total Amount (₹)
+2,107.00
+Average Amount (₹)
+117.06
+Amount Std. Deviation (₹)
+321.24'
+
+2018-07-04 13:20:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC08_18 AM/Transcation Details' is: 'Number of Transactions
+18
+Total Amount (₹)
+2,107.00
+Average Amount (₹)
+117.06
+Amount Std. Deviation (₹)
+321.24']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation" status="ERROR">
+         <error type="ERROR" message="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/AM_Customer%20Search%20Home%20Screen/TC14_Fraud%20Details%20Validation/Script1530617826720.groovy: 28: unable to resolve class Customer 
+ @ line 28, column 10.
+   Customer Screen = WebUI.takeScreenshot()
+            ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-07-04 13:20:38 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/AM_Customer%20Search%20Home%20Screen/TC14_Fraud%20Details%20Validation/Script1530617826720.groovy: 28: unable to resolve class Customer 
+ @ line 28, column 10.
+   Customer Screen = WebUI.takeScreenshot()
+            ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-07-04 13:20:38 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/AM_Customer%20Search%20Home%20Screen/TC14_Fraud%20Details%20Validation/Script1530617826720.groovy: 28: unable to resolve class Customer 
+ @ line 28, column 10.
+   Customer Screen = WebUI.takeScreenshot()
+            ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:20:39 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History
+
+2018-07-04 13:20:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/Transcation history' is clicked on
+
+2018-07-04 13:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/Transcation history' is clicked on
+
+2018-07-04 13:20:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC08_18 AM/Transcation history' is present
+
+2018-07-04 13:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 13:20:40 - [MESSAGE][PASSED] - Object 'Object Repository/TC08_18 AM/Transcation history' is present
+
+2018-07-04 13:20:40 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC08_18 AM/Transcation history' is: 'Date / Time PAN Amount (₹) Customer Beneficiary MCC CP Channel Type Response RT Queue Status
+01-03-2018 22:30:53 2812 3206 0068 4985 5.00 1100231482 +919800000001 N/A no UDW 10 00 0 Unassigned Not Fraud
+26-02-2018 22:30:15 2812 3206 0068 4985 5.00 1100231482 +919800000003 N/A no UDW 10 00 0 Unassigned Not Fraud
+20-02-2018 12:53:12 2812 3206 0068 4985 2.00 1100231482 100001000021019 5940 no P2M 18 05 3 Unassigned Not Fraud
+19-02-2018 21:02:53 2812 3206 0068 4985 15.00 1100231482 N/A N/A no IBW 42 05 1 Merchant Pending
+19-02-2018 20:59:57 2812 3206 0068 4985 15.00 1100231482 N/A N/A no IBW 42 05 3 Customer Pending
+19-02-2018 11:52:09 2812 3206 0068 4985 5.00 1100231482 569842238566 N/A no NFW 41 00 0 Unassigned Not Fraud
+19-02-2018 11:50:57 2812 3206 0068 4985 10.00 1100231482 598426998755 N/A no NFW 41 05 1 Customer Pending
+19-02-2018 11:50:03 2812 3206 0068 4985 5.00 1100231482 1100231482 N/A no PDW 47 05 2 Customer Pending
+19-02-2018 11:49:13 2812 3206 0068 4985 5.00 1100231482 1100231482 N/A no PDW 47 00 0 Unassigned Not Fraud
+19-02-2018 11:46:39 2812 3206 0068 4985 5.00 1100231482 9800000003 N/A no UDW 10 00 0 Unassigned Not Fraud'
+
+2018-07-04 13:20:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC08_18 AM/Transcation history' is: 'Date / Time PAN Amount (₹) Customer Beneficiary MCC CP Channel Type Response RT Queue Status
+01-03-2018 22:30:53 2812 3206 0068 4985 5.00 1100231482 +919800000001 N/A no UDW 10 00 0 Unassigned Not Fraud
+26-02-2018 22:30:15 2812 3206 0068 4985 5.00 1100231482 +919800000003 N/A no UDW 10 00 0 Unassigned Not Fraud
+20-02-2018 12:53:12 2812 3206 0068 4985 2.00 1100231482 100001000021019 5940 no P2M 18 05 3 Unassigned Not Fraud
+19-02-2018 21:02:53 2812 3206 0068 4985 15.00 1100231482 N/A N/A no IBW 42 05 1 Merchant Pending
+19-02-2018 20:59:57 2812 3206 0068 4985 15.00 1100231482 N/A N/A no IBW 42 05 3 Customer Pending
+19-02-2018 11:52:09 2812 3206 0068 4985 5.00 1100231482 569842238566 N/A no NFW 41 00 0 Unassigned Not Fraud
+19-02-2018 11:50:57 2812 3206 0068 4985 10.00 1100231482 598426998755 N/A no NFW 41 05 1 Customer Pending
+19-02-2018 11:50:03 2812 3206 0068 4985 5.00 1100231482 1100231482 N/A no PDW 47 05 2 Customer Pending
+19-02-2018 11:49:13 2812 3206 0068 4985 5.00 1100231482 1100231482 N/A no PDW 47 00 0 Unassigned Not Fraud
+19-02-2018 11:46:39 2812 3206 0068 4985 5.00 1100231482 9800000003 N/A no UDW 10 00 0 Unassigned Not Fraud']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:20:41 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics
+
+2018-07-04 13:20:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/Transcation Statics' is clicked on
+
+2018-07-04 13:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/Transcation Statics' is clicked on
+
+2018-07-04 13:20:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC08_18 AM/Transcation Statics' is present
+
+2018-07-04 13:20:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 13:20:42 - [MESSAGE][PASSED] - Object 'Object Repository/TC08_18 AM/Transcation Statics' is present
+
+2018-07-04 13:20:42 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC08_18 AM/Transcation Statics' is: '0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+Hour
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+Number of Transactions
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+13 (72.2%)
+11'
+
+2018-07-04 13:20:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC08_18 AM/Transcation Statics' is: '0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+Hour
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+Number of Transactions
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+13 (72.2%)
+11']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:20:42 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation
+
+2018-07-04 13:20:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/Transcation Statics' is clicked on
+
+2018-07-04 13:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/Transcation Statics' is clicked on
+
+2018-07-04 13:20:43 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/TC08_18 AM/Transcation Statics' is visible
+
+2018-07-04 13:20:43 - [MESSAGE][PASSED] - Object 'Object Repository/TC08_18 AM/Transcation Statics' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 13:17:07 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/AM_Customer%20Search%20Home%20Screen/TC14_Fraud%20Details%20Validation/Script1530617826720.groovy: 28: unable to resolve class Customer 
+ @ line 28, column 10.
+   Customer Screen = WebUI.takeScreenshot()
+            ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2018-07-04 13:17:07 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/AM_Customer%20Search%20Home%20Screen/TC14_Fraud%20Details%20Validation/Script1530617826720.groovy: 28: unable to resolve class Customer 
+ @ line 28, column 10.
+   Customer Screen = WebUI.takeScreenshot()
+            ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

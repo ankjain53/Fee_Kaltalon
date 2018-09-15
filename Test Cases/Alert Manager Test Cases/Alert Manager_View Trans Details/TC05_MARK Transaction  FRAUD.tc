@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_MARK Transaction  FRAUD</name>
+   <tag></tag>
+   <comment>Transcation is Marked as Fraud
+Transcation Status Verifed</comment>
+   <testCaseGuid>313cd794-c2ad-4674-b37d-9de952b00d21</testCaseGuid>
+</TestCaseEntity>

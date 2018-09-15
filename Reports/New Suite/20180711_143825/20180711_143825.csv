@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Suite,Chrome 67.0.3396.99,,2018-07-11 14:38:31,2018-07-11 14:41:05,2m - 34.205s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Login,Chrome 67.0.3396.99,,2018-07-11 14:38:32,2018-07-11 14:40:00,1m - 27.747s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-11 14:38:33,2018-07-11 14:38:48,15.073s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-11 14:38:48,2018-07-11 14:38:50,1.280s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-11 14:38:50,2018-07-11 14:39:13,23.479s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:39:13,2018-07-11 14:39:33,20.086s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 14:39:33,2018-07-11 14:39:55,22.310s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 14:39:55,2018-07-11 14:39:56,0.622s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:39:56,2018-07-11 14:39:57,1.423s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:39:57,2018-07-11 14:39:59,2.013s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-11 14:39:59,2018-07-11 14:40:00,0.043s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud,Chrome 67.0.3396.99,,2018-07-11 14:40:00,2018-07-11 14:40:28,28.514s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:40:00,2018-07-11 14:40:01,0.679s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:40:01,2018-07-11 14:40:01,0.366s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:40:01,2018-07-11 14:40:14,12.285s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 14:40:14,2018-07-11 14:40:14,0.554s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:40:14,2018-07-11 14:40:15,0.770s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)),Chrome 67.0.3396.99,,2018-07-11 14:40:15,2018-07-11 14:40:16,1.178s,PASSED
+"Statement - If (text.contains(""Not Fraud""))",Chrome 67.0.3396.99,,2018-07-11 14:40:16,2018-07-11 14:40:16,0.015s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 14:40:16,2018-07-11 14:40:18,1.769s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:40:18,2018-07-11 14:40:28,10.035s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud,Chrome 67.0.3396.99,,2018-07-11 14:40:28,2018-07-11 14:40:48,19.518s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:40:29,2018-07-11 14:40:29,0.346s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 14:40:29,2018-07-11 14:40:30,0.637s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:40:30,2018-07-11 14:40:30,0.287s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)),Chrome 67.0.3396.99,,2018-07-11 14:40:30,2018-07-11 14:40:32,1.803s,PASSED
+"Statement - If (text.contains(""Fraud""))",Chrome 67.0.3396.99,,2018-07-11 14:40:32,2018-07-11 14:40:32,0.010s,PASSED
+Statement - Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),Chrome 67.0.3396.99,,2018-07-11 14:40:32,2018-07-11 14:40:33,0.753s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:40:33,2018-07-11 14:40:48,15.009s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious,Chrome 67.0.3396.99,,2018-07-11 14:40:48,2018-07-11 14:41:02,14.479s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:40:48,2018-07-11 14:40:49,0.456s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 14:40:49,2018-07-11 14:40:50,0.863s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:40:50,2018-07-11 14:40:53,3.006s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:40:53,2018-07-11 14:40:53,0.537s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 14:40:53,2018-07-11 14:40:54,0.581s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:40:54,2018-07-11 14:40:57,3.008s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 14:40:57,2018-07-11 14:40:57,0.296s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:40:57,2018-07-11 14:40:58,0.333s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)),Chrome 67.0.3396.99,,2018-07-11 14:40:58,2018-07-11 14:40:58,0.856s,PASSED
+"Statement - If (text.contains(""Suspicious""))",Chrome 67.0.3396.99,,2018-07-11 14:40:58,2018-07-11 14:40:58,0.013s,PASSED
+Statement - Alert_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),Chrome 67.0.3396.99,,2018-07-11 14:40:58,2018-07-11 14:40:59,0.744s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:40:59,2018-07-11 14:41:02,3.008s,PASSED

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_1100231482</name>
+   <tag></tag>
+   <elementGuidId>467eee13-bbed-484b-8e75-808aa803c95f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>details-value</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1100231482</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;fdz-js-container fdz-css-container container&quot;]/div[@class=&quot;fdz-js-customer-container fdz-css-customer-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8 customer-details&quot;]/div[@class=&quot;widget-wrapper&quot;]/div[@class=&quot;widget-stage details&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4 col-md-4 col-sm-4 col-xs-12&quot;]/div[@class=&quot;details-value&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

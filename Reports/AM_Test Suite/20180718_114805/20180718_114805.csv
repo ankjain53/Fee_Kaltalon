@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AM_Test Suite,,,2018-07-18 11:48:26,2018-07-18 11:49:52,1m - 26.136s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC28_Validate Advance search through customer phone number,,,2018-07-18 11:48:28,2018-07-18 11:49:19,50.860s,FAILED
+clearText,,,2018-07-18 11:48:30,2018-07-18 11:48:41,10.555s,FAILED
+delay,,,2018-07-18 11:48:41,2018-07-18 11:48:43,2.677s,PASSED
+click,,,2018-07-18 11:48:43,2018-07-18 11:48:44,0.101s,FAILED
+delay,,,2018-07-18 11:48:44,2018-07-18 11:48:46,2.007s,PASSED
+click,,,2018-07-18 11:48:46,2018-07-18 11:48:46,0.065s,FAILED
+click,,,2018-07-18 11:48:46,2018-07-18 11:48:46,0.057s,FAILED
+setText,,,2018-07-18 11:48:46,2018-07-18 11:49:01,15.721s,FAILED
+delay,,,2018-07-18 11:49:01,2018-07-18 11:49:03,2.026s,PASSED
+sendKeys,,,2018-07-18 11:49:03,2018-07-18 11:49:04,0.617s,FAILED
+delay,,,2018-07-18 11:49:04,2018-07-18 11:49:06,2.012s,PASSED
+click,,,2018-07-18 11:49:06,2018-07-18 11:49:06,0.125s,FAILED
+getText,,,2018-07-18 11:49:06,2018-07-18 11:49:06,0.116s,FAILED
+comment,,,2018-07-18 11:49:06,2018-07-18 11:49:06,0.028s,PASSED
+Statement - Customer_Details_phone = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-07-18 11:49:06,2018-07-18 11:49:07,0.226s,FAILED
+verifyElementText,,,2018-07-18 11:49:07,2018-07-18 11:49:07,0.238s,FAILED
+refresh,,,2018-07-18 11:49:07,2018-07-18 11:49:07,0.116s,FAILED
+delay,,,2018-07-18 11:49:07,2018-07-18 11:49:19,12.008s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC29_Validate Advance search through merchant phone number,,,2018-07-18 11:49:19,2018-07-18 11:49:50,31.148s,FAILED
+clearText,,,2018-07-18 11:49:20,2018-07-18 11:49:20,0.051s,FAILED
+click,,,2018-07-18 11:49:20,2018-07-18 11:49:20,0.035s,FAILED
+delay,,,2018-07-18 11:49:20,2018-07-18 11:49:25,5.011s,PASSED
+click,,,2018-07-18 11:49:25,2018-07-18 11:49:25,0.006s,FAILED
+delay,,,2018-07-18 11:49:25,2018-07-18 11:49:27,1.989s,PASSED
+click,,,2018-07-18 11:49:27,2018-07-18 11:49:27,0.025s,FAILED
+setText,,,2018-07-18 11:49:27,2018-07-18 11:49:27,0.160s,FAILED
+delay,,,2018-07-18 11:49:27,2018-07-18 11:49:39,12.044s,PASSED
+sendKeys,,,2018-07-18 11:49:39,2018-07-18 11:49:39,0.039s,FAILED
+delay,,,2018-07-18 11:49:39,2018-07-18 11:49:44,5.007s,PASSED
+click,,,2018-07-18 11:49:44,2018-07-18 11:49:44,0.023s,FAILED
+getText,,,2018-07-18 11:49:44,2018-07-18 11:49:44,0.020s,FAILED
+verifyElementText,,,2018-07-18 11:49:44,2018-07-18 11:49:44,0.068s,FAILED
+comment,,,2018-07-18 11:49:44,2018-07-18 11:49:44,0.009s,PASSED
+Statement - Merchant_Details_phoneNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-07-18 11:49:44,2018-07-18 11:49:44,0.010s,FAILED
+refresh,,,2018-07-18 11:49:44,2018-07-18 11:49:44,0.010s,FAILED
+delay,,,2018-07-18 11:49:44,2018-07-18 11:49:50,6.008s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details,,,2018-07-18 11:49:50,2018-07-18 11:49:51,0.819s,FAILED
+verifyElementText,,,2018-07-18 11:49:51,2018-07-18 11:49:51,0.017s,FAILED
+comment,,,2018-07-18 11:49:51,2018-07-18 11:49:51,0.005s,PASSED
+Statement - JPB_CustDetails_Id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-07-18 11:49:51,2018-07-18 11:49:51,0.009s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details,,,2018-07-18 11:49:51,2018-07-18 11:49:51,0.508s,FAILED
+getText,,,2018-07-18 11:49:51,2018-07-18 11:49:51,0.096s,FAILED
+comment,,,2018-07-18 11:49:51,2018-07-18 11:49:51,0.013s,PASSED
+Statement - Cust_Activity_Period = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-07-18 11:49:51,2018-07-18 11:49:51,0.014s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details,,,2018-07-18 11:49:51,2018-07-18 11:49:52,0.494s,FAILED
+getText,,,2018-07-18 11:49:52,2018-07-18 11:49:52,0.120s,FAILED
+comment,,,2018-07-18 11:49:52,2018-07-18 11:49:52,0.008s,PASSED

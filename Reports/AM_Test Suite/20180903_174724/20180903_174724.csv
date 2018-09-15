@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AM_Test Suite,,,2018-09-03 17:47:31,2018-09-03 17:47:35,4.142s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details,,,2018-09-03 17:47:32,2018-09-03 17:47:35,2.796s,FAILED
+verifyElementText,,,2018-09-03 17:47:33,2018-09-03 17:47:35,1.663s,FAILED
+comment,,,2018-09-03 17:47:35,2018-09-03 17:47:35,0.045s,PASSED
+Statement - JPB_CustDetails_Id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-09-03 17:47:35,2018-09-03 17:47:35,0.060s,FAILED

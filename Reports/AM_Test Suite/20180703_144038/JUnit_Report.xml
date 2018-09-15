@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="53" tests="1" failures="1" errors="0">
+   <testsuite name="AM_Test Suite" tests="1" failures="1" errors="0" time="53" timestamp="2018-07-03 14:40:46" hostname="Ankur.Jain - LT0021232" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_144038"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_144038\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_144038\\1530609097759.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="11ab5e86b2cfa87130f9b4f05b3aca57"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-03 14:40:48 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-03 14:40:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 14:40:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 14:40:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-03 14:40:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 14:40:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 14:41:05 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 14:41:05 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-03 14:41:25 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-03 14:41:25 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 14:41:31 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 14:41:31 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 14:41:31 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 14:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 14:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 14:41:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 14:41:34 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '+919860606030' of object 'Object Repository/TC08_AM/span_Customer' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 11ab5e86b2cfa87130f9b4f05b3aca57)"/>
+         <system-out><![CDATA[2018-07-03 14:41:34 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number FAILED because (of) Unable to set text '+919860606030' of object 'Object Repository/TC08_AM/span_Customer' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 11ab5e86b2cfa87130f9b4f05b3aca57)
+
+2018-07-03 14:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 14:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 14:41:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 14:41:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 14:41:37 - [TEST_STEP][FAILED] - setText: Unable to set text '+919860606030' of object 'Object Repository/TC08_AM/span_Customer' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 11ab5e86b2cfa87130f9b4f05b3aca57)
+
+2018-07-03 14:41:38 - [MESSAGE][FAILED] - Unable to set text '+919860606030' of object 'Object Repository/TC08_AM/span_Customer' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 11ab5e86b2cfa87130f9b4f05b3aca57)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_144038\\1530609097759.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-03 14:41:34 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number FAILED because (of) Unable to set text '+919860606030' of object 'Object Repository/TC08_AM/span_Customer' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 11ab5e86b2cfa87130f9b4f05b3aca57)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 14:40:46 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number FAILED because (of) Unable to set text '+919860606030' of object 'Object Repository/TC08_AM/span_Customer' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 11ab5e86b2cfa87130f9b4f05b3aca57)]]></system-out>
+      <system-err><![CDATA[2018-07-03 14:40:46 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number FAILED because (of) Unable to set text '+919860606030' of object 'Object Repository/TC08_AM/span_Customer' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 11ab5e86b2cfa87130f9b4f05b3aca57)]]></system-err>
+   </testsuite>
+</testsuites>

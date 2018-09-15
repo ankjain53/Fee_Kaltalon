@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pulse_Test Case Suite" time="129" tests="1" failures="3" errors="0">
+   <testsuite name="Pulse_Test Case Suite" tests="1" failures="3" errors="0" time="129" timestamp="2018-07-03 12:08:38" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/Pulse_Test Case Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180703_120830"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180703_120830\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180703_120830\\1530599989252.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180703_120830\\1530600022290.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="0069a1c881dfcca43b292f7ffc260921"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-03 12:08:39 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-03 12:08:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 12:08:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 12:08:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-03 12:08:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 12:08:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 12:08:54 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 12:08:54 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-03 12:09:14 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-03 12:09:14 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 12:09:15 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 12:09:15 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 12:09:16 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction AS NOT FRAUD" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction AS NOT FRAUD" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id(&quot;navbar&quot;)/ul[@class=&quot;nav navbar-nav navbar-right fdz-js-header&quot;]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)"/>
+         <system-out><![CDATA[2018-07-03 12:09:16 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction AS NOT FRAUD: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction AS NOT FRAUD FAILED because (of) Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)
+
+2018-07-03 12:09:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)
+
+2018-07-03 12:09:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180703_120830\\1530599989252.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-03 12:09:16 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction AS NOT FRAUD: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction AS NOT FRAUD FAILED because (of) Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction Fraud" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id(&quot;navbar&quot;)/ul[@class=&quot;nav navbar-nav navbar-right fdz-js-header&quot;]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)"/>
+         <system-out><![CDATA[2018-07-03 12:09:49 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction Fraud FAILED because (of) Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)
+
+2018-07-03 12:09:50 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)
+
+2018-07-03 12:10:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180703_120830\\1530600022290.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-03 12:09:49 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction Fraud FAILED because (of) Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 0069a1c881dfcca43b292f7ffc260921
+*** Element info: {Using=xpath, value=id(&quot;navbar&quot;)/ul[@class=&quot;nav navbar-nav navbar-right fdz-js-header&quot;]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]})"/>
+         <system-out><![CDATA[2018-07-03 12:10:22 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 0069a1c881dfcca43b292f7ffc260921
+*** Element info: {Using=xpath, value=id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]})
+
+2018-07-03 12:10:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 0069a1c881dfcca43b292f7ffc260921
+*** Element info: {Using=xpath, value=id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]})
+
+2018-07-03 12:10:46 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-03 12:10:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 0069a1c881dfcca43b292f7ffc260921
+*** Element info: {Using=xpath, value=id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]})]]></system-out>
+         <system-err><![CDATA[2018-07-03 12:10:22 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 0069a1c881dfcca43b292f7ffc260921
+*** Element info: {Using=xpath, value=id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 12:08:38 - [TEST_SUITE][FAILED] - Pulse_Test Case Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction AS NOT FRAUD FAILED because (of) Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-03 12:08:38 - [TEST_SUITE][FAILED] - Pulse_Test Case Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction AS NOT FRAUD FAILED because (of) Unable to click on object 'Object Repository/TC05_AM/a_Merchant' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC05_AM/a_Merchant' located by 'By.xpath: id("navbar")/ul[@class="nav navbar-nav navbar-right fdz-js-header"]/li[3]/a[1][count(. | //a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')]) = count(//a[@href = '#merchant' and (text() = 'Merchant' or . = 'Merchant')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pulse_Test Case Suite" time="137" tests="0" failures="5" errors="0">
+   <testsuite name="Pulse_Test Case Suite" tests="0" failures="5" errors="0" time="137" timestamp="2018-07-10 11:46:59" hostname="Ankur.Jain - LT0021232" id="Test Suites/Pulse_Test Case Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180710_114647"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180710_114647\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="hostAddress" value="10.50.88.85"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Pulse Login Test Case/Login_Pulse" classname="Test Cases/Pulse Login Test Case/Login_Pulse" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)"/>
+         <system-out><![CDATA[2018-07-10 11:47:01 - [TEST_CASE][FAILED] - Test Cases/Pulse Login Test Case/Login_Pulse: Test Cases/Pulse Login Test Case/Login_Pulse FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2018-07-10 11:47:03 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2018-07-10 11:48:50 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2018-07-10 11:48:50 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:50 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:50 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://10.130.236.50/pulseviews/management/#apps/reliance/dataconfiguration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:53 - [MESSAGE][FAILED] - Unable to navigate to 'https://10.130.236.50/pulseviews/management/#apps/reliance/dataconfiguration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:53 - [TEST_STEP][FAILED] - setText: Unable to set text 'Ankur.Jain' of object 'Object Repository/Pulse_Login/input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:54 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:54 - [MESSAGE][FAILED] - Unable to set text 'Ankur.Jain' of object 'Object Repository/Pulse_Login/input' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:54 - [TEST_STEP][FAILED] - setText: Unable to set text 'Word03Pass' of object 'Object Repository/Pulse_Login/input_1' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:55 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:55 - [MESSAGE][FAILED] - Unable to set text 'Word03Pass' of object 'Object Repository/Pulse_Login/input_1' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:55 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Pulse_Login/button_Sign In' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:55 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Pulse_Login/button_Sign In' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:55 - [TEST_STEP][PASSED] - comment: Pulse Login Sucesfully]]></system-out>
+         <system-err><![CDATA[2018-07-10 11:47:01 - [TEST_CASE][FAILED] - Test Cases/Pulse Login Test Case/Login_Pulse: Test Cases/Pulse Login Test Case/Login_Pulse FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck" classname="Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Pulse_Login/i_icon-tab-application-32' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-10 11:48:55 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck: Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck FAILED because (of) Unable to click on object 'Object Repository/Pulse_Login/i_icon-tab-application-32' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Pulse_Login/i_icon-tab-application-32' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:56 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Pulse_Login/i_icon-tab-application-32' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:57 - [TEST_STEP][FAILED] - getAttribute: Unable to get attribute '' of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:57 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:57 - [MESSAGE][FAILED] - Unable to get attribute '' of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:57 - [TEST_STEP][FAILED] - getText: Unable to get text of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:57 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:57 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:57 - [TEST_STEP][PASSED] - comment: Feedzai Pulse application is up and running]]></system-out>
+         <system-err><![CDATA[2018-07-10 11:48:55 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck: Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck FAILED because (of) Unable to click on object 'Object Repository/Pulse_Login/i_icon-tab-application-32' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_02 Pulse Version check" classname="Test Cases/Pulse_Test Case/TC_02 Pulse Version check" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Pulse_Login/span_Reliance (Fraud)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-10 11:48:57 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_02 Pulse Version check: Test Cases/Pulse_Test Case/TC_02 Pulse Version check FAILED because (of) Unable to click on object 'Object Repository/Pulse_Login/span_Reliance (Fraud)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Pulse_Login/span_Reliance (Fraud)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:58 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Pulse_Login/span_Reliance (Fraud)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:58 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Pulse_Login/span_15.1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:58 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:48:58 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Pulse_Login/span_15.1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:48:58 - [TEST_STEP][PASSED] - comment: Pulse Application version is "15.1"]]></system-out>
+         <system-err><![CDATA[2018-07-10 11:48:57 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_02 Pulse Version check: Test Cases/Pulse_Test Case/TC_02 Pulse Version check FAILED because (of) Unable to click on object 'Object Repository/Pulse_Login/span_Reliance (Fraud)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status" classname="Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-10 11:48:58 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_03_Pulse/i_icon-tab-jobs-32' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_03_Pulse/i_icon-tab-jobs-32' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-10 11:49:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-10 11:49:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:02 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:02 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/TC_03_Pulse/span_Finished' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:02 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:02 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TC_03_Pulse/span_Finished' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_03_Pulse/div_a minute (Monday July 2 20' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_03_Pulse/div_a minute (Monday July 2 20' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:03 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_03_Pulse/span_Data Configuration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_03_Pulse/span_Data Configuration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:03 - [TEST_STEP][FAILED] - takeScreenshot: Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:03 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:03 - [TEST_STEP][PASSED] - comment: Distribution Job is Running]]></system-out>
+         <system-err><![CDATA[2018-07-10 11:48:58 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_04 Enable Time Machine" classname="Test Cases/Pulse_Test Case/TC_04 Enable Time Machine" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-10 11:49:03 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_04 Enable Time Machine: Test Cases/Pulse_Test Case/TC_04 Enable Time Machine FAILED because (of) Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:04 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-10 11:49:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:05 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-10 11:49:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-10 11:49:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_04_Pulse/button_2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:07 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_04_Pulse/button_2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:07 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-10 11:49:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-10 11:49:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:11 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/TC_04_Pulse/div_true' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-10 11:49:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:11 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/TC_04_Pulse/div_true' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_04_Pulse/div_true' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_04_Pulse/div_true' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [TEST_STEP][FAILED] - setText: Unable to set text 'true' of object 'Object Repository/TC_04_Pulse/input_conf_value' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:12 - [MESSAGE][FAILED] - Unable to set text 'true' of object 'Object Repository/TC_04_Pulse/input_conf_value' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_04_Pulse/i_fa fa-check-circle-o fa-colo' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_04_Pulse/i_fa fa-check-circle-o fa-colo' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/TC_04_Pulse/a_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-10 11:49:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:12 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/TC_04_Pulse/a_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_04_Pulse/a_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_04_Pulse/a_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [TEST_STEP][PASSED] - comment: Time Machine is Enabled
+
+2018-07-10 11:49:12 - [TEST_STEP][FAILED] - Statement - EnableTimeMachine = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:12 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:13 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/TC_04_Pulse/Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-10 11:49:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:13 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/TC_04_Pulse/Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_04_Pulse/Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_04_Pulse/Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-10 11:49:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-10 11:49:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_04_Pulse/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-10 11:49:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_04_Pulse/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-10 11:49:16 - [TEST_STEP][PASSED] - comment: Logout of Pulse Application
+
+2018-07-10 11:49:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-10 11:49:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-07-10 11:49:03 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_04 Enable Time Machine: Test Cases/Pulse_Test Case/TC_04 Enable Time Machine FAILED because (of) Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 11:46:59 - [TEST_SUITE][FAILED] - Pulse_Test Case Suite: Test Cases/Pulse Login Test Case/Login_Pulse FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-out>
+      <system-err><![CDATA[2018-07-10 11:46:59 - [TEST_SUITE][FAILED] - Pulse_Test Case Suite: Test Cases/Pulse Login Test Case/Login_Pulse FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-err>
+   </testsuite>
+</testsuites>

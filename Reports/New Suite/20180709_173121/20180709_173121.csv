@@ -1,0 +1,81 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Suite,Chrome 67.0.3396.99,,2018-07-09 17:31:32,2018-07-09 17:33:06,1m - 33.925s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Login,Chrome 67.0.3396.99,,2018-07-09 17:31:34,2018-07-09 17:32:26,52.746s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-09 17:31:35,2018-07-09 17:31:46,11.446s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-09 17:31:46,2018-07-09 17:31:48,1.331s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-09 17:31:48,2018-07-09 17:32:01,13.716s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-09 17:32:01,2018-07-09 17:32:22,20.152s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-09 17:32:22,2018-07-09 17:32:23,1.392s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-09 17:32:23,2018-07-09 17:32:24,0.831s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:24,2018-07-09 17:32:24,0.437s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-09 17:32:24,2018-07-09 17:32:26,2.027s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:26,2018-07-09 17:32:26,0.060s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC47_JPB Profile Search with Customer_number,Chrome 67.0.3396.99,,2018-07-09 17:32:26,2018-07-09 17:32:33,6.730s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:27,2018-07-09 17:32:28,0.640s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:28,2018-07-09 17:32:28,0.545s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-09 17:32:28,2018-07-09 17:32:29,0.974s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-09 17:32:29,2018-07-09 17:32:32,3.014s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-09 17:32:32,2018-07-09 17:32:33,0.564s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:33,2018-07-09 17:32:33,0.013s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC48_JPB Customer Details,Chrome 67.0.3396.99,,2018-07-09 17:32:33,2018-07-09 17:32:37,4.146s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-09 17:32:34,2018-07-09 17:32:35,0.310s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-09 17:32:35,2018-07-09 17:32:35,0.230s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-09 17:32:35,2018-07-09 17:32:36,1.186s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:36,2018-07-09 17:32:36,0.010s,PASSED
+Statement - JPB_CustDetails = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),Chrome 67.0.3396.99,,2018-07-09 17:32:36,2018-07-09 17:32:37,1.222s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC49_JPB Profile Search with Account_number,Chrome 67.0.3396.99,,2018-07-09 17:32:37,2018-07-09 17:32:44,6.348s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:38,2018-07-09 17:32:39,0.491s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:39,2018-07-09 17:32:39,0.448s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-09 17:32:39,2018-07-09 17:32:40,0.917s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-09 17:32:40,2018-07-09 17:32:43,3.017s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-09 17:32:43,2018-07-09 17:32:44,0.485s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:44,2018-07-09 17:32:44,0.030s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details,Chrome 67.0.3396.99,,2018-07-09 17:32:44,2018-07-09 17:32:45,1.764s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-09 17:32:45,2018-07-09 17:32:45,0.220s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:45,2018-07-09 17:32:45,0.015s,PASSED
+Statement - JPB_CustDetails_Id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),Chrome 67.0.3396.99,,2018-07-09 17:32:45,2018-07-09 17:32:45,0.532s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details,Chrome 67.0.3396.99,,2018-07-09 17:32:45,2018-07-09 17:32:48,2.598s,PASSED
+getText,Chrome 67.0.3396.99,,2018-07-09 17:32:46,2018-07-09 17:32:47,1.018s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:47,2018-07-09 17:32:47,0.029s,PASSED
+Statement - Cust_Activity_Period = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),Chrome 67.0.3396.99,,2018-07-09 17:32:47,2018-07-09 17:32:48,0.619s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details,Chrome 67.0.3396.99,,2018-07-09 17:32:48,2018-07-09 17:32:49,0.981s,PASSED
+getText,Chrome 67.0.3396.99,,2018-07-09 17:32:49,2018-07-09 17:32:49,0.251s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:49,2018-07-09 17:32:49,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC53_JPB Customer Fraud Details,Chrome 67.0.3396.99,,2018-07-09 17:32:49,2018-07-09 17:32:50,1.227s,PASSED
+getText,Chrome 67.0.3396.99,,2018-07-09 17:32:50,2018-07-09 17:32:50,0.575s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:50,2018-07-09 17:32:50,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC54_JPB Transactions Transaction Density Details,Chrome 67.0.3396.99,,2018-07-09 17:32:50,2018-07-09 17:32:51,1.000s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,,2018-07-09 17:32:51,2018-07-09 17:32:51,0.263s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:51,2018-07-09 17:32:51,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC55_JPB Customer transaction Statistic,Chrome 67.0.3396.99,,2018-07-09 17:32:51,2018-07-09 17:32:52,0.820s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,,2018-07-09 17:32:52,2018-07-09 17:32:52,0.165s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:52,2018-07-09 17:32:52,0.000s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC56_JPB Customer transaction History,Chrome 67.0.3396.99,,2018-07-09 17:32:52,2018-07-09 17:32:53,0.807s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,,2018-07-09 17:32:53,2018-07-09 17:32:53,0.160s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC57_JPB Customer Status Log Details,Chrome 67.0.3396.99,,2018-07-09 17:32:53,2018-07-09 17:32:56,3.238s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:54,2018-07-09 17:32:55,0.810s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:55,2018-07-09 17:32:56,0.865s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,,2018-07-09 17:32:56,2018-07-09 17:32:56,0.191s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:32:56,2018-07-09 17:32:56,0.008s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:56,2018-07-09 17:32:56,0.446s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC58_JPB-Jio Money Customer Search,Chrome 67.0.3396.99,,2018-07-09 17:32:56,2018-07-09 17:33:03,7.043s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:57,2018-07-09 17:32:58,0.510s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-09 17:32:58,2018-07-09 17:32:58,0.391s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-09 17:32:58,2018-07-09 17:32:59,1.004s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-09 17:32:59,2018-07-09 17:33:02,2.975s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-09 17:33:02,2018-07-09 17:33:03,0.344s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,,2018-07-09 17:33:03,2018-07-09 17:33:03,0.742s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-09 17:33:03,2018-07-09 17:33:03,0.015s,PASSED

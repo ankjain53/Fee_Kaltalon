@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="84" tests="1" failures="1" errors="0">
+   <testsuite name="AM_Test Suite" tests="1" failures="1" errors="0" time="84" timestamp="2018-07-02 17:06:18" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180702_170612"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180702_170612\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180702_170612\\1530531459277.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="1de63240041aa0911f9f17483288e66f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Login/Alert Manager_Login" classname="Test Cases/Alert Manager Login/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-02 17:06:19 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Login/Alert Manager_Login: Test Cases/Alert Manager Login/Alert Manager_Login
+
+2018-07-02 17:06:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-02 17:06:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-02 17:06:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-02 17:06:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-02 17:06:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-02 17:06:39 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-02 17:06:39 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-02 17:06:59 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-02 17:06:59 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01_AM/input'
+
+2018-07-02 17:07:04 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01_AM/input'
+
+2018-07-02 17:07:04 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01_AM/input_1'
+
+2018-07-02 17:07:05 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01_AM/input_1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious" classname="Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' located by 'By.xpath: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[15]/button[3]/i[1]' not found)"/>
+         <system-out><![CDATA[2018-07-02 17:07:05 - [TEST_CASE][FAILED] - Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious: Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' located by 'By.xpath: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[15]/button[3]/i[1]' not found)
+
+2018-07-02 17:07:06 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' located by 'By.xpath: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[15]/button[3]/i[1]' not found)
+
+2018-07-02 17:07:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' located by 'By.xpath: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[15]/button[3]/i[1]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180702_170612\\1530531459277.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-02 17:07:05 - [TEST_CASE][FAILED] - Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious: Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' located by 'By.xpath: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[15]/button[3]/i[1]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-02 17:06:18 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' located by 'By.xpath: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[15]/button[3]/i[1]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-02 17:06:18 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' located by 'By.xpath: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[15]/button[3]/i[1]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

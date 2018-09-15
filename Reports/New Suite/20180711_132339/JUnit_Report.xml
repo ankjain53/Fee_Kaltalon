@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Suite" time="133" tests="1" failures="1" errors="0">
+   <testsuite name="New Suite" tests="1" failures="1" errors="0" time="133" timestamp="2018-07-11 13:23:48" hostname="Ankur.Jain - LT0021232" id="Test Suites/New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_132339"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_132339\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_132339\\1531295747344.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_132339\\1531295748666.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.85"/>
+         <property name="sessionId" value="f4e657828a743b6e80549dd58ee84338"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-11 13:23:50 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-11 13:23:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 13:24:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 13:24:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 13:24:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 13:24:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-11 13:25:05 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-11 13:25:05 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-11 13:25:26 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-11 13:25:26 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-11 13:25:27 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-11 13:25:27 - [TEST_STEP][PASSED] - setText: Text 'Word03Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-11 13:25:28 - [MESSAGE][PASSED] - Text 'Word03Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-11 13:25:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-11 13:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-11 13:25:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 13:25:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 13:25:31 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" status="FAILED">
+         <failure type="FAILED" message="Actual text '×
+Close
+Success
+Transaction marked as Not Fraud' and expected text 'Sucess' of test object 'Object Repository/TC_01-03_AM/Sucess Message' are NOT matched."/>
+         <system-out><![CDATA[2018-07-11 13:25:31 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud FAILED because (of) Actual text '×
+Close
+Success
+Transaction marked as Not Fraud' and expected text 'Sucess' of test object 'Object Repository/TC_01-03_AM/Sucess Message' are NOT matched.
+
+2018-07-11 13:25:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-11 13:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-11 13:25:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-11 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-11 13:25:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-11 13:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-11 13:25:44 - [TEST_STEP][PASSED] - setText: Text 'Not Fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-11 13:25:45 - [MESSAGE][PASSED] - Text 'Not Fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-11 13:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-11 13:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-11 13:25:45 - [TEST_STEP][FAILED] - verifyElementText: Actual text '×
+Close
+Success
+Transaction marked as Not Fraud' and expected text 'Sucess' of test object 'Object Repository/TC_01-03_AM/Sucess Message' are NOT matched.
+
+2018-07-11 13:25:48 - [MESSAGE][FAILED] - Actual text '×
+Close
+Success
+Transaction marked as Not Fraud' and expected text 'Sucess' of test object 'Object Repository/TC_01-03_AM/Sucess Message' are NOT matched.
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_132339\\1531295747344.png]]
+
+2018-07-11 13:25:48 - [TEST_STEP][PASSED] - comment: Alert is Marked as Not Fraud
+
+2018-07-11 13:25:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-11 13:25:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_132339\\1531295748666.png]]
+
+2018-07-11 13:25:49 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-11 13:25:59 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[2018-07-11 13:25:31 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud FAILED because (of) Actual text '×
+Close
+Success
+Transaction marked as Not Fraud' and expected text 'Sucess' of test object 'Object Repository/TC_01-03_AM/Sucess Message' are NOT matched.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 13:23:48 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud FAILED because (of) Actual text '×
+Close
+Success
+Transaction marked as Not Fraud' and expected text 'Sucess' of test object 'Object Repository/TC_01-03_AM/Sucess Message' are NOT matched.]]></system-out>
+      <system-err><![CDATA[2018-07-11 13:23:48 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud FAILED because (of) Actual text '×
+Close
+Success
+Transaction marked as Not Fraud' and expected text 'Sucess' of test object 'Object Repository/TC_01-03_AM/Sucess Message' are NOT matched.]]></system-err>
+   </testsuite>
+</testsuites>

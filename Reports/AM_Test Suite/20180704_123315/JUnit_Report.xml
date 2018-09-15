@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="168" tests="6" failures="1" errors="1">
+   <testsuite name="AM_Test Suite" tests="6" failures="1" errors="1" time="168" timestamp="2018-07-04 12:33:24" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687871768.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687884675.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687905137.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687925544.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687951232.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="1c59f6b01297c3b32602de79dc4fc204"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:33:25 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-04 12:33:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 12:33:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 12:33:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 12:33:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 12:33:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 12:33:49 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 12:33:49 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-04 12:34:09 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-04 12:34:09 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 12:34:15 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 12:34:15 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 12:34:16 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 12:34:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 12:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 12:34:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:34:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:34:18 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:34:18 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud
+
+2018-07-04 12:34:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-04 12:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-04 12:34:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-04 12:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-04 12:34:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-04 12:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-04 12:34:30 - [TEST_STEP][PASSED] - setText: Text 'ok' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:34:31 - [MESSAGE][PASSED] - Text 'ok' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-04 12:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-04 12:34:31 - [TEST_STEP][PASSED] - comment: Alert is Marked as Not Fraud
+
+2018-07-04 12:34:31 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-04 12:34:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687871768.png]]
+
+2018-07-04 12:34:32 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-04 12:34:42 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:34:42 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud
+
+2018-07-04 12:34:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-04 12:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-04 12:34:43 - [TEST_STEP][PASSED] - setText: Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:34:44 - [MESSAGE][PASSED] - Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:34:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-04 12:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-04 12:34:44 - [TEST_STEP][PASSED] - Statement - Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 12:34:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687884675.png]]
+
+2018-07-04 12:34:45 - [TEST_STEP][PASSED] - comment: Alert Marked as Fraud
+
+2018-07-04 12:34:45 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-04 12:34:55 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:34:55 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious
+
+2018-07-04 12:34:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-04 12:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-04 12:34:56 - [TEST_STEP][PASSED] - setText: Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:34:57 - [MESSAGE][PASSED] - Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:34:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:35:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 12:35:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-04 12:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-04 12:35:00 - [TEST_STEP][PASSED] - setText: Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 12:35:01 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 12:35:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:35:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 12:35:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 12:35:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 12:35:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 12:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 12:35:05 - [TEST_STEP][PASSED] - Statement - Alert_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 12:35:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687905137.png]]
+
+2018-07-04 12:35:05 - [TEST_STEP][PASSED] - comment: Alert Marked as Suspious
+
+2018-07-04 12:35:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:35:08 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:35:08 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD
+
+2018-07-04 12:35:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 12:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 12:35:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 12:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 12:35:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 12:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 12:35:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:35:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-04 12:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-04 12:35:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:35:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 12:35:24 - [TEST_STEP][PASSED] - setText: Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 12:35:25 - [MESSAGE][PASSED] - Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 12:35:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-04 12:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-04 12:35:25 - [TEST_STEP][PASSED] - Statement - Transcation_Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 12:35:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687925544.png]]
+
+2018-07-04 12:35:26 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Fraud
+
+2018-07-04 12:35:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:35:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 12:35:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-04 12:35:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-04 12:35:29 - [TEST_STEP][PASSED] - comment: Transcation Status Verifed
+
+2018-07-04 12:35:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:35:31 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" status="ERROR">
+         <error type="ERROR" message="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/Alert%20Manager_View%20Trans%20Details/TC06_Mark%20Transaction%20as%20NOT%20Fraud/Script1530600840092.groovy: 42: unable to resolve class Transcation_Not 
+ @ line 42, column 17.
+   Transcation_Not Fraud = WebUI.takeScreenshot()
+                   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-07-04 12:35:31 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/Alert%20Manager_View%20Trans%20Details/TC06_Mark%20Transaction%20as%20NOT%20Fraud/Script1530600840092.groovy: 42: unable to resolve class Transcation_Not 
+ @ line 42, column 17.
+   Transcation_Not Fraud = WebUI.takeScreenshot()
+                   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-07-04 12:35:31 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/Alert%20Manager_View%20Trans%20Details/TC06_Mark%20Transaction%20as%20NOT%20Fraud/Script1530600840092.groovy: 42: unable to resolve class Transcation_Not 
+ @ line 42, column 17.
+   Transcation_Not Fraud = WebUI.takeScreenshot()
+                   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:35:32 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious
+
+2018-07-04 12:35:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 12:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 12:35:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 12:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 12:35:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 12:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 12:35:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:35:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:35:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-04 12:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-04 12:35:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:35:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:35:48 - [TEST_STEP][PASSED] - setText: Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 12:35:48 - [MESSAGE][PASSED] - Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 12:35:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:35:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:35:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 12:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 12:35:51 - [TEST_STEP][PASSED] - Statement - Transcation_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 12:35:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_123315\\1530687951232.png]]
+
+2018-07-04 12:35:51 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Suspious
+
+2018-07-04 12:35:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:35:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:35:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Suspious' are matched.
+
+2018-07-04 12:35:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Suspious' are matched.
+
+2018-07-04 12:35:54 - [TEST_STEP][PASSED] - comment: Transation status is verifed
+
+2018-07-04 12:35:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:35:56 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1c59f6b01297c3b32602de79dc4fc204
+*** Element info: {Using=xpath, value=//div[@class='details-value'][contains(text(),'+919860606030')]})"/>
+         <system-out><![CDATA[2018-07-04 12:35:56 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number FAILED because (of) Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1c59f6b01297c3b32602de79dc4fc204
+*** Element info: {Using=xpath, value=//div[@class='details-value'][contains(text(),'+919860606030')]})
+
+2018-07-04 12:35:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 12:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 12:35:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:35:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:35:59 - [TEST_STEP][PASSED] - setText: Text '919860606030' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 12:36:00 - [MESSAGE][PASSED] - Text '919860606030' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 12:36:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:36:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:36:02 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 12:36:02 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 12:36:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-04 12:36:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-04 12:36:07 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1c59f6b01297c3b32602de79dc4fc204
+*** Element info: {Using=xpath, value=//div[@class='details-value'][contains(text(),'+919860606030')]})
+
+2018-07-04 12:36:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-04 12:36:11 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1c59f6b01297c3b32602de79dc4fc204
+*** Element info: {Using=xpath, value=//div[@class='details-value'][contains(text(),'+919860606030')]})]]></system-out>
+         <system-err><![CDATA[2018-07-04 12:35:56 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number FAILED because (of) Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1c59f6b01297c3b32602de79dc4fc204
+*** Element info: {Using=xpath, value=//div[@class='details-value'][contains(text(),'+919860606030')]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 12:33:24 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/Alert%20Manager_View%20Trans%20Details/TC06_Mark%20Transaction%20as%20NOT%20Fraud/Script1530600840092.groovy: 42: unable to resolve class Transcation_Not 
+ @ line 42, column 17.
+   Transcation_Not Fraud = WebUI.takeScreenshot()
+                   ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2018-07-04 12:33:24 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/Alert%20Manager_View%20Trans%20Details/TC06_Mark%20Transaction%20as%20NOT%20Fraud/Script1530600840092.groovy: 42: unable to resolve class Transcation_Not 
+ @ line 42, column 17.
+   Transcation_Not Fraud = WebUI.takeScreenshot()
+                   ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

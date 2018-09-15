@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC34_Validate Advance search through Customer App ID</name>
+   <tag></tag>
+   <comment>Advance search through Customer App id is sucesfull</comment>
+   <testCaseGuid>b343b832-439b-458e-9474-6d333ac10e87</testCaseGuid>
+</TestCaseEntity>

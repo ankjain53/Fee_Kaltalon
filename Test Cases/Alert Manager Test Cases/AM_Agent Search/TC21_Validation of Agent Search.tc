@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_Validation of Agent Search</name>
+   <tag></tag>
+   <comment>Agent Search through id is validated</comment>
+   <testCaseGuid>164d5ed7-c792-4deb-ba84-283736c216a1</testCaseGuid>
+</TestCaseEntity>

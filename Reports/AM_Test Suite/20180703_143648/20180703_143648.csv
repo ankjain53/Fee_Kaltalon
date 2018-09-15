@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AM_Test Suite,Chrome 67.0.3396.99,,2018-07-03 14:36:59,2018-07-03 14:38:24,1m - 24.943s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Login,Chrome 67.0.3396.99,,2018-07-03 14:37:00,2018-07-03 14:37:48,47.840s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-03 14:37:02,2018-07-03 14:37:17,14.612s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-03 14:37:17,2018-07-03 14:37:18,1.244s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-03 14:37:18,2018-07-03 14:37:22,4.010s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 14:37:22,2018-07-03 14:37:43,20.945s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 14:37:43,2018-07-03 14:37:47,3.802s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 14:37:47,2018-07-03 14:37:47,0.632s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 14:37:47,2018-07-03 14:37:48,0.858s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number,Chrome 67.0.3396.99,,2018-07-03 14:37:48,2018-07-03 14:38:22,34.030s,FAILED
+click,Chrome 67.0.3396.99,,2018-07-03 14:37:49,2018-07-03 14:38:22,33.305s,FAILED

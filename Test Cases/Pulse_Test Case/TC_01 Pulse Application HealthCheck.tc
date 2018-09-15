@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_01 Pulse Application HealthCheck</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b42ee32-2ee3-4132-98ee-ed1aadb7b02e</testCaseGuid>
+</TestCaseEntity>

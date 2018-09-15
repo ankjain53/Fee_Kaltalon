@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="97" tests="2" failures="1" errors="0">
+   <testsuite name="AM_Test Suite" tests="2" failures="1" errors="0" time="97" timestamp="2018-07-02 17:32:22" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180702_173216"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180702_173216\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180702_173216\\1530533037241.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="e7a6f7676d5dba32f8b668e6910b4f45"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Login/Alert Manager_Login" classname="Test Cases/Alert Manager Login/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-02 17:32:23 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Login/Alert Manager_Login: Test Cases/Alert Manager Login/Alert Manager_Login
+
+2018-07-02 17:32:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-02 17:32:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-02 17:32:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-02 17:32:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-02 17:32:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-02 17:32:37 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-02 17:32:37 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-02 17:32:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-02 17:32:57 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01_AM/input'
+
+2018-07-02 17:32:58 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01_AM/input'
+
+2018-07-02 17:32:58 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01_AM/input_1'
+
+2018-07-02 17:32:59 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01_AM/input_1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager_Test Cases/TC01_Mark Alert Not Fraud" classname="Test Cases/Alert Manager_Test Cases/TC01_Mark Alert Not Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-02 17:32:59 - [TEST_CASE][PASSED] - Test Cases/Alert Manager_Test Cases/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager_Test Cases/TC01_Mark Alert Not Fraud
+
+2018-07-02 17:33:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01_AM/button_Sign In' is clicked on
+
+2018-07-02 17:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01_AM/button_Sign In' is clicked on
+
+2018-07-02 17:33:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01_AM/a_Merchant' is clicked on
+
+2018-07-02 17:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01_AM/a_Merchant' is clicked on
+
+2018-07-02 17:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01_AM/a_Alerts' is clicked on
+
+2018-07-02 17:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01_AM/a_Alerts' is clicked on
+
+2018-07-02 17:33:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-02 17:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-02 17:33:12 - [TEST_STEP][PASSED] - setText: Text 'ok' is set on object 'Object Repository/TC_01_AM/textarea_observation'
+
+2018-07-02 17:33:13 - [MESSAGE][PASSED] - Text 'ok' is set on object 'Object Repository/TC_01_AM/textarea_observation'
+
+2018-07-02 17:33:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01_AM/button_Not Fraud' is clicked on
+
+2018-07-02 17:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01_AM/button_Not Fraud' is clicked on
+
+2018-07-02 17:33:13 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-02 17:33:23 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious" classname="Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_01_AM/span_Choose a Queue' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/span_Choose a Queue' located by 'By.xpath: //span[@id = 'select2-chosen-26' and (text() = 'Choose a Queue' or . = 'Choose a Queue')]' not found)"/>
+         <system-out><![CDATA[2018-07-02 17:33:23 - [TEST_CASE][FAILED] - Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious: Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC_01_AM/span_Choose a Queue' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/span_Choose a Queue' located by 'By.xpath: //span[@id = 'select2-chosen-26' and (text() = 'Choose a Queue' or . = 'Choose a Queue')]' not found)
+
+2018-07-02 17:33:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-02 17:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-02 17:33:24 - [TEST_STEP][PASSED] - setText: Text 'suspious' is set on object 'Object Repository/TC_01_AM/textarea_observation'
+
+2018-07-02 17:33:25 - [MESSAGE][PASSED] - Text 'suspious' is set on object 'Object Repository/TC_01_AM/textarea_observation'
+
+2018-07-02 17:33:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_01_AM/span_Choose a Queue' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/span_Choose a Queue' located by 'By.xpath: //span[@id = 'select2-chosen-26' and (text() = 'Choose a Queue' or . = 'Choose a Queue')]' not found)
+
+2018-07-02 17:33:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_01_AM/span_Choose a Queue' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/span_Choose a Queue' located by 'By.xpath: //span[@id = 'select2-chosen-26' and (text() = 'Choose a Queue' or . = 'Choose a Queue')]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180702_173216\\1530533037241.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-02 17:33:23 - [TEST_CASE][FAILED] - Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious: Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC_01_AM/span_Choose a Queue' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/span_Choose a Queue' located by 'By.xpath: //span[@id = 'select2-chosen-26' and (text() = 'Choose a Queue' or . = 'Choose a Queue')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-02 17:32:22 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC_01_AM/span_Choose a Queue' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/span_Choose a Queue' located by 'By.xpath: //span[@id = 'select2-chosen-26' and (text() = 'Choose a Queue' or . = 'Choose a Queue')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-02 17:32:22 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager_Test Cases/TC03_Mark Alert Suspicious FAILED because (of) Unable to click on object 'Object Repository/TC_01_AM/span_Choose a Queue' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01_AM/span_Choose a Queue' located by 'By.xpath: //span[@id = 'select2-chosen-26' and (text() = 'Choose a Queue' or . = 'Choose a Queue')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

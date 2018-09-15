@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="370" tests="8" failures="7" errors="2">
+   <testsuite name="AM_Test Suite" tests="8" failures="7" errors="2" time="370" timestamp="2018-07-04 13:00:36" hostname="Ankur.Jain - LT0021232" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689526807.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689540304.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689560835.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689581145.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689628425.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689645198.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689686146.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689721848.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689757775.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="6a7fd84ae03cd931e1c0e7ba46adff3b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:00:38 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-04 13:00:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 13:00:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 13:00:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 13:01:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 13:01:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 13:01:27 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 13:01:27 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-04 13:01:48 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-04 13:01:48 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 13:01:49 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 13:01:49 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 13:01:50 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 13:01:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 13:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 13:01:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:01:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:01:52 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:01:52 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud
+
+2018-07-04 13:01:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-04 13:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-04 13:01:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-04 13:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-04 13:01:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-04 13:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-04 13:02:05 - [TEST_STEP][PASSED] - setText: Text 'ok' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:02:06 - [MESSAGE][PASSED] - Text 'ok' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:02:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-04 13:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-04 13:02:06 - [TEST_STEP][PASSED] - comment: Alert is Marked as Not Fraud
+
+2018-07-04 13:02:06 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-04 13:02:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689526807.png]]
+
+2018-07-04 13:02:07 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-04 13:02:17 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:02:17 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud
+
+2018-07-04 13:02:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-04 13:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-04 13:02:19 - [TEST_STEP][PASSED] - setText: Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:02:19 - [MESSAGE][PASSED] - Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:02:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-04 13:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-04 13:02:20 - [TEST_STEP][PASSED] - Statement - Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:02:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689540304.png]]
+
+2018-07-04 13:02:20 - [TEST_STEP][PASSED] - comment: Alert Marked as Fraud
+
+2018-07-04 13:02:20 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-04 13:02:30 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:02:30 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious
+
+2018-07-04 13:02:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-04 13:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-04 13:02:32 - [TEST_STEP][PASSED] - setText: Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:02:33 - [MESSAGE][PASSED] - Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 13:02:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:02:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:02:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-04 13:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-04 13:02:36 - [TEST_STEP][PASSED] - setText: Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 13:02:37 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 13:02:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:02:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:02:40 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 13:02:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 13:02:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 13:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 13:02:40 - [TEST_STEP][PASSED] - Statement - Alert_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:02:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689560835.png]]
+
+2018-07-04 13:02:41 - [TEST_STEP][PASSED] - comment: Alert Marked as Suspious
+
+2018-07-04 13:02:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:02:44 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:02:44 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD
+
+2018-07-04 13:02:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:02:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:02:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:02:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:02:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:02:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-04 13:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-04 13:02:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:03:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:03:00 - [TEST_STEP][PASSED] - setText: Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:03:00 - [MESSAGE][PASSED] - Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:03:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-04 13:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-04 13:03:01 - [TEST_STEP][PASSED] - Statement - Transcation_Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:03:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689581145.png]]
+
+2018-07-04 13:03:02 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Fraud
+
+2018-07-04 13:03:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:03:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:03:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-04 13:03:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-04 13:03:06 - [TEST_STEP][PASSED] - comment: Transcation Status Verifed
+
+2018-07-04 13:03:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:08 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:03:08 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud
+
+2018-07-04 13:03:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:03:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:03:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:03:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Not Fraud' is clicked on
+
+2018-07-04 13:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Not Fraud' is clicked on
+
+2018-07-04 13:03:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 13:03:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 13:03:23 - [TEST_STEP][PASSED] - setText: Text 'Not Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:03:24 - [MESSAGE][PASSED] - Text 'Not Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:03:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Not Fraud_1' is clicked on
+
+2018-07-04 13:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Not Fraud_1' is clicked on
+
+2018-07-04 13:03:26 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Not Fraud
+
+2018-07-04 13:03:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Not Fraud' are matched.
+
+2018-07-04 13:03:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Not Fraud' are matched.
+
+2018-07-04 13:03:29 - [TEST_STEP][PASSED] - comment: Transcation status is verifed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:03:29 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious
+
+2018-07-04 13:03:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 13:03:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 13:03:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 13:03:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-04 13:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-04 13:03:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:45 - [TEST_STEP][PASSED] - setText: Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:03:46 - [MESSAGE][PASSED] - Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 13:03:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 13:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 13:03:48 - [TEST_STEP][PASSED] - Statement - Transcation_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:03:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689628425.png]]
+
+2018-07-04 13:03:49 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Suspious
+
+2018-07-04 13:03:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Suspious' are matched.
+
+2018-07-04 13:03:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Suspious' are matched.
+
+2018-07-04 13:03:51 - [TEST_STEP][PASSED] - comment: Transation status is verifed
+
+2018-07-04 13:03:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:53 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" status="PASSED">
+         <system-out><![CDATA[2018-07-04 13:03:53 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number
+
+2018-07-04 13:03:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 13:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 13:03:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:56 - [TEST_STEP][PASSED] - setText: Text '+919860606030' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:03:57 - [MESSAGE][PASSED] - Text '+919860606030' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:03:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:03:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:03:59 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:03:59 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 13:03:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-04 13:04:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-04 13:04:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC08_18 AM/div_919860606030' are matched.
+
+2018-07-04 13:04:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC08_18 AM/div_919860606030' are matched.
+
+2018-07-04 13:04:05 - [TEST_STEP][PASSED] - comment: Customer Search through Mobile no is sucesfull
+
+2018-07-04 13:04:05 - [TEST_STEP][PASSED] - Statement - CustomerSerach_MobileNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 13:04:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689645198.png]]
+
+2018-07-04 13:04:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:04:07 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" status="ERROR">
+         <error type="ERROR" message="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) java.lang.IllegalArgumentException: Invalid column index 5 for test data 'C:\Users\ankur.jain\Katalon Studio\Feedzai_Automation\Feedzai_TestData.xlsx'. Column index must be between 1..4"/>
+         <system-out><![CDATA[2018-07-04 13:04:07 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) java.lang.IllegalArgumentException: Invalid column index 5 for test data 'C:\Users\ankur.jain\Katalon Studio\Feedzai_Automation\Feedzai_TestData.xlsx'. Column index must be between 1..4
+
+2018-07-04 13:04:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 13:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 13:04:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 13:04:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 13:04:10 - [TEST_STEP][PASSED] - setText: Reading excel file with source file 'C:\Users\ankur.jain\Katalon Studio\Feedzai_Automation\Feedzai_TestData.xlsx' and sheet name 'Sheet1']]></system-out>
+         <system-err><![CDATA[2018-07-04 13:04:07 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) java.lang.IllegalArgumentException: Invalid column index 5 for test data 'C:\Users\ankur.jain\Katalon Studio\Feedzai_Automation\Feedzai_TestData.xlsx'. Column index must be between 1..4]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC08_18 AM/Cust_Detail' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Cust_Detail' located by 'By.xpath: /html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]' not found)"/>
+         <system-out><![CDATA[2018-07-04 13:04:10 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Cust_Detail' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Cust_Detail' located by 'By.xpath: /html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]' not found)
+
+2018-07-04 13:04:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC08_18 AM/Cust_Detail' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Cust_Detail' located by 'By.xpath: /html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]' not found)
+
+2018-07-04 13:04:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC08_18 AM/Cust_Detail' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Cust_Detail' located by 'By.xpath: /html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689686146.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-04 13:04:10 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Cust_Detail' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Cust_Detail' located by 'By.xpath: /html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Transcation Details' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[3]/div[2]' not found)"/>
+         <system-out><![CDATA[2018-07-04 13:04:46 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Transcation Details' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[3]/div[2]' not found)
+
+2018-07-04 13:04:47 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Transcation Details' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[3]/div[2]' not found)
+
+2018-07-04 13:05:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Transcation Details' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[3]/div[2]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689721848.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-04 13:04:46 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC11_Transaction Density Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Transcation Details' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[3]/div[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC08_18 AM/Activity_Period' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Activity_Period' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[2]/div[2]' not found)"/>
+         <system-out><![CDATA[2018-07-04 13:05:22 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Activity_Period' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Activity_Period' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[2]/div[2]' not found)
+
+2018-07-04 13:05:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC08_18 AM/Activity_Period' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Activity_Period' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[2]/div[2]' not found)
+
+2018-07-04 13:05:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC08_18 AM/Activity_Period' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Activity_Period' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[2]/div[2]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_130025\\1530689757775.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-04 13:05:22 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC12_Activity Period Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Activity_Period' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/Activity_Period' located by 'By.xpath: //html//div[@class='col-md-8 customer-details']/div[2]/div[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//html//div[@class='col-md-8 customer-details']/div[3]/div[2]})"/>
+         <system-out><![CDATA[2018-07-04 13:05:58 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//html//div[@class='col-md-8 customer-details']/div[3]/div[2]})
+
+2018-07-04 13:05:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//html//div[@class='col-md-8 customer-details']/div[3]/div[2]})
+
+2018-07-04 13:06:17 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-04 13:06:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//html//div[@class='col-md-8 customer-details']/div[3]/div[2]})]]></system-out>
+         <system-err><![CDATA[2018-07-04 13:05:58 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC13_ Transactions Details Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation Details' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//html//div[@class='col-md-8 customer-details']/div[3]/div[2]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation" status="ERROR">
+         <error type="ERROR" message="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/AM_Customer%20Search%20Home%20Screen/TC14_Fraud%20Details%20Validation/Script1530617826720.groovy: 28: unable to resolve class Customer 
+ @ line 28, column 10.
+   Customer Screen = WebUI.takeScreenshot()
+            ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-07-04 13:06:17 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/AM_Customer%20Search%20Home%20Screen/TC14_Fraud%20Details%20Validation/Script1530617826720.groovy: 28: unable to resolve class Customer 
+ @ line 28, column 10.
+   Customer Screen = WebUI.takeScreenshot()
+            ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-07-04 13:06:17 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC14_Fraud Details Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/AM_Customer%20Search%20Home%20Screen/TC14_Fraud%20Details%20Validation/Script1530617826720.groovy: 28: unable to resolve class Customer 
+ @ line 28, column 10.
+   Customer Screen = WebUI.takeScreenshot()
+            ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC08_18 AM/Transcation history' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//table[@class='table fdz-table table-striped last-column-fit']})"/>
+         <system-out><![CDATA[2018-07-04 13:06:17 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation history' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//table[@class='table fdz-table table-striped last-column-fit']})
+
+2018-07-04 13:06:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC08_18 AM/Transcation history' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//table[@class='table fdz-table table-striped last-column-fit']})
+
+2018-07-04 13:06:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-04 13:06:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC08_18 AM/Transcation history' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//table[@class='table fdz-table table-striped last-column-fit']})]]></system-out>
+         <system-err><![CDATA[2018-07-04 13:06:17 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC15_Customer Transaction History FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation history' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//table[@class='table fdz-table table-striped last-column-fit']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})"/>
+         <system-out><![CDATA[2018-07-04 13:06:26 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})
+
+2018-07-04 13:06:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})
+
+2018-07-04 13:06:35 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-04 13:06:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})]]></system-out>
+         <system-err><![CDATA[2018-07-04 13:06:26 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC17_Customer Transaction Statistics FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})"/>
+         <system-out><![CDATA[2018-07-04 13:06:35 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})
+
+2018-07-04 13:06:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})
+
+2018-07-04 13:06:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-04 13:06:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})]]></system-out>
+         <system-err><![CDATA[2018-07-04 13:06:35 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC18_Merchant Statistics in Customer tab Validation FAILED because (of) Unable to click on object 'Object Repository/TC08_18 AM/Transcation Statics' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6a7fd84ae03cd931e1c0e7ba46adff3b
+*** Element info: {Using=xpath, value=//div[@class='col-md-6 customer-transaction']//div[@class='widget-wrapper last-child']//div[@class='widget-stage details']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 13:00:36 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) java.lang.IllegalArgumentException: Invalid column index 5 for test data 'C:\Users\ankur.jain\Katalon Studio\Feedzai_Automation\Feedzai_TestData.xlsx'. Column index must be between 1..4]]></system-out>
+      <system-err><![CDATA[2018-07-04 13:00:36 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) java.lang.IllegalArgumentException: Invalid column index 5 for test data 'C:\Users\ankur.jain\Katalon Studio\Feedzai_Automation\Feedzai_TestData.xlsx'. Column index must be between 1..4]]></system-err>
+   </testsuite>
+</testsuites>

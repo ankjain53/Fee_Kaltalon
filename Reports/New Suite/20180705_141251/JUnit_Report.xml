@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Suite" time="96" tests="0" failures="3" errors="0">
+   <testsuite name="New Suite" tests="0" failures="3" errors="0" time="96" timestamp="2018-07-05 14:13:00" hostname="Ankur.Jain - LT0021232" id="Test Suites/New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_141251"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_141251\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_141251\\1530780241039.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_141251\\1530780255413.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="c404c4d4f56bae812a40bc9d9e93cbc8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/ul_Customer Id' located by 'By.xpath: ' not found)"/>
+         <system-out><![CDATA[2018-07-05 14:13:01 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/ul_Customer Id' located by 'By.xpath: ' not found)
+
+2018-07-05 14:13:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 14:13:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 14:13:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-05 14:13:12 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-05 14:13:12 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_24_AM/input'
+
+2018-07-05 14:13:22 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_24_AM/input'
+
+2018-07-05 14:13:22 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 14:13:23 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 14:13:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 14:13:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 14:13:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/span_Search' is clicked on
+
+2018-07-05 14:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/span_Search' is clicked on
+
+2018-07-05 14:13:24 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 14:13:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 14:13:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 14:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 14:13:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 14:13:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 14:13:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 14:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 14:13:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/ul_Customer Id' located by 'By.xpath: ' not found)
+
+2018-07-05 14:14:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/ul_Customer Id' located by 'By.xpath: ' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_141251\\1530780241039.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-05 14:13:01 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/ul_Customer Id' located by 'By.xpath: ' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC27_Validate Advance search through Agent Id" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC27_Validate Advance search through Agent Id" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_24_AM/AgentId_Click' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8)"/>
+         <system-out><![CDATA[2018-07-05 14:14:01 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC27_Validate Advance search through Agent Id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC27_Validate Advance search through Agent Id FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/AgentId_Click' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8)
+
+2018-07-05 14:14:02 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 14:14:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 14:14:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 14:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 14:14:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 14:14:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 14:14:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 14:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 14:14:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 14:14:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 14:14:15 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_24_AM/AgentId_Click' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8)
+
+2018-07-05 14:14:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_24_AM/AgentId_Click' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_141251\\1530780255413.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-05 14:14:01 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC27_Validate Advance search through Agent Id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC27_Validate Advance search through Agent Id FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/AgentId_Click' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC28_Validate Advance search through customer phone number" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC28_Validate Advance search through customer phone number" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8
+*** Element info: {Using=xpath, value=})"/>
+         <system-out><![CDATA[2018-07-05 14:14:16 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC28_Validate Advance search through customer phone number: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC28_Validate Advance search through customer phone number FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8
+*** Element info: {Using=xpath, value=})
+
+2018-07-05 14:14:16 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 14:14:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 14:14:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 14:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 14:14:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 14:14:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 14:14:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 14:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 14:14:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8
+*** Element info: {Using=xpath, value=})
+
+2018-07-05 14:14:35 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-05 14:14:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8
+*** Element info: {Using=xpath, value=})]]></system-out>
+         <system-err><![CDATA[2018-07-05 14:14:16 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC28_Validate Advance search through customer phone number: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC28_Validate Advance search through customer phone number FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c404c4d4f56bae812a40bc9d9e93cbc8
+*** Element info: {Using=xpath, value=})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 14:13:00 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/ul_Customer Id' located by 'By.xpath: ' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-05 14:13:00 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/ul_Customer Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/ul_Customer Id' located by 'By.xpath: ' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC35_Validate Advance search through Sender pan or Card pan</name>
+   <tag></tag>
+   <comment>Advance search through Sender PAN card is sucesfull</comment>
+   <testCaseGuid>d8debf7a-f6d2-4e97-b416-00b3ddc48607</testCaseGuid>
+</TestCaseEntity>

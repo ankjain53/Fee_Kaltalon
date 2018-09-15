@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="71" tests="2" failures="0" errors="0">
+   <testsuite name="AM_Test Suite" tests="2" failures="0" errors="0" time="71" timestamp="2018-07-04 16:36:23" hostname="Ankur.Jain - LT0021232" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_163615"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_163615\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_163615\\1530702449950.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="7fbdc4862e8d935e7047908653fd46d9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-04 16:36:24 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-04 16:36:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 16:36:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 16:36:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 16:36:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 16:36:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 16:36:37 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 16:36:37 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-04 16:36:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-04 16:36:57 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 16:37:01 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 16:37:01 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 16:37:02 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 16:37:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 16:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 16:37:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 16:37:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 16:37:04 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search" classname="Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search" status="PASSED">
+         <system-out><![CDATA[2018-07-04 16:37:04 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search: Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search
+
+2018-07-04 16:37:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC21_AM/Agent_Icon' is clicked on
+
+2018-07-04 16:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC21_AM/Agent_Icon' is clicked on
+
+2018-07-04 16:37:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 16:37:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 16:37:07 - [TEST_STEP][PASSED] - setText: Text '1000002151' is set on object 'Object Repository/TC21_AM/Agent_Search'
+
+2018-07-04 16:37:08 - [MESSAGE][PASSED] - Text '1000002151' is set on object 'Object Repository/TC21_AM/Agent_Search'
+
+2018-07-04 16:37:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 16:37:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 16:37:11 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC21_AM/Agent_Search'
+
+2018-07-04 16:37:11 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC21_AM/Agent_Search'
+
+2018-07-04 16:37:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 16:37:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 16:37:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC21_AM/Agent_id_Validation' are matched.
+
+2018-07-04 16:37:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC21_AM/Agent_id_Validation' are matched.
+
+2018-07-04 16:37:26 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC21_AM/Agent_Details' is: 'Agent Name
+VARA PP
+Agent ID
+1000002151
+Status
+Unknown
+Account Date
+16-12-2016 (2 years ago)
+Shop
+PRASADDD
+Type
+Distributor Sales
+Phone Number
+Unknown
+Mobile Number
+9769956830
+Email
+kanika.shetty@ril.com
+Agent App ID
+Unknown
+Category
+Zonal Distributor
+Business Regional Number
+Unknown
+PIN Area (Zip Code)
+400706
+Address
+asa sasa sas
+400706 - asas, KA, IN'
+
+2018-07-04 16:37:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC21_AM/Agent_Details' is: 'Agent Name
+VARA PP
+Agent ID
+1000002151
+Status
+Unknown
+Account Date
+16-12-2016 (2 years ago)
+Shop
+PRASADDD
+Type
+Distributor Sales
+Phone Number
+Unknown
+Mobile Number
+9769956830
+Email
+kanika.shetty@ril.com
+Agent App ID
+Unknown
+Category
+Zonal Distributor
+Business Regional Number
+Unknown
+PIN Area (Zip Code)
+400706
+Address
+asa sasa sas
+400706 - asas, KA, IN'
+
+2018-07-04 16:37:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC21_AM/Agent_Location' is present
+
+2018-07-04 16:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 16:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/TC21_AM/Agent_Location' is present
+
+2018-07-04 16:37:26 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC21_AM/Agent_Activity Period' is: 'From
+16-12-2016 11:34:41
+To
+05-04-2018 13:14:31
+Period
+a year'
+
+2018-07-04 16:37:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC21_AM/Agent_Activity Period' is: 'From
+16-12-2016 11:34:41
+To
+05-04-2018 13:14:31
+Period
+a year'
+
+2018-07-04 16:37:26 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC21_AM/Agent_Trans Details' is: 'Number of Transactions
+23
+Total Amount (₹)
+122.00
+Average Amount (₹)
+5.30
+Amount Std. Deviation (₹)
+5.30'
+
+2018-07-04 16:37:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC21_AM/Agent_Trans Details' is: 'Number of Transactions
+23
+Total Amount (₹)
+122.00
+Average Amount (₹)
+5.30
+Amount Std. Deviation (₹)
+5.30'
+
+2018-07-04 16:37:26 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC21_AM/Agent_Fraud Details' is: 'Number of Transactions
+4 (17.39%)
+Amount (₹)
+54.00 (44.3%)
+Average Amount (₹)
+13.50
+Amount Std. Deviation (₹)
+1.73'
+
+2018-07-04 16:37:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC21_AM/Agent_Fraud Details' is: 'Number of Transactions
+4 (17.39%)
+Amount (₹)
+54.00 (44.3%)
+Average Amount (₹)
+13.50
+Amount Std. Deviation (₹)
+1.73'
+
+2018-07-04 16:37:26 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC21_AM/Agent_Trans History' is: 'Date / Time PAN Amount (₹) Customer Beneficiary MCC CP Channel Type Response RT Queue Status
+05-04-2018 13:14:31 Jio 2.00 Unknown N/A N/A no BIA 14 05 0 Unassigned Not Fraud
+05-04-2018 13:14:22 Jio 2.00 Unknown N/A N/A no BIA 14 05 0 Unassigned Not Fraud
+05-04-2018 13:05:53 Jio 10.00 Unknown TJAN240120208 N/A no 28-7171 28 00 0 Unassigned Not Fraud
+29-12-2016 14:58:24 2812 3201 8089 0507 2.00 1100021222 1100021222 N/A no LMA 28 05 0 Unassigned Not Fraud
+16-12-2016 12:20:38 2812 3201 0179 4630 12.00 1100021194 1100021194 N/A no LMA 28 05 1 Unassigned Fraud
+16-12-2016 12:15:53 2812 3201 0179 4630 10.00 1100021194 1100021194 N/A no LMA 28 00 1 Unassigned Not Fraud
+16-12-2016 12:15:37 2812 3201 8089 0507 10.00 1100021222 1100021222 N/A no LMA 28 05 0 Unassigned Not Fraud'
+
+2018-07-04 16:37:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC21_AM/Agent_Trans History' is: 'Date / Time PAN Amount (₹) Customer Beneficiary MCC CP Channel Type Response RT Queue Status
+05-04-2018 13:14:31 Jio 2.00 Unknown N/A N/A no BIA 14 05 0 Unassigned Not Fraud
+05-04-2018 13:14:22 Jio 2.00 Unknown N/A N/A no BIA 14 05 0 Unassigned Not Fraud
+05-04-2018 13:05:53 Jio 10.00 Unknown TJAN240120208 N/A no 28-7171 28 00 0 Unassigned Not Fraud
+29-12-2016 14:58:24 2812 3201 8089 0507 2.00 1100021222 1100021222 N/A no LMA 28 05 0 Unassigned Not Fraud
+16-12-2016 12:20:38 2812 3201 0179 4630 12.00 1100021194 1100021194 N/A no LMA 28 05 1 Unassigned Fraud
+16-12-2016 12:15:53 2812 3201 0179 4630 10.00 1100021194 1100021194 N/A no LMA 28 00 1 Unassigned Not Fraud
+16-12-2016 12:15:37 2812 3201 8089 0507 10.00 1100021222 1100021222 N/A no LMA 28 05 0 Unassigned Not Fraud'
+
+2018-07-04 16:37:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC21_AM/Agent_Transcation Stats' is present
+
+2018-07-04 16:37:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 16:37:27 - [MESSAGE][PASSED] - Object 'Object Repository/TC21_AM/Agent_Transcation Stats' is present
+
+2018-07-04 16:37:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 16:37:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 16:37:29 - [TEST_STEP][PASSED] - comment: Agent Search through id is validated
+
+2018-07-04 16:37:29 - [TEST_STEP][PASSED] - Statement - Agent_Search_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 16:37:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_163615\\1530702449950.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 16:36:23 - [TEST_SUITE][PASSED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

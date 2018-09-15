@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AM_Test Suite,,,2018-07-03 13:30:47,2018-07-03 13:31:01,13.920s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Login,,,2018-07-03 13:30:49,2018-07-03 13:30:58,9.181s,FAILED
+openBrowser,,,2018-07-03 13:30:50,2018-07-03 13:30:58,8.077s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD,,,2018-07-03 13:30:58,2018-07-03 13:30:59,1.164s,FAILED
+click,,,2018-07-03 13:30:59,2018-07-03 13:30:59,0.360s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud,,,2018-07-03 13:30:59,2018-07-03 13:31:00,1.210s,FAILED
+click,,,2018-07-03 13:31:00,2018-07-03 13:31:00,0.256s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious,,,2018-07-03 13:31:00,2018-07-03 13:31:01,0.800s,FAILED
+click,,,2018-07-03 13:31:01,2018-07-03 13:31:01,0.049s,FAILED

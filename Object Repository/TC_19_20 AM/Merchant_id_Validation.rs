@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Merchant_id_Validation</name>
+   <tag></tag>
+   <elementGuidId>8ba212c3-8567-4483-a699-dbe30c0744c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='details-value'][contains(text(),'100001000127962')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='details-value'][contains(text(),'100001000127962')]</value>
+   </webElementProperties>
+</WebElementEntity>

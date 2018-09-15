@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="91" tests="4" failures="0" errors="0">
+   <testsuite name="AM_Test Suite" tests="4" failures="0" errors="0" time="91" timestamp="2018-07-03 12:13:00" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_121254"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_121254\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="0c0eab374ee708bd56b9f7688ee7b8fc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-03 12:13:02 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-03 12:13:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 12:13:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 12:13:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-03 12:13:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 12:13:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 12:13:15 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 12:13:15 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-03 12:13:36 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-03 12:13:36 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 12:13:38 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 12:13:38 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 12:13:39 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 12:13:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 12:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-03 12:13:39 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud
+
+2018-07-03 12:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-03 12:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-03 12:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-03 12:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-03 12:13:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-03 12:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-03 12:13:53 - [TEST_STEP][PASSED] - setText: Text 'ok' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-03 12:13:54 - [MESSAGE][PASSED] - Text 'ok' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-03 12:13:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-03 12:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-03 12:13:55 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-03 12:14:05 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-03 12:14:05 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud
+
+2018-07-03 12:14:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-03 12:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-03 12:14:06 - [TEST_STEP][PASSED] - setText: Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-03 12:14:06 - [MESSAGE][PASSED] - Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-03 12:14:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-03 12:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-03 12:14:07 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-03 12:14:17 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" status="PASSED">
+         <system-out><![CDATA[2018-07-03 12:14:17 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious
+
+2018-07-03 12:14:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-03 12:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-03 12:14:18 - [TEST_STEP][PASSED] - setText: Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-03 12:14:19 - [MESSAGE][PASSED] - Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-03 12:14:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-03 12:14:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 12:14:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-03 12:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-03 12:14:23 - [TEST_STEP][PASSED] - setText: Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-03 12:14:24 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-03 12:14:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-03 12:14:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 12:14:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-03 12:14:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-03 12:14:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-03 12:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-03 12:14:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-03 12:14:30 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 12:13:00 - [TEST_SUITE][PASSED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

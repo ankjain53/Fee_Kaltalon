@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC25_Validate Advance search through Merchant id</name>
+   <tag></tag>
+   <comment>Merchant id Details Displayed</comment>
+   <testCaseGuid>3f42626e-9953-4dbb-9cde-f123913f207b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Suite,Chrome 67.0.3396.99,,2018-07-11 14:23:48,2018-07-11 14:25:31,1m - 43.140s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Login,Chrome 67.0.3396.99,,2018-07-11 14:23:53,2018-07-11 14:25:02,1m - 8.787s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-11 14:23:54,2018-07-11 14:24:27,32.620s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-11 14:24:27,2018-07-11 14:24:28,1.277s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-11 14:24:28,2018-07-11 14:24:38,9.264s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:24:38,2018-07-11 14:24:58,20.083s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 14:24:58,2018-07-11 14:24:59,0.904s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 14:24:59,2018-07-11 14:24:59,0.698s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:24:59,2018-07-11 14:25:00,0.305s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:25:00,2018-07-11 14:25:02,2.014s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-11 14:25:02,2018-07-11 14:25:02,0.051s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud,Chrome 67.0.3396.99,,2018-07-11 14:25:02,2018-07-11 14:25:29,27.180s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:25:02,2018-07-11 14:25:03,0.419s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:25:03,2018-07-11 14:25:03,0.431s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:25:03,2018-07-11 14:25:15,11.497s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 14:25:15,2018-07-11 14:25:16,1.105s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 14:25:16,2018-07-11 14:25:16,0.338s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)),Chrome 67.0.3396.99,,2018-07-11 14:25:16,2018-07-11 14:25:18,1.489s,PASSED
+"Statement - If (text.contains(""Success""))",Chrome 67.0.3396.99,,2018-07-11 14:25:18,2018-07-11 14:25:18,0.014s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 14:25:18,2018-07-11 14:25:19,1.082s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 14:25:19,2018-07-11 14:25:29,10.013s,PASSED

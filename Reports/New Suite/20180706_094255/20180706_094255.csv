@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Suite,Chrome 67.0.3396.99,,2018-07-06 09:45:08,2018-07-06 09:50:15,5m - 7.163s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id,Chrome 67.0.3396.99,,2018-07-06 09:45:18,2018-07-06 09:47:48,2m - 29.588s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-06 09:45:21,2018-07-06 09:46:33,1m - 12.286s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-06 09:46:33,2018-07-06 09:46:45,11.637s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-06 09:46:45,2018-07-06 09:46:46,1.083s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-06 09:46:46,2018-07-06 09:47:05,19.129s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-06 09:47:05,2018-07-06 09:47:05,0.447s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-06 09:47:05,2018-07-06 09:47:06,0.211s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:47:06,2018-07-06 09:47:08,2.803s,PASSED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:47:08,2018-07-06 09:47:09,0.879s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:47:09,2018-07-06 09:47:10,0.573s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:47:10,2018-07-06 09:47:12,2.474s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:47:12,2018-07-06 09:47:13,0.501s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:47:13,2018-07-06 09:47:13,0.422s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-06 09:47:13,2018-07-06 09:47:27,13.398s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:47:27,2018-07-06 09:47:29,2.021s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-06 09:47:29,2018-07-06 09:47:29,0.224s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:47:29,2018-07-06 09:47:31,2.015s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:47:31,2018-07-06 09:47:31,0.433s,PASSED
+getText,Chrome 67.0.3396.99,,2018-07-06 09:47:31,2018-07-06 09:47:33,1.876s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-06 09:47:33,2018-07-06 09:47:33,0.016s,PASSED
+Statement - Customer_Details = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),Chrome 67.0.3396.99,,2018-07-06 09:47:33,2018-07-06 09:47:35,1.969s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-06 09:47:35,2018-07-06 09:47:36,0.291s,PASSED
+refresh,Chrome 67.0.3396.99,,2018-07-06 09:47:36,2018-07-06 09:47:36,0.330s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:47:36,2018-07-06 09:47:48,12.007s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC25_Validate Advance search through Merchant id,Chrome 67.0.3396.99,,2018-07-06 09:47:48,2018-07-06 09:48:20,31.662s,PASSED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:47:49,2018-07-06 09:47:51,1.985s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:47:51,2018-07-06 09:47:51,0.302s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:47:51,2018-07-06 09:47:56,5.009s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:47:56,2018-07-06 09:47:57,0.341s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:47:57,2018-07-06 09:47:59,2.015s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:47:59,2018-07-06 09:47:59,0.410s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-06 09:47:59,2018-07-06 09:48:00,1.234s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:48:00,2018-07-06 09:48:05,5.030s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-06 09:48:05,2018-07-06 09:48:06,0.210s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:48:06,2018-07-06 09:48:11,5.011s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:48:11,2018-07-06 09:48:11,0.398s,PASSED
+getText,Chrome 67.0.3396.99,,2018-07-06 09:48:11,2018-07-06 09:48:13,1.563s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-06 09:48:13,2018-07-06 09:48:13,0.005s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-06 09:48:13,2018-07-06 09:48:13,0.151s,PASSED
+Statement - Merchant_Details = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),Chrome 67.0.3396.99,,2018-07-06 09:48:13,2018-07-06 09:48:13,0.573s,PASSED
+refresh,Chrome 67.0.3396.99,,2018-07-06 09:48:13,2018-07-06 09:48:14,0.323s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:48:14,2018-07-06 09:48:20,6.010s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC26_Validate Advance search through channel,Chrome 67.0.3396.99,,2018-07-06 09:48:20,2018-07-06 09:48:45,25.141s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:48:21,2018-07-06 09:48:29,8.040s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:48:29,2018-07-06 09:48:31,2.007s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:48:31,2018-07-06 09:48:31,0.237s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-06 09:48:31,2018-07-06 09:48:36,5.007s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-06 09:48:36,2018-07-06 09:48:45,8.666s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC27_Validate Advance search through Agent Id,Chrome 67.0.3396.99,,2018-07-06 09:48:45,2018-07-06 09:48:54,8.821s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:48:45,2018-07-06 09:48:54,8.159s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC28_Validate Advance search through customer phone number,Chrome 67.0.3396.99,,2018-07-06 09:48:54,2018-07-06 09:49:03,8.830s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:48:54,2018-07-06 09:49:03,8.087s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC29_Validate Advance search through merchant phone number,Chrome 67.0.3396.99,,2018-07-06 09:49:03,2018-07-06 09:49:11,8.807s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:49:03,2018-07-06 09:49:11,8.097s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC30_Validate Advance search through Source Institution ID,Chrome 67.0.3396.99,,2018-07-06 09:49:11,2018-07-06 09:49:20,8.698s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:49:12,2018-07-06 09:49:20,8.137s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC31_Validate Advance search through response code,Chrome 67.0.3396.99,,2018-07-06 09:49:20,2018-07-06 09:49:29,8.694s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:49:21,2018-07-06 09:49:29,8.106s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code,Chrome 67.0.3396.99,,2018-07-06 09:49:29,2018-07-06 09:49:38,8.790s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:49:29,2018-07-06 09:49:38,8.105s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC33_Validate Advance search through Hashed card pan,Chrome 67.0.3396.99,,2018-07-06 09:49:38,2018-07-06 09:49:46,8.570s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:49:38,2018-07-06 09:49:46,8.060s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID,Chrome 67.0.3396.99,,2018-07-06 09:49:46,2018-07-06 09:49:55,8.654s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:49:47,2018-07-06 09:49:55,8.084s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC35_Validate Advance search through Sender pan or Card pan,Chrome 67.0.3396.99,,2018-07-06 09:49:55,2018-07-06 09:50:04,8.790s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:49:56,2018-07-06 09:50:04,8.151s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC36_Validate Advance search through Card bin,Chrome 67.0.3396.99,,2018-07-06 09:50:04,2018-07-06 09:50:12,8.727s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-06 09:50:04,2018-07-06 09:50:12,8.139s,FAILED

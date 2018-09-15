@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC36_Validate Advance search through Card bin</name>
+   <tag></tag>
+   <comment>Advance search through Card Bin is sucesfull</comment>
+   <testCaseGuid>a595699a-7544-40e5-8266-832fa388327e</testCaseGuid>
+</TestCaseEntity>

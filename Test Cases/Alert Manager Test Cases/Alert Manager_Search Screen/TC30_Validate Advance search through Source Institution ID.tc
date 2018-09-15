@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC30_Validate Advance search through Source Institution ID</name>
+   <tag></tag>
+   <comment>Search through source institution id is displayed</comment>
+   <testCaseGuid>8c1468f0-2700-4b38-a180-8a50e49cf00c</testCaseGuid>
+</TestCaseEntity>

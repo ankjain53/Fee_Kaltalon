@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC23_Validation of Reports</name>
+   <tag></tag>
+   <comment>Report downloaded sucesfully</comment>
+   <testCaseGuid>fe61e733-6261-4d91-8271-88b349833313</testCaseGuid>
+</TestCaseEntity>

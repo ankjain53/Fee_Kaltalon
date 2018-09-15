@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_2</name>
+   <tag></tag>
+   <elementGuidId>fe9b3b4d-0e41-4439-90d9-ec7681eec4b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;reliance&quot;)/div[1]/div[@class=&quot;fdz-js-pulse-center-column fdz-css-pulse-center-column&quot;]/div[@class=&quot;main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container&quot;]/div[@class=&quot;app-dataconfiguration-tab fdz-css-app-dataconfiguration-tab fdz-js-app-dataconfiguration-tab&quot;]/div[1]/div[@class=&quot;dependenciesListContainer&quot;]/div[1]/div[@class=&quot;fdz-js-list-and-pagination-container&quot;]/div[@class=&quot;pageableListViewPaginationControls&quot;]/span[@class=&quot;pagination-controls-indexes&quot;]/span[@class=&quot;pagination-controls-after&quot;]/button[@class=&quot;pagination-controls-index&quot;][count(. | //button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')]) = count(//button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pagination-controls-index</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Go to page 2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;reliance&quot;)/div[1]/div[@class=&quot;fdz-js-pulse-center-column fdz-css-pulse-center-column&quot;]/div[@class=&quot;main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container&quot;]/div[@class=&quot;app-dataconfiguration-tab fdz-css-app-dataconfiguration-tab fdz-js-app-dataconfiguration-tab&quot;]/div[1]/div[@class=&quot;dependenciesListContainer&quot;]/div[1]/div[@class=&quot;fdz-js-list-and-pagination-container&quot;]/div[@class=&quot;pageableListViewPaginationControls&quot;]/span[@class=&quot;pagination-controls-indexes&quot;]/span[@class=&quot;pagination-controls-after&quot;]/button[@class=&quot;pagination-controls-index&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="60" tests="2" failures="1" errors="0">
+   <testsuite name="AM_Test Suite" tests="2" failures="1" errors="0" time="60" timestamp="2018-07-03 15:58:01" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_155754"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_155754\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_155754\\1530613739772.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="7aba7d49f7447f4617d2e439a9a9d452"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-03 15:58:02 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-03 15:58:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 15:58:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 15:58:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-03 15:58:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 15:58:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 15:58:21 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 15:58:21 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-03 15:58:41 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-03 15:58:41 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 15:58:42 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 15:58:42 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 15:58:42 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 15:58:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 15:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 15:58:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 15:58:44 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" status="PASSED">
+         <system-out><![CDATA[2018-07-03 15:58:44 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID
+
+2018-07-03 15:58:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 15:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 15:58:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 15:58:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 15:58:48 - [TEST_STEP][PASSED] - setText: Text '1100231482' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 15:58:48 - [MESSAGE][PASSED] - Text '1100231482' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 15:58:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 15:58:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 15:58:50 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 15:58:51 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 15:58:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-03 15:58:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 15:58:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC08_AM/div_1100231482' are matched.
+
+2018-07-03 15:58:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC08_AM/div_1100231482' are matched.
+
+2018-07-03 15:58:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 15:58:59 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-07-03 15:58:59 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation FAILED because (of) Unable to get text of object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-07-03 15:58:59 - [TEST_STEP][FAILED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Cust_Detail)): Unable to get text of object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-07-03 15:58:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Cust_Detail' does not exist
+
+2018-07-03 15:58:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-07-03 15:59:00 - [MESSAGE][FAILED] - Unable to get text of object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_155754\\1530613739772.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-03 15:58:59 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation FAILED because (of) Unable to get text of object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 15:58:01 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation FAILED because (of) Unable to get text of object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-07-03 15:58:01 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation FAILED because (of) Unable to get text of object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

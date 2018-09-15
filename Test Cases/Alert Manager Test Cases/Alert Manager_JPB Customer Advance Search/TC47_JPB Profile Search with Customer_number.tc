@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC47_JPB Profile Search with Customer_number</name>
+   <tag></tag>
+   <comment>JPB Customer Details Displayed</comment>
+   <testCaseGuid>74d52678-71be-4715-8c82-f4f842309e4b</testCaseGuid>
+</TestCaseEntity>

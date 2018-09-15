@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="75" tests="2" failures="0" errors="1">
+   <testsuite name="AM_Test Suite" tests="2" failures="0" errors="1" time="75" timestamp="2018-07-03 14:55:19" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_145512"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_145512\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="0b2eb7f2a0cfba41033f7e2d155e8cfb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-03 14:55:21 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-03 14:55:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 14:55:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 14:55:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-03 14:55:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 14:55:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 14:55:46 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 14:55:46 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-03 14:56:06 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-03 14:56:06 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 14:56:08 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 14:56:08 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 14:56:09 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 14:56:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 14:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 14:56:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 14:56:11 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" status="PASSED">
+         <system-out><![CDATA[2018-07-03 14:56:11 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number
+
+2018-07-03 14:56:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 14:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 14:56:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 14:56:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 14:56:15 - [TEST_STEP][PASSED] - setText: Text '+919860606030' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 14:56:15 - [MESSAGE][PASSED] - Text '+919860606030' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 14:56:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 14:56:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 14:56:17 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 14:56:18 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 14:56:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-03 14:56:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 14:56:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC08_AM/div_919860606030' are matched.
+
+2018-07-03 14:56:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC08_AM/div_919860606030' are matched.
+
+2018-07-03 14:56:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 14:56:27 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" status="ERROR">
+         <error type="ERROR" message="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) Variable 'Keys' is not defined for test case."/>
+         <system-out><![CDATA[2018-07-03 14:56:27 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) Variable 'Keys' is not defined for test case.
+
+2018-07-03 14:56:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 14:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 14:56:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 14:56:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 14:56:30 - [TEST_STEP][PASSED] - setText: Text '1100231482' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 14:56:31 - [MESSAGE][PASSED] - Text '1100231482' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 14:56:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 14:56:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 14:56:33 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/TC08_AM/span_Customer']]></system-out>
+         <system-err><![CDATA[2018-07-03 14:56:27 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) Variable 'Keys' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 14:55:19 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) Variable 'Keys' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-07-03 14:55:19 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID FAILED because (of) Variable 'Keys' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

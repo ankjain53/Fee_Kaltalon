@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Suite,Chrome 67.0.3396.99,,2018-07-05 12:28:45,2018-07-05 12:30:09,1m - 23.711s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id,Chrome 67.0.3396.99,,2018-07-05 12:28:46,2018-07-05 12:29:33,46.659s,FAILED
+openBrowser,Chrome 67.0.3396.99,,2018-07-05 12:28:47,2018-07-05 12:28:55,8.099s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-05 12:28:55,2018-07-05 12:28:58,2.087s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-05 12:28:58,2018-07-05 12:29:33,34.979s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC25_Validate Advance search through Merchant id,Chrome 67.0.3396.99,,2018-07-05 12:29:33,2018-07-05 12:30:07,34.181s,FAILED
+clearText,Chrome 67.0.3396.99,,2018-07-05 12:29:34,2018-07-05 12:30:07,33.169s,FAILED

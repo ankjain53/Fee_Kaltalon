@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="78" tests="3" failures="0" errors="0">
+   <testsuite name="AM_Test Suite" tests="3" failures="0" errors="0" time="78" timestamp="2018-07-04 15:50:40" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_155033"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_155033\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_155033\\1530699705021.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_155033\\1530699716404.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="43ec692110022e45070c4762b6e6e492"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-04 15:50:41 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-04 15:50:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 15:50:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 15:50:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 15:50:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 15:50:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 15:51:02 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 15:51:02 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-04 15:51:22 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-04 15:51:22 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 15:51:27 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 15:51:27 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 15:51:28 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 15:51:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 15:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 15:51:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:51:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:51:30 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo" classname="Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo" status="PASSED">
+         <system-out><![CDATA[2018-07-04 15:51:30 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo: Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo
+
+2018-07-04 15:51:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_19_AM/Merchant_icon' is clicked on
+
+2018-07-04 15:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_19_AM/Merchant_icon' is clicked on
+
+2018-07-04 15:51:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:51:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:51:33 - [TEST_STEP][PASSED] - setText: Text '+918899550000' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:51:34 - [MESSAGE][PASSED] - Text '+918899550000' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:51:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:51:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:51:36 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:51:37 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:51:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:51:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:51:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC_19_AM/Merchant_MobileNo_Validation' are matched.
+
+2018-07-04 15:51:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_19_AM/Merchant_MobileNo_Validation' are matched.
+
+2018-07-04 15:51:39 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_19_AM/Merchant_Details' is: 'Merchant Name
+swa
+Merchant ID
+100001000022854
+Status
+Active
+Account Date
+10-01-2017 (a year ago)
+MCC
+5511 (AUTO & TRUCK DLRS-SALES,SVC, REPRS,PRTS, & LEASING)
+Onboarding Score
+60
+Express MAF
+Yes
+Merchant App ID
+10.130.244.10_+918899550000
+Phone Number
+Unknown
+Mobile Number
++918899550000
+Email
+Unknown
+PIN Area (Zip Code)
+123456
+Is API Based Merchant
+No
+Address
+AAAA
+AAAA
+Jio Money Daily Exit Limit (₹)
+20,000.00
+Jio Money Daily Limit (#)
+200
+Jio Money Daily Limit (₹)
+40,000.00
+Open Loop Daily Exit Limit (₹)
+0.00
+Open Loop Daily Limit (#)
+0
+Open Loop Daily Limit (₹)
+0.00
+Jio Money Refund limit (₹)
+2,000.00
+Open Loop Refund limit (₹)
+0.00'
+
+2018-07-04 15:51:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_19_AM/Merchant_Details' is: 'Merchant Name
+swa
+Merchant ID
+100001000022854
+Status
+Active
+Account Date
+10-01-2017 (a year ago)
+MCC
+5511 (AUTO & TRUCK DLRS-SALES,SVC, REPRS,PRTS, & LEASING)
+Onboarding Score
+60
+Express MAF
+Yes
+Merchant App ID
+10.130.244.10_+918899550000
+Phone Number
+Unknown
+Mobile Number
++918899550000
+Email
+Unknown
+PIN Area (Zip Code)
+123456
+Is API Based Merchant
+No
+Address
+AAAA
+AAAA
+Jio Money Daily Exit Limit (₹)
+20,000.00
+Jio Money Daily Limit (#)
+200
+Jio Money Daily Limit (₹)
+40,000.00
+Open Loop Daily Exit Limit (₹)
+0.00
+Open Loop Daily Limit (#)
+0
+Open Loop Daily Limit (₹)
+0.00
+Jio Money Refund limit (₹)
+2,000.00
+Open Loop Refund limit (₹)
+0.00'
+
+2018-07-04 15:51:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC_19_AM/Merchant_Location' is present
+
+2018-07-04 15:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 15:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/TC_19_AM/Merchant_Location' is present
+
+2018-07-04 15:51:40 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_19_AM/Merchant_Activity Period' is: 'From
+13-02-2017 09:30:24
+To
+27-06-2018 20:27:30
+Period
+a year'
+
+2018-07-04 15:51:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_19_AM/Merchant_Activity Period' is: 'From
+13-02-2017 09:30:24
+To
+27-06-2018 20:27:30
+Period
+a year'
+
+2018-07-04 15:51:40 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_19_AM/Merchant_Trans Details' is: 'Number of Transactions
+195
+Total Amount (₹)
+1,472.00
+Average Amount (₹)
+7.55
+Amount Std. Deviation (₹)
+12.91'
+
+2018-07-04 15:51:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_19_AM/Merchant_Trans Details' is: 'Number of Transactions
+195
+Total Amount (₹)
+1,472.00
+Average Amount (₹)
+7.55
+Amount Std. Deviation (₹)
+12.91'
+
+2018-07-04 15:51:40 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_19_AM/Merchnat_Fraud Details' is: 'Number of Transactions
+2 (1.0%)
+Amount (₹)
+13.00 (0.9%)
+Average Amount (₹)
+6.50
+Amount Std. Deviation (₹)
+6.36'
+
+2018-07-04 15:51:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_19_AM/Merchnat_Fraud Details' is: 'Number of Transactions
+2 (1.0%)
+Amount (₹)
+13.00 (0.9%)
+Average Amount (₹)
+6.50
+Amount Std. Deviation (₹)
+6.36'
+
+2018-07-04 15:51:40 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_19_AM/Merchant_Transation History' is: 'Date / Time PAN Amount (₹) Customer Beneficiary MCC CP Channel Type Response RT Queue Status
+27-06-2018 20:27:30 2812 3206 0031 9822 5.00 1100058367 100001000022854 5511 no P2M 18 05 2 Merchant Pending
+27-06-2018 20:23:20 2812 3206 0031 9822 1.00 1100058367 100001000022854 5511 no P2M 18 05 2 Merchant Pending
+25-06-2018 12:53:58 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 1 Merchant Pending
+22-06-2018 17:38:39 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 00 1 Customer Pending
+22-06-2018 17:25:37 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 3 Merchant Pending
+18-06-2018 17:00:55 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 1 Merchant Pending
+18-06-2018 17:00:48 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 1 Merchant Pending
+15-06-2018 16:41:02 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 2 Merchant Pending
+15-06-2018 16:31:59 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 2 Merchant Pending
+15-06-2018 16:09:40 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 2 Merchant Pending'
+
+2018-07-04 15:51:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_19_AM/Merchant_Transation History' is: 'Date / Time PAN Amount (₹) Customer Beneficiary MCC CP Channel Type Response RT Queue Status
+27-06-2018 20:27:30 2812 3206 0031 9822 5.00 1100058367 100001000022854 5511 no P2M 18 05 2 Merchant Pending
+27-06-2018 20:23:20 2812 3206 0031 9822 1.00 1100058367 100001000022854 5511 no P2M 18 05 2 Merchant Pending
+25-06-2018 12:53:58 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 1 Merchant Pending
+22-06-2018 17:38:39 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 00 1 Customer Pending
+22-06-2018 17:25:37 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 3 Merchant Pending
+18-06-2018 17:00:55 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 1 Merchant Pending
+18-06-2018 17:00:48 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 1 Merchant Pending
+15-06-2018 16:41:02 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 2 Merchant Pending
+15-06-2018 16:31:59 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 2 Merchant Pending
+15-06-2018 16:09:40 2812 3206 0068 8820 5.00 1100231978 100001000022854 5511 no P2M 18 05 2 Merchant Pending'
+
+2018-07-04 15:51:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC_19_AM/Merchant_Trans Statistics' is present
+
+2018-07-04 15:51:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 15:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/TC_19_AM/Merchant_Trans Statistics' is present
+
+2018-07-04 15:51:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:51:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:51:44 - [TEST_STEP][PASSED] - comment: Merchant Search through Mobile No is validated
+
+2018-07-04 15:51:44 - [TEST_STEP][PASSED] - Statement - Merchant_Search_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 15:51:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_155033\\1530699705021.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID" classname="Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID" status="PASSED">
+         <system-out><![CDATA[2018-07-04 15:51:47 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID: Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID
+
+2018-07-04 15:51:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_19_AM/Merchant_icon' is clicked on
+
+2018-07-04 15:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_19_AM/Merchant_icon' is clicked on
+
+2018-07-04 15:51:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:51:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:51:51 - [TEST_STEP][PASSED] - setText: Text '100001000127962' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:51:51 - [MESSAGE][PASSED] - Text '100001000127962' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:51:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:51:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:51:53 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:51:54 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:51:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:51:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:51:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC_19_AM/Merchant_id_Validation' are matched.
+
+2018-07-04 15:51:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_19_AM/Merchant_id_Validation' are matched.
+
+2018-07-04 15:51:56 - [TEST_STEP][PASSED] - comment: Merchant Search through id is validated
+
+2018-07-04 15:51:56 - [TEST_STEP][PASSED] - Statement - Merchant_Search_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 15:51:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_155033\\1530699716404.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 15:50:40 - [TEST_SUITE][PASSED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

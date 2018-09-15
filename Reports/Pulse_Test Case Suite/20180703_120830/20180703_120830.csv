@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Pulse_Test Case Suite,Chrome 67.0.3396.99,,2018-07-03 12:08:38,2018-07-03 12:10:47,2m - 9.918s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Login,Chrome 67.0.3396.99,,2018-07-03 12:08:39,2018-07-03 12:09:16,36.890s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-03 12:08:41,2018-07-03 12:08:50,9.603s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-03 12:08:50,2018-07-03 12:08:52,1.244s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-03 12:08:52,2018-07-03 12:08:54,2.379s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 12:08:54,2018-07-03 12:09:14,20.093s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 12:09:14,2018-07-03 12:09:15,1.221s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 12:09:15,2018-07-03 12:09:16,0.753s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction AS NOT FRAUD,Chrome 67.0.3396.99,,2018-07-03 12:09:16,2018-07-03 12:09:49,33.318s,FAILED
+click,Chrome 67.0.3396.99,,2018-07-03 12:09:17,2018-07-03 12:09:49,32.316s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction Fraud,Chrome 67.0.3396.99,,2018-07-03 12:09:49,2018-07-03 12:10:22,32.846s,FAILED
+click,Chrome 67.0.3396.99,,2018-07-03 12:09:50,2018-07-03 12:10:22,32.128s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspicious,Chrome 67.0.3396.99,,2018-07-03 12:10:22,2018-07-03 12:10:46,23.560s,FAILED
+click,Chrome 67.0.3396.99,,2018-07-03 12:10:23,2018-07-03 12:10:46,22.892s,FAILED

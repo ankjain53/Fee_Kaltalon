@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Alert Manager_Login</name>
+   <tag></tag>
+   <comment>Alert Manager Login Sucesfully</comment>
+   <testCaseGuid>75708bfd-e171-47b0-9f59-00aa210e023c</testCaseGuid>
+</TestCaseEntity>

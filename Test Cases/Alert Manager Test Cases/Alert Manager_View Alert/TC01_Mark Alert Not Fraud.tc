@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Mark Alert Not Fraud</name>
+   <tag></tag>
+   <comment>Alert is Marked as Not Fraud</comment>
+   <testCaseGuid>d9f723c3-cead-42bd-a9d6-18e2856eed94</testCaseGuid>
+</TestCaseEntity>

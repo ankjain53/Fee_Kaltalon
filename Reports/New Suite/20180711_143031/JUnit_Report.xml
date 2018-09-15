@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Suite" time="109" tests="4" failures="0" errors="0">
+   <testsuite name="New Suite" tests="4" failures="0" errors="0" time="109" timestamp="2018-07-11 14:30:41" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_143031"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_143031\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_143031\\1531299702521.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_143031\\1531299716894.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_143031\\1531299744428.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.85"/>
+         <property name="sessionId" value="834243cd8a62d6b6c1c5e4f01dd0eb3c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-11 14:30:42 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-11 14:30:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 14:30:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 14:30:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 14:30:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 14:30:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-11 14:31:01 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-11 14:31:01 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-11 14:31:21 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-11 14:31:21 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-11 14:31:22 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-11 14:31:22 - [TEST_STEP][PASSED] - setText: Text 'Word03Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-11 14:31:23 - [MESSAGE][PASSED] - Text 'Word03Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-11 14:31:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-11 14:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-11 14:31:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 14:31:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 14:31:25 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-11 14:31:25 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud
+
+2018-07-11 14:31:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-11 14:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-11 14:31:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-11 14:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-11 14:31:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-11 14:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' is clicked on
+
+2018-07-11 14:31:40 - [TEST_STEP][PASSED] - setText: Text 'Not Fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-11 14:31:41 - [MESSAGE][PASSED] - Text 'Not Fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-11 14:31:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-11 14:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Not Fraud' is clicked on
+
+2018-07-11 14:31:41 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)): Text of object 'Object Repository/TC_01-03_AM/Sucess Message' is: '×
+Close
+Success
+Transaction marked as Not Fraud'
+
+2018-07-11 14:31:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_01-03_AM/Sucess Message' is: '×
+Close
+Success
+Transaction marked as Not Fraud'
+
+2018-07-11 14:31:42 - [TEST_STEP][PASSED] - Statement - If (text.contains("Not Fraud")): Alert is Marked as Not Fraud
+
+2018-07-11 14:31:42 - [TEST_STEP][PASSED] - comment: Alert is Marked as Not Fraud
+
+2018-07-11 14:31:42 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-11 14:31:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_143031\\1531299702521.png]]
+
+2018-07-11 14:31:43 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-11 14:31:53 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-11 14:31:53 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud
+
+2018-07-11 14:31:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-11 14:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-11 14:31:54 - [TEST_STEP][PASSED] - setText: Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-11 14:31:55 - [MESSAGE][PASSED] - Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-11 14:31:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-11 14:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-11 14:31:55 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)): Text of object 'Object Repository/TC_01-03_AM/Sucess Message' is: '×
+Close
+Success
+Transaction marked as Fraud'
+
+2018-07-11 14:31:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_01-03_AM/Sucess Message' is: '×
+Close
+Success
+Transaction marked as Fraud'
+
+2018-07-11 14:31:56 - [TEST_STEP][PASSED] - Statement - If (text.contains("Fraud")): Alert is Marked as Fraud
+
+2018-07-11 14:31:56 - [TEST_STEP][PASSED] - comment: Alert is Marked as Fraud
+
+2018-07-11 14:31:56 - [TEST_STEP][PASSED] - Statement - Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-11 14:31:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_143031\\1531299716894.png]]
+
+2018-07-11 14:31:57 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-07-11 14:32:12 - [MESSAGE][PASSED] - Delayed 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" status="PASSED">
+         <system-out><![CDATA[2018-07-11 14:32:12 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious
+
+2018-07-11 14:32:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-11 14:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-11 14:32:13 - [TEST_STEP][PASSED] - setText: Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-11 14:32:14 - [MESSAGE][PASSED] - Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-11 14:32:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 14:32:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 14:32:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-11 14:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-11 14:32:18 - [TEST_STEP][PASSED] - setText: Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-11 14:32:18 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-11 14:32:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 14:32:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 14:32:21 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-11 14:32:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-11 14:32:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-11 14:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-11 14:32:22 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC_01-03_AM/Sucess Message)): Text of object 'Object Repository/TC_01-03_AM/Sucess Message' is: '×
+Close
+Success
+Transaction marked as Suspicious'
+
+2018-07-11 14:32:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_01-03_AM/Sucess Message' is: '×
+Close
+Success
+Transaction marked as Suspicious'
+
+2018-07-11 14:32:24 - [TEST_STEP][PASSED] - Statement - If (text.contains("Suspicious")): Alert Marked as Suspious
+
+2018-07-11 14:32:24 - [TEST_STEP][PASSED] - comment: Alert Marked as Suspious
+
+2018-07-11 14:32:24 - [TEST_STEP][PASSED] - Statement - Alert_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-11 14:32:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180711_143031\\1531299744428.png]]
+
+2018-07-11 14:32:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 14:32:28 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 14:30:41 - [TEST_SUITE][PASSED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

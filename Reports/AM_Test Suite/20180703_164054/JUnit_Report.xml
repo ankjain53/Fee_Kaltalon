@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="57" tests="3" failures="0" errors="0">
+   <testsuite name="AM_Test Suite" tests="3" failures="0" errors="0" time="57" timestamp="2018-07-03 16:40:59" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_164054"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180703_164054\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="eea24be6364521e63bc77f23c7e50861"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-03 16:41:01 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-03 16:41:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 16:41:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 16:41:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-03 16:41:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 16:41:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 16:41:14 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-03 16:41:14 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-03 16:41:34 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-03 16:41:35 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 16:41:35 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-03 16:41:35 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 16:41:36 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-03 16:41:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 16:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-03 16:41:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 16:41:38 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID" status="PASSED">
+         <system-out><![CDATA[2018-07-03 16:41:38 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID
+
+2018-07-03 16:41:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 16:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_AM/a_Customer' is clicked on
+
+2018-07-03 16:41:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 16:41:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 16:41:41 - [TEST_STEP][PASSED] - setText: Text '1100231482' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 16:41:42 - [MESSAGE][PASSED] - Text '1100231482' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 16:41:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 16:41:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 16:41:44 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 16:41:44 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC08_AM/span_Customer'
+
+2018-07-03 16:41:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-03 16:41:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 16:41:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC08_AM/div_1100231482' are matched.
+
+2018-07-03 16:41:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC08_AM/div_1100231482' are matched.
+
+2018-07-03 16:41:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-03 16:41:52 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation" status="PASSED">
+         <system-out><![CDATA[2018-07-03 16:41:52 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation
+
+2018-07-03 16:41:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_AM/Cust_Detail' is clicked on
+
+2018-07-03 16:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_AM/Cust_Detail' is clicked on
+
+2018-07-03 16:41:55 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC08_AM/Cust_Detail)): Text of object 'Object Repository/TC08_AM/Cust_Detail' is: 'Customer Name
+XXX RESHMA SHETTY
+Customer ID
+1100231482
+Status
+Active
+Account Date
+19-02-2018 (4 months ago)
+Account Number
+1000000000281488
+KYC
+Low
+Account Upgrade Date
+Unknown
+Mobile Number
++919821370176
+Email
+Unknown
+Customer App ID
+420346fbb4ab3200_Samsung SM-G355H
+Customer Jio Money ID
+Unknown
+Customer Risk
+Unknown
+PIN Area (Zip Code)
+Unknown
+Address'
+
+2018-07-03 16:41:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC08_AM/Cust_Detail' is: 'Customer Name
+XXX RESHMA SHETTY
+Customer ID
+1100231482
+Status
+Active
+Account Date
+19-02-2018 (4 months ago)
+Account Number
+1000000000281488
+KYC
+Low
+Account Upgrade Date
+Unknown
+Mobile Number
++919821370176
+Email
+Unknown
+Customer App ID
+420346fbb4ab3200_Samsung SM-G355H
+Customer Jio Money ID
+Unknown
+Customer Risk
+Unknown
+PIN Area (Zip Code)
+Unknown
+Address'
+
+2018-07-03 16:41:55 - [TEST_STEP][PASSED] - Statement - If (text.contains("1100231482")): Customer Details Matched
+
+2018-07-03 16:41:55 - [TEST_STEP][PASSED] - comment: Customer Details Matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 16:40:59 - [TEST_SUITE][PASSED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

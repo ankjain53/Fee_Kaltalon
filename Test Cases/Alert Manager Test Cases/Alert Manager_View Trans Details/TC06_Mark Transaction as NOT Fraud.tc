@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Mark Transaction as NOT Fraud</name>
+   <tag></tag>
+   <comment>Transcation is Marked as Not Fraud
+Transcation status is verifed</comment>
+   <testCaseGuid>841e1b19-28c5-4728-b95c-2ece6e91a9e3</testCaseGuid>
+</TestCaseEntity>

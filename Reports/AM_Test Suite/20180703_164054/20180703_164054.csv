@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AM_Test Suite,Chrome 67.0.3396.99,,2018-07-03 16:40:59,2018-07-03 16:41:57,57.748s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Login,Chrome 67.0.3396.99,,2018-07-03 16:41:01,2018-07-03 16:41:38,37.433s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-03 16:41:02,2018-07-03 16:41:10,8.280s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-03 16:41:10,2018-07-03 16:41:11,1.229s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-03 16:41:11,2018-07-03 16:41:14,2.952s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 16:41:14,2018-07-03 16:41:34,20.089s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 16:41:35,2018-07-03 16:41:35,0.687s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 16:41:35,2018-07-03 16:41:36,0.571s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 16:41:36,2018-07-03 16:41:36,0.285s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 16:41:36,2018-07-03 16:41:38,2.006s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC09_Customer Search through Customer ID,Chrome 67.0.3396.99,,2018-07-03 16:41:38,2018-07-03 16:41:52,13.766s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 16:41:39,2018-07-03 16:41:39,0.408s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 16:41:39,2018-07-03 16:41:41,2.010s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 16:41:41,2018-07-03 16:41:42,0.558s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 16:41:42,2018-07-03 16:41:44,2.006s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 16:41:44,2018-07-03 16:41:44,0.693s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 16:41:44,2018-07-03 16:41:50,5.005s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-03 16:41:50,2018-07-03 16:41:50,0.329s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 16:41:50,2018-07-03 16:41:52,1.973s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC10_Customer Detail Validation,Chrome 67.0.3396.99,,2018-07-03 16:41:52,2018-07-03 16:41:55,3.559s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 16:41:54,2018-07-03 16:41:55,0.618s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TC08_AM/Cust_Detail)),Chrome 67.0.3396.99,,2018-07-03 16:41:55,2018-07-03 16:41:55,0.390s,PASSED
+"Statement - If (text.contains(""1100231482""))",Chrome 67.0.3396.99,,2018-07-03 16:41:55,2018-07-03 16:41:55,0.033s,PASSED

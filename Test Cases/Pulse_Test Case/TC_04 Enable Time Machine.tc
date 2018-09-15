@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_04 Enable Time Machine</name>
+   <tag></tag>
+   <comment>Time Machine is Enabled</comment>
+   <testCaseGuid>f44f0896-80f9-4ea2-b2f0-c55bcbd5c456</testCaseGuid>
+</TestCaseEntity>

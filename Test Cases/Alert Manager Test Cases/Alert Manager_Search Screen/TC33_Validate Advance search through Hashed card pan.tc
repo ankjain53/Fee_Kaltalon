@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC33_Validate Advance search through Hashed card pan</name>
+   <tag></tag>
+   <comment>Advance search through Hash Card is sucesfull</comment>
+   <testCaseGuid>006aa5d0-4454-460f-84d6-66c51c53d5f1</testCaseGuid>
+</TestCaseEntity>

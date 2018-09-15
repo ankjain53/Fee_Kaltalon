@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Suite" time="83" tests="0" failures="2" errors="0">
+   <testsuite name="New Suite" tests="0" failures="2" errors="0" time="83" timestamp="2018-07-05 12:28:45" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_122840"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_122840\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_122840\\1530773972516.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_122840\\1530774006732.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="4e73d0e851d268bd21245b0293507258"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Ankur.Jain' of object 'Object Repository/TC_24_AM/input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/input' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Username']' not found)"/>
+         <system-out><![CDATA[2018-07-05 12:28:46 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id FAILED because (of) Unable to set text 'Ankur.Jain' of object 'Object Repository/TC_24_AM/input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/input' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Username']' not found)
+
+2018-07-05 12:28:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 12:28:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 12:28:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-05 12:28:58 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-05 12:28:58 - [TEST_STEP][FAILED] - setText: Unable to set text 'Ankur.Jain' of object 'Object Repository/TC_24_AM/input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/input' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Username']' not found)
+
+2018-07-05 12:29:33 - [MESSAGE][FAILED] - Unable to set text 'Ankur.Jain' of object 'Object Repository/TC_24_AM/input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/input' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Username']' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_122840\\1530773972516.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-05 12:28:46 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id FAILED because (of) Unable to set text 'Ankur.Jain' of object 'Object Repository/TC_24_AM/input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/input' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Username']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC25_Validate Advance search through Merchant id" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC25_Validate Advance search through Merchant id" status="FAILED">
+         <failure type="FAILED" message="Unable to clear text of object 'Object Repository/TC_24_AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Date_input' located by 'By.xpath: //input[@id='fdz-form-date-time']' not found)"/>
+         <system-out><![CDATA[2018-07-05 12:29:33 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC25_Validate Advance search through Merchant id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC25_Validate Advance search through Merchant id FAILED because (of) Unable to clear text of object 'Object Repository/TC_24_AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Date_input' located by 'By.xpath: //input[@id='fdz-form-date-time']' not found)
+
+2018-07-05 12:29:34 - [TEST_STEP][FAILED] - clearText: Unable to clear text of object 'Object Repository/TC_24_AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Date_input' located by 'By.xpath: //input[@id='fdz-form-date-time']' not found)
+
+2018-07-05 12:30:07 - [MESSAGE][FAILED] - Unable to clear text of object 'Object Repository/TC_24_AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Date_input' located by 'By.xpath: //input[@id='fdz-form-date-time']' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_122840\\1530774006732.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-05 12:29:33 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC25_Validate Advance search through Merchant id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC25_Validate Advance search through Merchant id FAILED because (of) Unable to clear text of object 'Object Repository/TC_24_AM/Date_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Date_input' located by 'By.xpath: //input[@id='fdz-form-date-time']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 12:28:45 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id FAILED because (of) Unable to set text 'Ankur.Jain' of object 'Object Repository/TC_24_AM/input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/input' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Username']' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-05 12:28:45 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id FAILED because (of) Unable to set text 'Ankur.Jain' of object 'Object Repository/TC_24_AM/input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/input' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Username']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

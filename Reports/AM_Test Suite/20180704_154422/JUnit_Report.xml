@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="114" tests="2" failures="1" errors="0">
+   <testsuite name="AM_Test Suite" tests="2" failures="1" errors="0" time="114" timestamp="2018-07-04 15:44:30" hostname="Ankur.Jain - LT0021232" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_154422"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_154422\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_154422\\1530699372481.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_154422\\1530699382204.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="c24e83d52b098e969e8b37fefb8fc148"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-04 15:44:31 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-04 15:44:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 15:44:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 15:44:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 15:44:46 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 15:44:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 15:44:54 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 15:44:54 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-04 15:45:14 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-04 15:45:14 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 15:45:20 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 15:45:20 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 15:45:21 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 15:45:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 15:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 15:45:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:45:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:45:23 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo" classname="Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/TC_19_AM/Merchant_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_19_AM/Merchant_Details' located by 'By.xpath: ' not found)"/>
+         <system-out><![CDATA[2018-07-04 15:45:24 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo: Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo FAILED because (of) Unable to get text of object 'Object Repository/TC_19_AM/Merchant_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_19_AM/Merchant_Details' located by 'By.xpath: ' not found)
+
+2018-07-04 15:45:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_19_AM/Merchant_icon' is clicked on
+
+2018-07-04 15:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_19_AM/Merchant_icon' is clicked on
+
+2018-07-04 15:45:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:45:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:45:27 - [TEST_STEP][PASSED] - setText: Text '+918899550000' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:45:28 - [MESSAGE][PASSED] - Text '+918899550000' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:45:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:45:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:45:30 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:45:31 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:45:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:45:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:45:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC_19_AM/Merchant_MobileNo_Validation' are matched.
+
+2018-07-04 15:45:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_19_AM/Merchant_MobileNo_Validation' are matched.
+
+2018-07-04 15:45:39 - [TEST_STEP][FAILED] - getText: Unable to get text of object 'Object Repository/TC_19_AM/Merchant_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_19_AM/Merchant_Details' located by 'By.xpath: ' not found)
+
+2018-07-04 15:46:13 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/TC_19_AM/Merchant_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_19_AM/Merchant_Details' located by 'By.xpath: ' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_154422\\1530699372481.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-04 15:45:24 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo: Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo FAILED because (of) Unable to get text of object 'Object Repository/TC_19_AM/Merchant_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_19_AM/Merchant_Details' located by 'By.xpath: ' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID" classname="Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID" status="PASSED">
+         <system-out><![CDATA[2018-07-04 15:46:13 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID: Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC20_Validation of Enter Merchant MID
+
+2018-07-04 15:46:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_19_AM/Merchant_icon' is clicked on
+
+2018-07-04 15:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_19_AM/Merchant_icon' is clicked on
+
+2018-07-04 15:46:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:46:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:46:16 - [TEST_STEP][PASSED] - setText: Text '100001000127962' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:46:17 - [MESSAGE][PASSED] - Text '100001000127962' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:46:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:46:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:46:19 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:46:19 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC_19_AM/Merchant_Inputbox'
+
+2018-07-04 15:46:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 15:46:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 15:46:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC_19_AM/Merchant_id_Validation' are matched.
+
+2018-07-04 15:46:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_19_AM/Merchant_id_Validation' are matched.
+
+2018-07-04 15:46:22 - [TEST_STEP][PASSED] - comment: Merchant Search through id is validated
+
+2018-07-04 15:46:22 - [TEST_STEP][PASSED] - Statement - Merchant_Search_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 15:46:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_154422\\1530699382204.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 15:44:30 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo FAILED because (of) Unable to get text of object 'Object Repository/TC_19_AM/Merchant_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_19_AM/Merchant_Details' located by 'By.xpath: ' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-04 15:44:30 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Merchant Search Home Screen/TC19_Validation of Enter MerchantNo FAILED because (of) Unable to get text of object 'Object Repository/TC_19_AM/Merchant_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_19_AM/Merchant_Details' located by 'By.xpath: ' not found)]]></system-err>
+   </testsuite>
+</testsuites>

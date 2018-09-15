@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC28_Validate Advance search through customer phone number</name>
+   <tag></tag>
+   <comment>Customer Details through phone no is Displayed</comment>
+   <testCaseGuid>bf798b8b-cd13-4b2f-8388-7a8b4391b61e</testCaseGuid>
+</TestCaseEntity>

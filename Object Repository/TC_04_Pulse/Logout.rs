@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Logout</name>
+   <tag></tag>
+   <elementGuidId>c4e5c533-e516-4f9f-a296-675280700ad0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;fdz-js-lang-en-US&quot;]/div[@class=&quot;fdz-js-pulse-management fdz-css-pulse-management&quot;]/div[@class=&quot;fdz-js-pulse-header fdz-css-pulse-header&quot;]/header[@class=&quot;center-container&quot;]/div[@class=&quot;fdz-js-pulse-center-column fdz-css-pulse-center-column&quot;]/div[@class=&quot;fdz-css-header-options&quot;]/div[@class=&quot;row-fluid&quot;]/div[@class=&quot;header-right span6&quot;]/ul[@class=&quot;nav pull-right&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;dropdown-toggle&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>dropdown</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hello Ankur.Jain</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;fdz-js-lang-en-US&quot;]/div[@class=&quot;fdz-js-pulse-management fdz-css-pulse-management&quot;]/div[@class=&quot;fdz-js-pulse-header fdz-css-pulse-header&quot;]/header[@class=&quot;center-container&quot;]/div[@class=&quot;fdz-js-pulse-center-column fdz-css-pulse-center-column&quot;]/div[@class=&quot;fdz-css-header-options&quot;]/div[@class=&quot;row-fluid&quot;]/div[@class=&quot;header-right span6&quot;]/ul[@class=&quot;nav pull-right&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;dropdown-toggle&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

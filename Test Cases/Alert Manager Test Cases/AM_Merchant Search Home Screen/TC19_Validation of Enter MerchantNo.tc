@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19_Validation of Enter MerchantNo</name>
+   <tag></tag>
+   <comment>Merchant Search through Mobile No is validated</comment>
+   <testCaseGuid>ab73152e-f9d2-468d-acff-b98608fe9bcc</testCaseGuid>
+</TestCaseEntity>

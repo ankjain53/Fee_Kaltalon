@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Suite" time="123" tests="1" failures="1" errors="0">
+   <testsuite name="New Suite" tests="1" failures="1" errors="0" time="123" timestamp="2018-07-05 17:23:18" hostname="Ankur.Jain - LT0021232" id="Test Suites/New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308\\1530791646482.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308\\1530791683941.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308\\1530791719223.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308\\1530791719754.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="277b7d86c7c4fe11c0eb12980867972b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id" status="PASSED">
+         <system-out><![CDATA[2018-07-05 17:23:19 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id
+
+2018-07-05 17:23:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 17:23:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 17:23:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-05 17:23:34 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-05 17:23:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 17:23:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 17:23:36 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_24_AM/input'
+
+2018-07-05 17:23:51 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_24_AM/input'
+
+2018-07-05 17:23:51 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 17:23:51 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 17:23:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 17:23:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 17:23:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/span_Search' is clicked on
+
+2018-07-05 17:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/span_Search' is clicked on
+
+2018-07-05 17:23:52 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 17:23:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 17:23:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 17:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 17:23:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 17:23:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 17:23:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 17:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 17:23:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/ul_Customer Id' is clicked on
+
+2018-07-05 17:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/ul_Customer Id' is clicked on
+
+2018-07-05 17:23:56 - [TEST_STEP][PASSED] - setText: Text '1100243850' is set on object 'Object Repository/TC_24_AM/input_s2id_autogen7'
+
+2018-07-05 17:23:59 - [MESSAGE][PASSED] - Text '1100243850' is set on object 'Object Repository/TC_24_AM/input_s2id_autogen7'
+
+2018-07-05 17:23:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 17:24:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 17:24:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_s2id_autogen7'
+
+2018-07-05 17:24:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_s2id_autogen7'
+
+2018-07-05 17:24:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 17:24:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 17:24:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Search' is clicked on
+
+2018-07-05 17:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Search' is clicked on
+
+2018-07-05 17:24:04 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_24_AM/Cust_Details' is: '15-05-2018 15:18:53 2812 3206 0077 6096 1,000.00 1100243850 1100243850 N/A no LMW 28 00 0 Unassigned Not Fraud
+15-05-2018 15:21:59 2812 3206 0077 6096 5.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:23:34 2812 3206 0077 6096 6.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:24:40 2812 3206 0077 6096 4.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:25:57 2812 3200 0000 0000 1.00 1100243850 N/A 5999 no WPP 0 05 1 Customer Pending
+15-05-2018 15:33:13 2812 3206 0077 6096 6.00 1100243850 1100243850 5999 no WRO 20 00 0 Unassigned Not Fraud
+15-05-2018 15:35:00 2812 3206 0077 6096 6.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:36:21 2812 3200 0000 0000 1.00 1100243850 N/A 5999 no WPP 0 05 1 Customer Pending
+15-06-2018 12:35:16 NA 2.00 1100243850 N/A 5999 no WPP 0 05 0 Unassigned Not Fraud
+15-06-2018 12:38:04 1000 00XX XXXX 3645 2.00 1100243850 N/A 5999 no WPP 0 00 1 Unassigned Pending'
+
+2018-07-05 17:24:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Cust_Details' is: '15-05-2018 15:18:53 2812 3206 0077 6096 1,000.00 1100243850 1100243850 N/A no LMW 28 00 0 Unassigned Not Fraud
+15-05-2018 15:21:59 2812 3206 0077 6096 5.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:23:34 2812 3206 0077 6096 6.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:24:40 2812 3206 0077 6096 4.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:25:57 2812 3200 0000 0000 1.00 1100243850 N/A 5999 no WPP 0 05 1 Customer Pending
+15-05-2018 15:33:13 2812 3206 0077 6096 6.00 1100243850 1100243850 5999 no WRO 20 00 0 Unassigned Not Fraud
+15-05-2018 15:35:00 2812 3206 0077 6096 6.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:36:21 2812 3200 0000 0000 1.00 1100243850 N/A 5999 no WPP 0 05 1 Customer Pending
+15-06-2018 12:35:16 NA 2.00 1100243850 N/A 5999 no WPP 0 05 0 Unassigned Not Fraud
+15-06-2018 12:38:04 1000 00XX XXXX 3645 2.00 1100243850 N/A 5999 no WPP 0 00 1 Unassigned Pending'
+
+2018-07-05 17:24:06 - [TEST_STEP][PASSED] - comment: Customer Details Displayed
+
+2018-07-05 17:24:06 - [TEST_STEP][PASSED] - Statement - Customer_Details = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-05 17:24:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308\\1530791646482.png]]
+
+2018-07-05 17:24:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC_24_AM/Cust_id_Validation' are matched.
+
+2018-07-05 17:24:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_24_AM/Cust_id_Validation' are matched.
+
+2018-07-05 17:24:07 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-07-05 17:24:07 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-07-05 17:24:07 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2018-07-05 17:24:19 - [MESSAGE][PASSED] - Delayed 12 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/TC_24_AM/Cust_AppId_Valid' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Cust_AppId_Valid' located by 'By.xpath: ' not found)"/>
+         <system-out><![CDATA[2018-07-05 17:24:19 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID FAILED because (of) Verify element text of test object 'Object Repository/TC_24_AM/Cust_AppId_Valid' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Cust_AppId_Valid' located by 'By.xpath: ' not found)
+
+2018-07-05 17:24:20 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 17:24:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 17:24:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 17:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 17:24:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 17:24:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 17:24:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 17:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 17:24:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 17:24:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 17:24:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Click_CustAppid' is clicked on
+
+2018-07-05 17:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Click_CustAppid' is clicked on
+
+2018-07-05 17:24:35 - [TEST_STEP][PASSED] - setText: Text 'LS5501_LYF LS-5501' is set on object 'Object Repository/TC_24_AM/input_CustAppid'
+
+2018-07-05 17:24:37 - [MESSAGE][PASSED] - Text 'LS5501_LYF LS-5501' is set on object 'Object Repository/TC_24_AM/input_CustAppid'
+
+2018-07-05 17:24:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 17:24:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 17:24:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_CustAppid'
+
+2018-07-05 17:24:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_CustAppid'
+
+2018-07-05 17:24:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 17:24:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 17:24:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Search' is clicked on
+
+2018-07-05 17:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Search' is clicked on
+
+2018-07-05 17:24:42 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_24_AM/Cust_Details' is: '04-03-2017 22:49:22 2812 3200 1444 9884 1.00 1100022231 100001000023651 8398 no P2M 18 00 0 Unassigned Not Fraud
+14-03-2017 16:38:32 2812 3201 2953 4158 1.00 1100020710 100001000017914 5732 no P2M 18 05 1 Customer Pending
+14-03-2017 17:43:41 2812 3201 2953 4158 10.00 1100020710 100001000020399 7011 no P2M 18 05 1 Customer Pending
+16-03-2017 11:13:14 2812 3201 2953 4158 1.00 1100020710 100001000020399 7011 no P2M 18 00 0 Unassigned Not Fraud
+17-03-2017 14:21:01 2812 3201 2953 4158 15,000.00 1100020710 1100020710 N/A no LMW 28 05 0 Unassigned Not Fraud
+17-03-2017 14:21:16 2812 3201 2953 4158 15,000.00 1100020710 1100020710 N/A no LMW 28 00 0 Unassigned Not Fraud
+17-03-2017 14:45:00 2812 3201 2953 4158 15,000.00 1100020710 1100020710 N/A no LMW 28 05 0 Unassigned Not Fraud
+20-03-2017 11:55:46 2812 3206 0032 6843 1.00 1100059298 1100059298 N/A no PDW 47 00 0 Unassigned Not Fraud
+20-03-2017 11:56:05 2812 3206 0032 6843 1.00 1100059298 1100059298 N/A no PDW 47 00 0 Unassigned Not Fraud
+20-03-2017 15:55:06 2812 3206 0032 6843 1.00 1100059298 1100059298 N/A no PDW 47 00 0 Unassigned Not Fraud'
+
+2018-07-05 17:24:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Cust_Details' is: '04-03-2017 22:49:22 2812 3200 1444 9884 1.00 1100022231 100001000023651 8398 no P2M 18 00 0 Unassigned Not Fraud
+14-03-2017 16:38:32 2812 3201 2953 4158 1.00 1100020710 100001000017914 5732 no P2M 18 05 1 Customer Pending
+14-03-2017 17:43:41 2812 3201 2953 4158 10.00 1100020710 100001000020399 7011 no P2M 18 05 1 Customer Pending
+16-03-2017 11:13:14 2812 3201 2953 4158 1.00 1100020710 100001000020399 7011 no P2M 18 00 0 Unassigned Not Fraud
+17-03-2017 14:21:01 2812 3201 2953 4158 15,000.00 1100020710 1100020710 N/A no LMW 28 05 0 Unassigned Not Fraud
+17-03-2017 14:21:16 2812 3201 2953 4158 15,000.00 1100020710 1100020710 N/A no LMW 28 00 0 Unassigned Not Fraud
+17-03-2017 14:45:00 2812 3201 2953 4158 15,000.00 1100020710 1100020710 N/A no LMW 28 05 0 Unassigned Not Fraud
+20-03-2017 11:55:46 2812 3206 0032 6843 1.00 1100059298 1100059298 N/A no PDW 47 00 0 Unassigned Not Fraud
+20-03-2017 11:56:05 2812 3206 0032 6843 1.00 1100059298 1100059298 N/A no PDW 47 00 0 Unassigned Not Fraud
+20-03-2017 15:55:06 2812 3206 0032 6843 1.00 1100059298 1100059298 N/A no PDW 47 00 0 Unassigned Not Fraud'
+
+2018-07-05 17:24:43 - [TEST_STEP][PASSED] - comment: Advance search through Customer App id is sucesfull
+
+2018-07-05 17:24:43 - [TEST_STEP][PASSED] - Statement - Customer_App_id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-05 17:24:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308\\1530791683941.png]]
+
+2018-07-05 17:24:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Trans_Details' is clicked on
+
+2018-07-05 17:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Trans_Details' is clicked on
+
+2018-07-05 17:24:44 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/TC_24_AM/Cust_AppId_Valid' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Cust_AppId_Valid' located by 'By.xpath: ' not found)
+
+2018-07-05 17:25:19 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Cust_AppId_Valid' located by 'By.xpath: ' not found
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308\\1530791719223.png]]
+
+2018-07-05 17:25:20 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TC_24_AM/Cust_AppId_Valid' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Cust_AppId_Valid' located by 'By.xpath: ' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_172308\\1530791719754.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-05 17:24:19 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID FAILED because (of) Verify element text of test object 'Object Repository/TC_24_AM/Cust_AppId_Valid' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Cust_AppId_Valid' located by 'By.xpath: ' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 17:23:18 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID FAILED because (of) Verify element text of test object 'Object Repository/TC_24_AM/Cust_AppId_Valid' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Cust_AppId_Valid' located by 'By.xpath: ' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-05 17:23:18 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC34_Validate Advance search through Customer App ID FAILED because (of) Verify element text of test object 'Object Repository/TC_24_AM/Cust_AppId_Valid' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_24_AM/Cust_AppId_Valid' located by 'By.xpath: ' not found)]]></system-err>
+   </testsuite>
+</testsuites>

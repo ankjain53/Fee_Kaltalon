@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_1</name>
+   <tag></tag>
+   <elementGuidId>f8301131-9629-450e-bb37-ddd14340fe26</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;fdz-js-lang-en-US&quot;]/div[10]/div[@class=&quot;fdz-js-login-page fdz-css-login-page&quot;]/div[@class=&quot;fdz-js-highlight-box fdz-css-highlight-box&quot;]/form[@class=&quot;fdz-js-login-container fdz-css-login-container form&quot;]/fieldset[1]/div[@class=&quot;control-group&quot;]/div[@class=&quot;controls input-password&quot;]/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

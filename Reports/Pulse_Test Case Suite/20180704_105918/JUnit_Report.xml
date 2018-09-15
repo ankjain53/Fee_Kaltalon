@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pulse_Test Case Suite" time="149" tests="3" failures="2" errors="0">
+   <testsuite name="Pulse_Test Case Suite" tests="3" failures="2" errors="0" time="149" timestamp="2018-07-04 10:59:27" hostname="Ankur.Jain - LT0021232" id="Test Suites/Pulse_Test Case Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_105918"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_105918\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_105918\\1530682279681.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="4f6d98452ea97bb9b75ec3f308e368a1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Pulse Login Test Case/Login_Pulse" classname="Test Cases/Pulse Login Test Case/Login_Pulse" status="PASSED">
+         <system-out><![CDATA[2018-07-04 10:59:28 - [TEST_CASE][PASSED] - Test Cases/Pulse Login Test Case/Login_Pulse: Test Cases/Pulse Login Test Case/Login_Pulse
+
+2018-07-04 10:59:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 11:00:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 11:00:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 11:00:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 11:00:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.50/pulseviews/management/#apps/reliance/dataconfiguration' successfully
+
+2018-07-04 11:00:23 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.50/pulseviews/management/#apps/reliance/dataconfiguration' successfully
+
+2018-07-04 11:00:23 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/Pulse_Login/input'
+
+2018-07-04 11:00:37 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/Pulse_Login/input'
+
+2018-07-04 11:00:37 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/Pulse_Login/input_1'
+
+2018-07-04 11:00:37 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/Pulse_Login/input_1'
+
+2018-07-04 11:00:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Pulse_Login/button_Sign In' is clicked on
+
+2018-07-04 11:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Pulse_Login/button_Sign In' is clicked on
+
+2018-07-04 11:00:37 - [TEST_STEP][PASSED] - comment: Pulse Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck" classname="Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck" status="PASSED">
+         <system-out><![CDATA[2018-07-04 11:00:37 - [TEST_CASE][PASSED] - Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck: Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck
+
+2018-07-04 11:00:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Pulse_Login/i_icon-tab-application-32' is clicked on
+
+2018-07-04 11:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pulse_Login/i_icon-tab-application-32' is clicked on
+
+2018-07-04 11:00:41 - [TEST_STEP][PASSED] - getAttribute: Attribute '' of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: 'null'
+
+2018-07-04 11:00:41 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: 'null'
+
+2018-07-04 11:00:41 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: ''
+
+2018-07-04 11:00:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: ''
+
+2018-07-04 11:00:42 - [TEST_STEP][PASSED] - comment: Feedzai Pulse application is up and running]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_02 Pulse Version check" classname="Test Cases/Pulse_Test Case/TC_02 Pulse Version check" status="PASSED">
+         <system-out><![CDATA[2018-07-04 11:00:42 - [TEST_CASE][PASSED] - Test Cases/Pulse_Test Case/TC_02 Pulse Version check: Test Cases/Pulse_Test Case/TC_02 Pulse Version check
+
+2018-07-04 11:00:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Pulse_Login/span_Reliance (Fraud)' is clicked on
+
+2018-07-04 11:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Pulse_Login/span_Reliance (Fraud)' is clicked on
+
+2018-07-04 11:00:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Pulse_Login/span_15.1' are matched.
+
+2018-07-04 11:00:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pulse_Login/span_15.1' are matched.
+
+2018-07-04 11:00:44 - [TEST_STEP][PASSED] - comment: Pulse Application version is "15.1"]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status" classname="Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g' and @title = 'Reliance Profile Generation - At 0:00 AM (5)' and (text() = 'Reliance Profile Generation - At 0:00 AM (5)' or . = 'Reliance Profile Generation - At 0:00 AM (5)')]' not found)"/>
+         <system-out><![CDATA[2018-07-04 11:00:44 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g' and @title = 'Reliance Profile Generation - At 0:00 AM (5)' and (text() = 'Reliance Profile Generation - At 0:00 AM (5)' or . = 'Reliance Profile Generation - At 0:00 AM (5)')]' not found)
+
+2018-07-04 11:00:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' is clicked on
+
+2018-07-04 11:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' is clicked on
+
+2018-07-04 11:00:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_03_Pulse/i_icon-tab-jobs-32' is clicked on
+
+2018-07-04 11:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_03_Pulse/i_icon-tab-jobs-32' is clicked on
+
+2018-07-04 11:00:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g' and @title = 'Reliance Profile Generation - At 0:00 AM (5)' and (text() = 'Reliance Profile Generation - At 0:00 AM (5)' or . = 'Reliance Profile Generation - At 0:00 AM (5)')]' not found)
+
+2018-07-04 11:01:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g' and @title = 'Reliance Profile Generation - At 0:00 AM (5)' and (text() = 'Reliance Profile Generation - At 0:00 AM (5)' or . = 'Reliance Profile Generation - At 0:00 AM (5)')]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_105918\\1530682279681.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-04 11:00:44 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g' and @title = 'Reliance Profile Generation - At 0:00 AM (5)' and (text() = 'Reliance Profile Generation - At 0:00 AM (5)' or . = 'Reliance Profile Generation - At 0:00 AM (5)')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_04 Enable Time Machine" classname="Test Cases/Pulse_Test Case/TC_04 Enable Time Machine" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 4f6d98452ea97bb9b75ec3f308e368a1
+*** Element info: {Using=xpath, value=id(&quot;reliance&quot;)/div[1]/div[@class=&quot;fdz-js-pulse-center-column fdz-css-pulse-center-column&quot;]/div[@class=&quot;main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container&quot;]/div[@class=&quot;app-dataconfiguration-tab fdz-css-app-dataconfiguration-tab fdz-js-app-dataconfiguration-tab&quot;]/div[1]/div[@class=&quot;dependenciesListContainer&quot;]/div[1]/div[@class=&quot;fdz-js-list-and-pagination-container&quot;]/div[@class=&quot;pageableListViewPaginationControls&quot;]/span[@class=&quot;pagination-controls-indexes&quot;]/span[@class=&quot;pagination-controls-after&quot;]/button[@class=&quot;pagination-controls-index&quot;][count(. | //button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')]) = count(//button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')])]})"/>
+         <system-out><![CDATA[2018-07-04 11:01:21 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_04 Enable Time Machine: Test Cases/Pulse_Test Case/TC_04 Enable Time Machine FAILED because (of) Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 4f6d98452ea97bb9b75ec3f308e368a1
+*** Element info: {Using=xpath, value=id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-dataconfiguration-tab fdz-css-app-dataconfiguration-tab fdz-js-app-dataconfiguration-tab"]/div[1]/div[@class="dependenciesListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="pageableListViewPaginationControls"]/span[@class="pagination-controls-indexes"]/span[@class="pagination-controls-after"]/button[@class="pagination-controls-index"][count(. | //button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')]) = count(//button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')])]})
+
+2018-07-04 11:01:21 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 4f6d98452ea97bb9b75ec3f308e368a1
+*** Element info: {Using=xpath, value=id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-dataconfiguration-tab fdz-css-app-dataconfiguration-tab fdz-js-app-dataconfiguration-tab"]/div[1]/div[@class="dependenciesListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="pageableListViewPaginationControls"]/span[@class="pagination-controls-indexes"]/span[@class="pagination-controls-after"]/button[@class="pagination-controls-index"][count(. | //button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')]) = count(//button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')])]})
+
+2018-07-04 11:01:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 11:01:55 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-04 11:01:55 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 4f6d98452ea97bb9b75ec3f308e368a1
+*** Element info: {Using=xpath, value=id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-dataconfiguration-tab fdz-css-app-dataconfiguration-tab fdz-js-app-dataconfiguration-tab"]/div[1]/div[@class="dependenciesListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="pageableListViewPaginationControls"]/span[@class="pagination-controls-indexes"]/span[@class="pagination-controls-after"]/button[@class="pagination-controls-index"][count(. | //button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')]) = count(//button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')])]})]]></system-out>
+         <system-err><![CDATA[2018-07-04 11:01:21 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_04 Enable Time Machine: Test Cases/Pulse_Test Case/TC_04 Enable Time Machine FAILED because (of) Unable to scroll to object 'Object Repository/TC_04_Pulse/button_2' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 4f6d98452ea97bb9b75ec3f308e368a1
+*** Element info: {Using=xpath, value=id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-dataconfiguration-tab fdz-css-app-dataconfiguration-tab fdz-js-app-dataconfiguration-tab"]/div[1]/div[@class="dependenciesListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="pageableListViewPaginationControls"]/span[@class="pagination-controls-indexes"]/span[@class="pagination-controls-after"]/button[@class="pagination-controls-index"][count(. | //button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')]) = count(//button[@type = 'button' and @title = 'Go to page 2' and (text() = '2' or . = '2')])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 10:59:27 - [TEST_SUITE][FAILED] - Pulse_Test Case Suite: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g' and @title = 'Reliance Profile Generation - At 0:00 AM (5)' and (text() = 'Reliance Profile Generation - At 0:00 AM (5)' or . = 'Reliance Profile Generation - At 0:00 AM (5)')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-04 10:59:27 - [TEST_SUITE][FAILED] - Pulse_Test Case Suite: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g' and @title = 'Reliance Profile Generation - At 0:00 AM (5)' and (text() = 'Reliance Profile Generation - At 0:00 AM (5)' or . = 'Reliance Profile Generation - At 0:00 AM (5)')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

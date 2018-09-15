@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC26_Validate Advance search through channel</name>
+   <tag></tag>
+   <comment>P2M Details Displayed</comment>
+   <testCaseGuid>c451746c-d3ed-41dd-aabb-62c3edaed53d</testCaseGuid>
+</TestCaseEntity>

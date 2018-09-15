@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Suite" time="152" tests="4" failures="0" errors="0">
+   <testsuite name="New Suite" tests="4" failures="0" errors="0" time="152" timestamp="2018-07-09 15:04:31" hostname="Ankur.Jain - LT0021232" id="Test Suites/New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408\\1531128920663.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408\\1531128956498.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408\\1531128984606.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408\\1531129014359.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.85"/>
+         <property name="sessionId" value="f1acea7ed94b53d6b270070e9c7d7da5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC43_JPB Advanced Search Sender PAN" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC43_JPB Advanced Search Sender PAN" status="PASSED">
+         <system-out><![CDATA[2018-07-09 15:04:33 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC43_JPB Advanced Search Sender PAN: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC43_JPB Advanced Search Sender PAN
+
+2018-07-09 15:04:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-09 15:04:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 15:04:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-09 15:04:52 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-09 15:04:52 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-09 15:04:53 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 15:04:53 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_24_36 AM/input'
+
+2018-07-09 15:05:03 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_24_36 AM/input'
+
+2018-07-09 15:05:03 - [TEST_STEP][PASSED] - setText: Text 'Word03Pass' is set on object 'Object Repository/TC_24_36 AM/input_1'
+
+2018-07-09 15:05:03 - [MESSAGE][PASSED] - Text 'Word03Pass' is set on object 'Object Repository/TC_24_36 AM/input_1'
+
+2018-07-09 15:05:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_36 AM/input_1'
+
+2018-07-09 15:05:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_36 AM/input_1'
+
+2018-07-09 15:05:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/span_Search' is clicked on
+
+2018-07-09 15:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/span_Search' is clicked on
+
+2018-07-09 15:05:05 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_36 AM/Date_input' is cleared
+
+2018-07-09 15:05:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_36 AM/Date_input' is cleared
+
+2018-07-09 15:05:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/Done_Button' is clicked on
+
+2018-07-09 15:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/Done_Button' is clicked on
+
+2018-07-09 15:05:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-09 15:05:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 15:05:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/button_Advanced Search' is clicked on
+
+2018-07-09 15:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/button_Advanced Search' is clicked on
+
+2018-07-09 15:05:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/ClickSenderPAN' is clicked on
+
+2018-07-09 15:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/ClickSenderPAN' is clicked on
+
+2018-07-09 15:05:08 - [TEST_STEP][PASSED] - setText: Text '3000 0001 0323 26' is set on object 'Object Repository/TC_24_36 AM/input_SenderPAN'
+
+2018-07-09 15:05:09 - [MESSAGE][PASSED] - Text '3000 0001 0323 26' is set on object 'Object Repository/TC_24_36 AM/input_SenderPAN'
+
+2018-07-09 15:05:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-09 15:05:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 15:05:11 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_36 AM/input_SenderPAN'
+
+2018-07-09 15:05:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_36 AM/input_SenderPAN'
+
+2018-07-09 15:05:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-09 15:05:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 15:05:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/button_Search' is clicked on
+
+2018-07-09 15:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/button_Search' is clicked on
+
+2018-07-09 15:05:14 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_24_36 AM/Cust_Details' is: '18-05-2018 11:54:36 6078 8406 0000 1658 251.00 4000000075 JIO CRICKET SEASON PACK N/A no UBW 42 00 1 Customer Pending
+24-05-2018 12:42:41 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:43:45 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:43:47 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:43:55 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:46:59 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:51:54 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:58:05 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:58:11 3000 0001 0323 26 10.00 Unknown N/A N/A no 01-7171 1 57 0 Unassigned Not Fraud
+24-05-2018 13:01:54 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud'
+
+2018-07-09 15:05:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_36 AM/Cust_Details' is: '18-05-2018 11:54:36 6078 8406 0000 1658 251.00 4000000075 JIO CRICKET SEASON PACK N/A no UBW 42 00 1 Customer Pending
+24-05-2018 12:42:41 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:43:45 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:43:47 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:43:55 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:46:59 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:51:54 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:58:05 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud
+24-05-2018 12:58:11 3000 0001 0323 26 10.00 Unknown N/A N/A no 01-7171 1 57 0 Unassigned Not Fraud
+24-05-2018 13:01:54 3000 0001 0323 26 1.00 300035992 N/A N/A no P1W 47 57 0 Unassigned Not Fraud'
+
+2018-07-09 15:05:20 - [TEST_STEP][PASSED] - comment: JPB Advance Search through Sender PAN is sucesfull
+
+2018-07-09 15:05:20 - [TEST_STEP][PASSED] - Statement - AdvanceSearch_SenderPAN = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-09 15:05:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408\\1531128920663.png]]
+
+2018-07-09 15:05:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC43_AM/Sender_PAN_JPB_Validation' are matched.
+
+2018-07-09 15:05:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC43_AM/Sender_PAN_JPB_Validation' are matched.
+
+2018-07-09 15:05:21 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-07-09 15:05:22 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-07-09 15:05:22 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2018-07-09 15:05:34 - [MESSAGE][PASSED] - Delayed 12 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC44_JPB Advanced Search Beneficiary PAN" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC44_JPB Advanced Search Beneficiary PAN" status="PASSED">
+         <system-out><![CDATA[2018-07-09 15:05:34 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC44_JPB Advanced Search Beneficiary PAN: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC44_JPB Advanced Search Beneficiary PAN
+
+2018-07-09 15:05:34 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_36 AM/Date_input' is cleared
+
+2018-07-09 15:05:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_36 AM/Date_input' is cleared
+
+2018-07-09 15:05:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/Done_Button' is clicked on
+
+2018-07-09 15:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/Done_Button' is clicked on
+
+2018-07-09 15:05:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 15:05:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 15:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/button_Advanced Search' is clicked on
+
+2018-07-09 15:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/button_Advanced Search' is clicked on
+
+2018-07-09 15:05:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-09 15:05:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 15:05:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC43_AM/Input_Ben_PAN' is clicked on
+
+2018-07-09 15:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC43_AM/Input_Ben_PAN' is clicked on
+
+2018-07-09 15:05:43 - [TEST_STEP][PASSED] - setText: Text '116050101014' is set on object 'Object Repository/TC43_AM/Input_Ben_PAN'
+
+2018-07-09 15:05:44 - [MESSAGE][PASSED] - Text '116050101014' is set on object 'Object Repository/TC43_AM/Input_Ben_PAN'
+
+2018-07-09 15:05:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 15:05:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 15:05:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC43_AM/Input_Ben_PAN'
+
+2018-07-09 15:05:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC43_AM/Input_Ben_PAN'
+
+2018-07-09 15:05:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 15:05:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 15:05:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/button_Search' is clicked on
+
+2018-07-09 15:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/button_Search' is clicked on
+
+2018-07-09 15:05:55 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_24_36 AM/Cust_Details' is: '17-11-2017 15:49:14 7011 0000 0000 16 1.00 Unknown 116050101014 N/A no 45-3132 45 57 0 Unassigned Not Fraud
+28-11-2017 16:53:42 7011 0000 0000 16 1.00 Unknown 116050101014 N/A no 45-3132 45 57 0 Unassigned Not Fraud
+28-11-2017 16:53:54 1011 0000 0008 15 1.00 Unknown 116050101014 N/A no 45-3132 45 96 0 Unassigned Not Fraud
+28-11-2017 16:54:03 5011 0000 0019 20 1.00 Unknown 116050101014 N/A no 45-3132 45 05 0 Unassigned Not Fraud
+28-11-2017 16:54:24 5011 0000 0019 20 1.00 Unknown 116050101014 N/A no 45-3132 45 05 0 Unassigned Not Fraud
+12-12-2017 15:32:05 5000 0000 0102 36 1.00 Unknown 116050101014 N/A no 45-3132 45 00 0 Unassigned Not Fraud
+12-12-2017 15:32:08 5000 0000 0102 36 10.00 Unknown 116050101014 N/A no 46-3132 46 00 0 Unassigned Not Fraud
+12-12-2017 15:32:20 3000 0000 9154 70 1.00 Unknown 116050101014 N/A no 45-3132 45 57 0 Unassigned Not Fraud
+12-12-2017 15:32:21 3000 0000 9154 70 10.00 Unknown 116050101014 N/A no 46-3132 46 00 0 Unassigned Not Fraud
+12-12-2017 15:32:34 1011 0000 0029 15 1.00 Unknown 116050101014 N/A no 45-3132 45 57 0 Unassigned Not Fraud'
+
+2018-07-09 15:05:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_36 AM/Cust_Details' is: '17-11-2017 15:49:14 7011 0000 0000 16 1.00 Unknown 116050101014 N/A no 45-3132 45 57 0 Unassigned Not Fraud
+28-11-2017 16:53:42 7011 0000 0000 16 1.00 Unknown 116050101014 N/A no 45-3132 45 57 0 Unassigned Not Fraud
+28-11-2017 16:53:54 1011 0000 0008 15 1.00 Unknown 116050101014 N/A no 45-3132 45 96 0 Unassigned Not Fraud
+28-11-2017 16:54:03 5011 0000 0019 20 1.00 Unknown 116050101014 N/A no 45-3132 45 05 0 Unassigned Not Fraud
+28-11-2017 16:54:24 5011 0000 0019 20 1.00 Unknown 116050101014 N/A no 45-3132 45 05 0 Unassigned Not Fraud
+12-12-2017 15:32:05 5000 0000 0102 36 1.00 Unknown 116050101014 N/A no 45-3132 45 00 0 Unassigned Not Fraud
+12-12-2017 15:32:08 5000 0000 0102 36 10.00 Unknown 116050101014 N/A no 46-3132 46 00 0 Unassigned Not Fraud
+12-12-2017 15:32:20 3000 0000 9154 70 1.00 Unknown 116050101014 N/A no 45-3132 45 57 0 Unassigned Not Fraud
+12-12-2017 15:32:21 3000 0000 9154 70 10.00 Unknown 116050101014 N/A no 46-3132 46 00 0 Unassigned Not Fraud
+12-12-2017 15:32:34 1011 0000 0029 15 1.00 Unknown 116050101014 N/A no 45-3132 45 57 0 Unassigned Not Fraud'
+
+2018-07-09 15:05:56 - [TEST_STEP][PASSED] - comment: JPB Advance Search through Beneficary id is sucesfull
+
+2018-07-09 15:05:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC43_AM/Ben_PAN_Validation' are matched.
+
+2018-07-09 15:05:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC43_AM/Ben_PAN_Validation' are matched.
+
+2018-07-09 15:05:56 - [TEST_STEP][PASSED] - Statement - JPBAdvSearch_BenPAN = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-09 15:05:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408\\1531128956498.png]]
+
+2018-07-09 15:05:56 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-07-09 15:05:57 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-07-09 15:05:57 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-09 15:06:03 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC45_JPB Advanced Search Sender MMID" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC45_JPB Advanced Search Sender MMID" status="PASSED">
+         <system-out><![CDATA[2018-07-09 15:06:03 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC45_JPB Advanced Search Sender MMID: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC45_JPB Advanced Search Sender MMID
+
+2018-07-09 15:06:04 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_36 AM/Date_input' is cleared
+
+2018-07-09 15:06:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_36 AM/Date_input' is cleared
+
+2018-07-09 15:06:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/Done_Button' is clicked on
+
+2018-07-09 15:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/Done_Button' is clicked on
+
+2018-07-09 15:06:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 15:06:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 15:06:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/button_Advanced Search' is clicked on
+
+2018-07-09 15:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/button_Advanced Search' is clicked on
+
+2018-07-09 15:06:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-09 15:06:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 15:06:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC43_AM/input_Sender_MMID' is clicked on
+
+2018-07-09 15:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC43_AM/input_Sender_MMID' is clicked on
+
+2018-07-09 15:06:13 - [TEST_STEP][PASSED] - setText: Text '3009 302' is set on object 'Object Repository/TC43_AM/input_Sender_MMID'
+
+2018-07-09 15:06:13 - [MESSAGE][PASSED] - Text '3009 302' is set on object 'Object Repository/TC43_AM/input_Sender_MMID'
+
+2018-07-09 15:06:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 15:06:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 15:06:18 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC43_AM/input_Sender_MMID'
+
+2018-07-09 15:06:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC43_AM/input_Sender_MMID'
+
+2018-07-09 15:06:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 15:06:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 15:06:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/button_Search' is clicked on
+
+2018-07-09 15:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/button_Search' is clicked on
+
+2018-07-09 15:06:24 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_24_36 AM/Cust_Details' is: 'Data could not be loaded.'
+
+2018-07-09 15:06:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_36 AM/Cust_Details' is: 'Data could not be loaded.'
+
+2018-07-09 15:06:24 - [TEST_STEP][PASSED] - comment: JPB Advance Search through Sender MMID is sucesfull
+
+2018-07-09 15:06:24 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-07-09 15:06:24 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-07-09 15:06:24 - [TEST_STEP][PASSED] - Statement - JPBAdvSearch_SenderMMID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-09 15:06:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408\\1531128984606.png]]
+
+2018-07-09 15:06:25 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-07-09 15:06:25 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-07-09 15:06:25 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-09 15:06:31 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC46_JPB Advanced Search Beneficiary MMID" classname="Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC46_JPB Advanced Search Beneficiary MMID" status="PASSED">
+         <system-out><![CDATA[2018-07-09 15:06:31 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC46_JPB Advanced Search Beneficiary MMID: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC46_JPB Advanced Search Beneficiary MMID
+
+2018-07-09 15:06:32 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_36 AM/Date_input' is cleared
+
+2018-07-09 15:06:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_36 AM/Date_input' is cleared
+
+2018-07-09 15:06:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/Done_Button' is clicked on
+
+2018-07-09 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/Done_Button' is clicked on
+
+2018-07-09 15:06:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 15:06:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 15:06:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/button_Advanced Search' is clicked on
+
+2018-07-09 15:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/button_Advanced Search' is clicked on
+
+2018-07-09 15:06:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-09 15:06:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 15:06:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC43_AM/input_BenId' is clicked on
+
+2018-07-09 15:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC43_AM/input_BenId' is clicked on
+
+2018-07-09 15:06:41 - [TEST_STEP][PASSED] - setText: Text '9110123' is set on object 'Object Repository/TC43_AM/input_BenId'
+
+2018-07-09 15:06:42 - [MESSAGE][PASSED] - Text '9110123' is set on object 'Object Repository/TC43_AM/input_BenId'
+
+2018-07-09 15:06:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 15:06:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 15:06:47 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC43_AM/input_BenId'
+
+2018-07-09 15:06:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC43_AM/input_BenId'
+
+2018-07-09 15:06:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 15:06:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 15:06:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_36 AM/button_Search' is clicked on
+
+2018-07-09 15:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_36 AM/button_Search' is clicked on
+
+2018-07-09 15:06:52 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_24_36 AM/Cust_Details' is: '14-11-2017 13:29:50 3009 305 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+14-11-2017 13:33:15 3009 305 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+28-11-2017 12:11:29 3009 301 15.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+28-11-2017 12:11:46 3009 301 15.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+12-12-2017 15:17:34 3009 301 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+12-12-2017 15:17:34 3009 301 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+12-12-2017 15:27:50 3009 301 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+12-12-2017 16:23:19 3009 301 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+14-12-2017 15:16:22 3009 301 20.00 Unknown 9110123 N/A no 49-3132 49 05 1 Customer Pending
+14-12-2017 15:28:32 3009 301 25.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud'
+
+2018-07-09 15:06:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_36 AM/Cust_Details' is: '14-11-2017 13:29:50 3009 305 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+14-11-2017 13:33:15 3009 305 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+28-11-2017 12:11:29 3009 301 15.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+28-11-2017 12:11:46 3009 301 15.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+12-12-2017 15:17:34 3009 301 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+12-12-2017 15:17:34 3009 301 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+12-12-2017 15:27:50 3009 301 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+12-12-2017 16:23:19 3009 301 10.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud
+14-12-2017 15:16:22 3009 301 20.00 Unknown 9110123 N/A no 49-3132 49 05 1 Customer Pending
+14-12-2017 15:28:32 3009 301 25.00 Unknown 9110123 N/A no 49-3132 49 05 0 Unassigned Not Fraud'
+
+2018-07-09 15:06:54 - [TEST_STEP][PASSED] - comment: JPB Advance Search through Beneficary MMID is sucesfull
+
+2018-07-09 15:06:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC43_AM/BenId_Validation' are matched.
+
+2018-07-09 15:06:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC43_AM/BenId_Validation' are matched.
+
+2018-07-09 15:06:54 - [TEST_STEP][PASSED] - Statement - JPBAdvSearch_BenMMID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-09 15:06:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180709_150408\\1531129014359.png]]
+
+2018-07-09 15:06:54 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-07-09 15:06:55 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-07-09 15:06:55 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-09 15:07:01 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 15:04:31 - [TEST_SUITE][PASSED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_JPB Advance Search/TC46_JPB Advanced Search Beneficiary MMID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AM_Test Suite,,,2018-07-19 12:01:15,2018-07-19 12:01:23,8.834s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC50_JPB Account Details,,,2018-07-19 12:01:16,2018-07-19 12:01:18,2.716s,FAILED
+verifyElementText,,,2018-07-19 12:01:17,2018-07-19 12:01:18,1.514s,FAILED
+comment,,,2018-07-19 12:01:18,2018-07-19 12:01:18,0.100s,PASSED
+Statement - JPB_CustDetails_Id = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-07-19 12:01:18,2018-07-19 12:01:18,0.086s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC51_JPB Customer activity period details,,,2018-07-19 12:01:18,2018-07-19 12:01:19,0.773s,FAILED
+getText,,,2018-07-19 12:01:19,2018-07-19 12:01:19,0.123s,FAILED
+comment,,,2018-07-19 12:01:19,2018-07-19 12:01:19,0.000s,PASSED
+Statement - Cust_Activity_Period = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-07-19 12:01:19,2018-07-19 12:01:19,0.018s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC52_JPB Customer transactions Details,,,2018-07-19 12:01:19,2018-07-19 12:01:20,0.608s,FAILED
+getText,,,2018-07-19 12:01:20,2018-07-19 12:01:20,0.076s,FAILED
+comment,,,2018-07-19 12:01:20,2018-07-19 12:01:20,0.017s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC53_JPB Customer Fraud Details,,,2018-07-19 12:01:20,2018-07-19 12:01:20,0.593s,FAILED
+getText,,,2018-07-19 12:01:20,2018-07-19 12:01:20,0.032s,FAILED
+comment,,,2018-07-19 12:01:20,2018-07-19 12:01:20,0.007s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC54_JPB Transactions Transaction Density Details,,,2018-07-19 12:01:20,2018-07-19 12:01:21,0.904s,FAILED
+verifyElementPresent,,,2018-07-19 12:01:21,2018-07-19 12:01:21,0.161s,FAILED
+comment,,,2018-07-19 12:01:21,2018-07-19 12:01:21,0.035s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC55_JPB Customer transaction Statistic,,,2018-07-19 12:01:21,2018-07-19 12:01:22,0.745s,FAILED
+verifyElementPresent,,,2018-07-19 12:01:22,2018-07-19 12:01:22,0.049s,FAILED
+comment,,,2018-07-19 12:01:22,2018-07-19 12:01:22,0.006s,PASSED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC56_JPB Customer transaction History,,,2018-07-19 12:01:22,2018-07-19 12:01:23,0.587s,FAILED
+verifyElementPresent,,,2018-07-19 12:01:23,2018-07-19 12:01:23,0.039s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_JPB Customer Advance Search/TC57_JPB Customer Status Log Details,,,2018-07-19 12:01:23,2018-07-19 12:01:23,0.736s,FAILED
+click,,,2018-07-19 12:01:23,2018-07-19 12:01:23,0.062s,FAILED
+click,,,2018-07-19 12:01:23,2018-07-19 12:01:23,0.047s,FAILED
+verifyElementPresent,,,2018-07-19 12:01:23,2018-07-19 12:01:23,0.029s,FAILED
+comment,,,2018-07-19 12:01:23,2018-07-19 12:01:23,0.006s,PASSED
+click,,,2018-07-19 12:01:23,2018-07-19 12:01:23,0.024s,FAILED

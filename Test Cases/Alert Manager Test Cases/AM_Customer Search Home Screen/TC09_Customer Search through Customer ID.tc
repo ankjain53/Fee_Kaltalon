@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_Customer Search through Customer ID</name>
+   <tag></tag>
+   <comment>Customer Serach through id is sucesfull</comment>
+   <testCaseGuid>cc5790d7-715f-4dd7-b69c-857f6555e057</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC31_Validate Advance search through response code</name>
+   <tag></tag>
+   <comment>Advance search through Response Code is sucesfull</comment>
+   <testCaseGuid>6fbc9dc6-e732-4bd6-9274-9a30fb516714</testCaseGuid>
+</TestCaseEntity>

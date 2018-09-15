@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pulse_Test Case Suite" time="189" tests="5" failures="0" errors="0">
+   <testsuite name="Pulse_Test Case Suite" tests="5" failures="0" errors="0" time="189" timestamp="2018-07-12 15:41:38" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/Pulse_Test Case Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180712_154011"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180712_154011\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180712_154011\\1531390456479.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180712_154011\\1531390477051.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.85"/>
+         <property name="sessionId" value="0e1f29097bdf2335c808a86487ac4c6d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Pulse Login Test Case/Login_Pulse" classname="Test Cases/Pulse Login Test Case/Login_Pulse" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:41:48 - [TEST_CASE][PASSED] - Test Cases/Pulse Login Test Case/Login_Pulse: Test Cases/Pulse Login Test Case/Login_Pulse
+
+2018-07-12 15:41:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:43:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:43:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-12 15:43:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-12 15:43:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.50/pulseviews/management/#apps/reliance/dataconfiguration' successfully
+
+2018-07-12 15:43:29 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.50/pulseviews/management/#apps/reliance/dataconfiguration' successfully
+
+2018-07-12 15:43:29 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/Pulse_Login/input'
+
+2018-07-12 15:43:46 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/Pulse_Login/input'
+
+2018-07-12 15:43:46 - [TEST_STEP][PASSED] - setText: Text 'Word03Pass' is set on object 'Object Repository/Pulse_Login/input_1'
+
+2018-07-12 15:43:47 - [MESSAGE][PASSED] - Text 'Word03Pass' is set on object 'Object Repository/Pulse_Login/input_1'
+
+2018-07-12 15:43:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Pulse_Login/button_Sign In' is clicked on
+
+2018-07-12 15:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pulse_Login/button_Sign In' is clicked on
+
+2018-07-12 15:43:48 - [TEST_STEP][PASSED] - comment: Pulse Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck" classname="Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:43:49 - [TEST_CASE][PASSED] - Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck: Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck
+
+2018-07-12 15:43:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Pulse_Login/i_icon-tab-application-32' is clicked on
+
+2018-07-12 15:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Pulse_Login/i_icon-tab-application-32' is clicked on
+
+2018-07-12 15:44:00 - [TEST_STEP][PASSED] - getAttribute: Attribute '' of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: 'null'
+
+2018-07-12 15:44:00 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: 'null'
+
+2018-07-12 15:44:00 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: ''
+
+2018-07-12 15:44:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: ''
+
+2018-07-12 15:44:01 - [TEST_STEP][PASSED] - comment: Feedzai Pulse application is up and running]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_02 Pulse Version check" classname="Test Cases/Pulse_Test Case/TC_02 Pulse Version check" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:44:01 - [TEST_CASE][PASSED] - Test Cases/Pulse_Test Case/TC_02 Pulse Version check: Test Cases/Pulse_Test Case/TC_02 Pulse Version check
+
+2018-07-12 15:44:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Pulse_Login/span_Reliance (Fraud)' is clicked on
+
+2018-07-12 15:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Pulse_Login/span_Reliance (Fraud)' is clicked on
+
+2018-07-12 15:44:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Pulse_Login/span_15.1' are matched.
+
+2018-07-12 15:44:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pulse_Login/span_15.1' are matched.
+
+2018-07-12 15:44:03 - [TEST_STEP][PASSED] - comment: Pulse Application version is "15.1"]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status" classname="Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:44:03 - [TEST_CASE][PASSED] - Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status
+
+2018-07-12 15:44:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' is clicked on
+
+2018-07-12 15:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' is clicked on
+
+2018-07-12 15:44:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_03_Pulse/i_icon-tab-jobs-32' is clicked on
+
+2018-07-12 15:44:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_03_Pulse/i_icon-tab-jobs-32' is clicked on
+
+2018-07-12 15:44:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 15:44:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 15:44:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' is clicked on
+
+2018-07-12 15:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' is clicked on
+
+2018-07-12 15:44:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC_03_Pulse/span_Finished' are matched.
+
+2018-07-12 15:44:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_03_Pulse/span_Finished' are matched.
+
+2018-07-12 15:44:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_03_Pulse/div_a minute (Monday July 2 20' is clicked on
+
+2018-07-12 15:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_03_Pulse/div_a minute (Monday July 2 20' is clicked on
+
+2018-07-12 15:44:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_03_Pulse/span_Data Configuration' is clicked on
+
+2018-07-12 15:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_03_Pulse/span_Data Configuration' is clicked on
+
+2018-07-12 15:44:16 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-12 15:44:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180712_154011\\1531390456479.png]]
+
+2018-07-12 15:44:20 - [TEST_STEP][PASSED] - comment: Distribution Job is Running]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_04 Enable Time Machine" classname="Test Cases/Pulse_Test Case/TC_04 Enable Time Machine" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:44:20 - [TEST_CASE][PASSED] - Test Cases/Pulse_Test Case/TC_04 Enable Time Machine: Test Cases/Pulse_Test Case/TC_04 Enable Time Machine
+
+2018-07-12 15:44:21 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/TC_04_Pulse/button_2' successfully
+
+2018-07-12 15:44:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 15:44:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC_04_Pulse/button_2' successfully
+
+2018-07-12 15:44:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 15:44:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 15:44:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_2' is clicked on
+
+2018-07-12 15:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_2' is clicked on
+
+2018-07-12 15:44:24 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 15:44:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 15:44:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' is clicked on
+
+2018-07-12 15:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' is clicked on
+
+2018-07-12 15:44:28 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/TC_04_Pulse/div_true' successfully
+
+2018-07-12 15:44:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 15:44:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC_04_Pulse/div_true' successfully
+
+2018-07-12 15:44:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/div_true' is clicked on
+
+2018-07-12 15:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/div_true' is clicked on
+
+2018-07-12 15:44:33 - [TEST_STEP][PASSED] - setText: Text 'true' is set on object 'Object Repository/TC_04_Pulse/input_conf_value'
+
+2018-07-12 15:44:33 - [MESSAGE][PASSED] - Text 'true' is set on object 'Object Repository/TC_04_Pulse/input_conf_value'
+
+2018-07-12 15:44:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/i_fa fa-check-circle-o fa-colo' is clicked on
+
+2018-07-12 15:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/i_fa fa-check-circle-o fa-colo' is clicked on
+
+2018-07-12 15:44:34 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/TC_04_Pulse/a_Save' successfully
+
+2018-07-12 15:44:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 15:44:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC_04_Pulse/a_Save' successfully
+
+2018-07-12 15:44:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/a_Save' is clicked on
+
+2018-07-12 15:44:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/a_Save' is clicked on
+
+2018-07-12 15:44:37 - [TEST_STEP][PASSED] - comment: Time Machine is Enabled
+
+2018-07-12 15:44:37 - [TEST_STEP][PASSED] - Statement - EnableTimeMachine = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-12 15:44:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180712_154011\\1531390477051.png]]
+
+2018-07-12 15:44:37 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/TC_04_Pulse/Logout' successfully
+
+2018-07-12 15:44:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 15:44:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC_04_Pulse/Logout' successfully
+
+2018-07-12 15:44:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/Logout' is clicked on
+
+2018-07-12 15:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/Logout' is clicked on
+
+2018-07-12 15:44:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 15:44:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 15:44:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/a_Logout' is clicked on
+
+2018-07-12 15:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/a_Logout' is clicked on
+
+2018-07-12 15:44:44 - [TEST_STEP][PASSED] - comment: Logout of Pulse Application
+
+2018-07-12 15:44:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:44:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 15:41:38 - [TEST_SUITE][PASSED] - Pulse_Test Case Suite: Test Cases/Pulse_Test Case/TC_04 Enable Time Machine]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

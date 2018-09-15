@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Suite" time="115" tests="1" failures="2" errors="0">
+   <testsuite name="New Suite" tests="1" failures="2" errors="0" time="115" timestamp="2018-07-05 16:29:22" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/New Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788434274.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788470094.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788470856.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788471382.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788475846.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="864e318b556cedabec904e9fbe1a8ded"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id" status="PASSED">
+         <system-out><![CDATA[2018-07-05 16:29:23 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC24_Validate Advance search through customer id
+
+2018-07-05 16:29:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 16:29:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 16:29:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-05 16:29:42 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-05 16:29:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 16:29:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 16:29:43 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_24_AM/input'
+
+2018-07-05 16:30:08 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_24_AM/input'
+
+2018-07-05 16:30:08 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 16:30:09 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 16:30:09 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 16:30:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_1'
+
+2018-07-05 16:30:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/span_Search' is clicked on
+
+2018-07-05 16:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/span_Search' is clicked on
+
+2018-07-05 16:30:10 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 16:30:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 16:30:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 16:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 16:30:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 16:30:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 16:30:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 16:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 16:30:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/ul_Customer Id' is clicked on
+
+2018-07-05 16:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/ul_Customer Id' is clicked on
+
+2018-07-05 16:30:15 - [TEST_STEP][PASSED] - setText: Text '1100243850' is set on object 'Object Repository/TC_24_AM/input_s2id_autogen7'
+
+2018-07-05 16:30:27 - [MESSAGE][PASSED] - Text '1100243850' is set on object 'Object Repository/TC_24_AM/input_s2id_autogen7'
+
+2018-07-05 16:30:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 16:30:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 16:30:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_s2id_autogen7'
+
+2018-07-05 16:30:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/input_s2id_autogen7'
+
+2018-07-05 16:30:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 16:30:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 16:30:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Search' is clicked on
+
+2018-07-05 16:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Search' is clicked on
+
+2018-07-05 16:30:32 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_24_AM/Cust_Details' is: '15-05-2018 15:18:53 2812 3206 0077 6096 1,000.00 1100243850 1100243850 N/A no LMW 28 00 0 Unassigned Not Fraud
+15-05-2018 15:21:59 2812 3206 0077 6096 5.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:23:34 2812 3206 0077 6096 6.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:24:40 2812 3206 0077 6096 4.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:25:57 2812 3200 0000 0000 1.00 1100243850 N/A 5999 no WPP 0 05 1 Customer Pending
+15-05-2018 15:33:13 2812 3206 0077 6096 6.00 1100243850 1100243850 5999 no WRO 20 00 0 Unassigned Not Fraud
+15-05-2018 15:35:00 2812 3206 0077 6096 6.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:36:21 2812 3200 0000 0000 1.00 1100243850 N/A 5999 no WPP 0 05 1 Customer Pending
+15-06-2018 12:35:16 NA 2.00 1100243850 N/A 5999 no WPP 0 05 0 Unassigned Not Fraud
+15-06-2018 12:38:04 1000 00XX XXXX 3645 2.00 1100243850 N/A 5999 no WPP 0 00 1 Unassigned Pending'
+
+2018-07-05 16:30:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Cust_Details' is: '15-05-2018 15:18:53 2812 3206 0077 6096 1,000.00 1100243850 1100243850 N/A no LMW 28 00 0 Unassigned Not Fraud
+15-05-2018 15:21:59 2812 3206 0077 6096 5.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:23:34 2812 3206 0077 6096 6.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:24:40 2812 3206 0077 6096 4.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:25:57 2812 3200 0000 0000 1.00 1100243850 N/A 5999 no WPP 0 05 1 Customer Pending
+15-05-2018 15:33:13 2812 3206 0077 6096 6.00 1100243850 1100243850 5999 no WRO 20 00 0 Unassigned Not Fraud
+15-05-2018 15:35:00 2812 3206 0077 6096 6.00 1100243850 N/A 5999 no WPP 0 00 0 Unassigned Not Fraud
+15-05-2018 15:36:21 2812 3200 0000 0000 1.00 1100243850 N/A 5999 no WPP 0 05 1 Customer Pending
+15-06-2018 12:35:16 NA 2.00 1100243850 N/A 5999 no WPP 0 05 0 Unassigned Not Fraud
+15-06-2018 12:38:04 1000 00XX XXXX 3645 2.00 1100243850 N/A 5999 no WPP 0 00 1 Unassigned Pending'
+
+2018-07-05 16:30:34 - [TEST_STEP][PASSED] - comment: Customer Details Displayed
+
+2018-07-05 16:30:34 - [TEST_STEP][PASSED] - Statement - Customer_Details = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-05 16:30:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788434274.png]]
+
+2018-07-05 16:30:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC_24_AM/Cust_id_Validation' are matched.
+
+2018-07-05 16:30:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_24_AM/Cust_id_Validation' are matched.
+
+2018-07-05 16:30:35 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-07-05 16:30:37 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-07-05 16:30:37 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2018-07-05 16:30:49 - [MESSAGE][PASSED] - Delayed 12 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/TC_24_AM/RespCode_Valid' FAILED. (Root cause: Actual text '42' and expected text '45' of test object 'Object Repository/TC_24_AM/RespCode_Valid' are NOT matched.)"/>
+         <system-out><![CDATA[2018-07-05 16:30:49 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code FAILED because (of) Verify element text of test object 'Object Repository/TC_24_AM/RespCode_Valid' FAILED. (Root cause: Actual text '42' and expected text '45' of test object 'Object Repository/TC_24_AM/RespCode_Valid' are NOT matched.)
+
+2018-07-05 16:30:50 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 16:31:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 16:31:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 16:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 16:31:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 16:31:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 16:31:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 16:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 16:31:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Click_ResponseCode' is clicked on
+
+2018-07-05 16:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Click_ResponseCode' is clicked on
+
+2018-07-05 16:31:03 - [TEST_STEP][PASSED] - setText: Text '45' is set on object 'Object Repository/TC_24_AM/Input_Respcode'
+
+2018-07-05 16:31:03 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/TC_24_AM/Input_Respcode'
+
+2018-07-05 16:31:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 16:31:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 16:31:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/Input_Respcode'
+
+2018-07-05 16:31:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_24_AM/Input_Respcode'
+
+2018-07-05 16:31:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 16:31:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 16:31:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Search' is clicked on
+
+2018-07-05 16:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Search' is clicked on
+
+2018-07-05 16:31:08 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/TC_24_AM/Cust_Details' is: '24-03-2017 22:43:11 4311 31XX XXX0 000 146.51 4311316 4311316 4139 no MPR 42 45 0 Unassigned Not Fraud
+24-03-2017 22:43:25 5805 24XX XXX0 000 117.00 5805245 N/A N/A no BRU 41 45 0 Unassigned Not Fraud
+24-03-2017 22:43:29 1904 45XX XXX0 000 10.70 19044560 19044560 Unknown no LMW 0 45 0 Unassigned Not Fraud
+24-03-2017 22:44:02 2565 64XX XXX0 000 290.73 25656457 25656457 8701 no R2M 29 45 0 Unassigned Not Fraud
+24-03-2017 22:44:10 2847 32XX XXX0 000 188.07 28473235 28473235 8599 no NRC 0 45 0 Unassigned Not Fraud
+24-03-2017 22:44:13 1036 67XX XXX0 000 426.14 10366794 N/A N/A no UBP 9 45 0 Unassigned Not Fraud
+24-03-2017 22:45:03 1194 34XX XXX0 000 464.37 11943484 N/A N/A no BRP 29 45 0 Unassigned Not Fraud
+24-03-2017 22:46:23 2115 78XX XXX0 000 546.19 21157836 16815012 N/A no UDW 9 45 0 Unassigned Not Fraud
+24-03-2017 22:46:24 9132 280 73.80 19780293 N/A N/A no BUW 47 45 0 Unassigned Not Fraud
+24-03-2017 22:46:45 1921 60XX XXX0 000 23.18 19216009 N/A Unknown no UBW 18 45 0 Unassigned Not Fraud'
+
+2018-07-05 16:31:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Cust_Details' is: '24-03-2017 22:43:11 4311 31XX XXX0 000 146.51 4311316 4311316 4139 no MPR 42 45 0 Unassigned Not Fraud
+24-03-2017 22:43:25 5805 24XX XXX0 000 117.00 5805245 N/A N/A no BRU 41 45 0 Unassigned Not Fraud
+24-03-2017 22:43:29 1904 45XX XXX0 000 10.70 19044560 19044560 Unknown no LMW 0 45 0 Unassigned Not Fraud
+24-03-2017 22:44:02 2565 64XX XXX0 000 290.73 25656457 25656457 8701 no R2M 29 45 0 Unassigned Not Fraud
+24-03-2017 22:44:10 2847 32XX XXX0 000 188.07 28473235 28473235 8599 no NRC 0 45 0 Unassigned Not Fraud
+24-03-2017 22:44:13 1036 67XX XXX0 000 426.14 10366794 N/A N/A no UBP 9 45 0 Unassigned Not Fraud
+24-03-2017 22:45:03 1194 34XX XXX0 000 464.37 11943484 N/A N/A no BRP 29 45 0 Unassigned Not Fraud
+24-03-2017 22:46:23 2115 78XX XXX0 000 546.19 21157836 16815012 N/A no UDW 9 45 0 Unassigned Not Fraud
+24-03-2017 22:46:24 9132 280 73.80 19780293 N/A N/A no BUW 47 45 0 Unassigned Not Fraud
+24-03-2017 22:46:45 1921 60XX XXX0 000 23.18 19216009 N/A Unknown no UBW 18 45 0 Unassigned Not Fraud'
+
+2018-07-05 16:31:10 - [TEST_STEP][PASSED] - comment: Advance Search through Response Code is sucesfull
+
+2018-07-05 16:31:10 - [TEST_STEP][PASSED] - Statement - Resp_code = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-05 16:31:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788470094.png]]
+
+2018-07-05 16:31:10 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/TC_24_AM/RespCode_Valid' FAILED. (Root cause: Actual text '42' and expected text '45' of test object 'Object Repository/TC_24_AM/RespCode_Valid' are NOT matched.)
+
+2018-07-05 16:31:11 - [MESSAGE][FAILED] - Actual text '42' and expected text '45' of test object 'Object Repository/TC_24_AM/RespCode_Valid' are NOT matched.
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788470856.png]]
+
+2018-07-05 16:31:11 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TC_24_AM/RespCode_Valid' FAILED. (Root cause: Actual text '42' and expected text '45' of test object 'Object Repository/TC_24_AM/RespCode_Valid' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788471382.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-05 16:30:49 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code FAILED because (of) Verify element text of test object 'Object Repository/TC_24_AM/RespCode_Valid' FAILED. (Root cause: Actual text '42' and expected text '45' of test object 'Object Repository/TC_24_AM/RespCode_Valid' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC33_Validate Advance search through Hashed card pan" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC33_Validate Advance search through Hashed card pan" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_24_AM/Click_HashPan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 864e318b556cedabec904e9fbe1a8ded)"/>
+         <system-out><![CDATA[2018-07-05 16:31:11 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC33_Validate Advance search through Hashed card pan: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC33_Validate Advance search through Hashed card pan FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/Click_HashPan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 864e318b556cedabec904e9fbe1a8ded)
+
+2018-07-05 16:31:12 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 16:31:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC_24_AM/Date_input' is cleared
+
+2018-07-05 16:31:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 16:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/Done_Button' is clicked on
+
+2018-07-05 16:31:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 16:31:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 16:31:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 16:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_24_AM/button_Advanced Search' is clicked on
+
+2018-07-05 16:31:15 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_24_AM/Click_HashPan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 864e318b556cedabec904e9fbe1a8ded)
+
+2018-07-05 16:31:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_24_AM/Click_HashPan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 864e318b556cedabec904e9fbe1a8ded)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\New Suite\\20180705_162916\\1530788475846.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-05 16:31:11 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC33_Validate Advance search through Hashed card pan: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC33_Validate Advance search through Hashed card pan FAILED because (of) Unable to click on object 'Object Repository/TC_24_AM/Click_HashPan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LT0021232', ip: '10.50.88.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANKUR~1.JAI\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 864e318b556cedabec904e9fbe1a8ded)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 16:29:22 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code FAILED because (of) Verify element text of test object 'Object Repository/TC_24_AM/RespCode_Valid' FAILED. (Root cause: Actual text '42' and expected text '45' of test object 'Object Repository/TC_24_AM/RespCode_Valid' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-07-05 16:29:22 - [TEST_SUITE][FAILED] - New Suite: Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code FAILED because (of) Verify element text of test object 'Object Repository/TC_24_AM/RespCode_Valid' FAILED. (Root cause: Actual text '42' and expected text '45' of test object 'Object Repository/TC_24_AM/RespCode_Valid' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

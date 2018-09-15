@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pulse_Test Case Suite" time="129" tests="3" failures="2" errors="0">
+   <testsuite name="Pulse_Test Case Suite" tests="3" failures="2" errors="0" time="129" timestamp="2018-07-04 11:11:45" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/Pulse_Test Case Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_111139"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_111139\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_111139\\1530682983611.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_111139\\1530683032140.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="7793946c33102a92fcf6d2b8954cdb5d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Pulse Login Test Case/Login_Pulse" classname="Test Cases/Pulse Login Test Case/Login_Pulse" status="PASSED">
+         <system-out><![CDATA[2018-07-04 11:11:46 - [TEST_CASE][PASSED] - Test Cases/Pulse Login Test Case/Login_Pulse: Test Cases/Pulse Login Test Case/Login_Pulse
+
+2018-07-04 11:11:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 11:11:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 11:11:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 11:11:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 11:11:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.50/pulseviews/management/#apps/reliance/dataconfiguration' successfully
+
+2018-07-04 11:11:57 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.50/pulseviews/management/#apps/reliance/dataconfiguration' successfully
+
+2018-07-04 11:11:57 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/Pulse_Login/input'
+
+2018-07-04 11:12:02 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/Pulse_Login/input'
+
+2018-07-04 11:12:02 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/Pulse_Login/input_1'
+
+2018-07-04 11:12:03 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/Pulse_Login/input_1'
+
+2018-07-04 11:12:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Pulse_Login/button_Sign In' is clicked on
+
+2018-07-04 11:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Pulse_Login/button_Sign In' is clicked on
+
+2018-07-04 11:12:03 - [TEST_STEP][PASSED] - comment: Pulse Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck" classname="Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck" status="PASSED">
+         <system-out><![CDATA[2018-07-04 11:12:03 - [TEST_CASE][PASSED] - Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck: Test Cases/Pulse_Test Case/TC_01 Pulse Application HealthCheck
+
+2018-07-04 11:12:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Pulse_Login/i_icon-tab-application-32' is clicked on
+
+2018-07-04 11:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pulse_Login/i_icon-tab-application-32' is clicked on
+
+2018-07-04 11:12:06 - [TEST_STEP][PASSED] - getAttribute: Attribute '' of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: 'null'
+
+2018-07-04 11:12:26 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: 'null'
+
+2018-07-04 11:12:26 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: ''
+
+2018-07-04 11:12:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pulse_Login/button_fdz-js-apps-toggle-stat' is: ''
+
+2018-07-04 11:12:26 - [TEST_STEP][PASSED] - comment: Feedzai Pulse application is up and running]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_02 Pulse Version check" classname="Test Cases/Pulse_Test Case/TC_02 Pulse Version check" status="PASSED">
+         <system-out><![CDATA[2018-07-04 11:12:26 - [TEST_CASE][PASSED] - Test Cases/Pulse_Test Case/TC_02 Pulse Version check: Test Cases/Pulse_Test Case/TC_02 Pulse Version check
+
+2018-07-04 11:12:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Pulse_Login/span_Reliance (Fraud)' is clicked on
+
+2018-07-04 11:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Pulse_Login/span_Reliance (Fraud)' is clicked on
+
+2018-07-04 11:12:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Pulse_Login/span_15.1' are matched.
+
+2018-07-04 11:12:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pulse_Login/span_15.1' are matched.
+
+2018-07-04 11:12:27 - [TEST_STEP][PASSED] - comment: Pulse Application version is "15.1"]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status" classname="Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: id(&quot;reliance&quot;)/div[1]/div[@class=&quot;fdz-js-pulse-center-column fdz-css-pulse-center-column&quot;]/div[@class=&quot;main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container&quot;]/div[@class=&quot;app-jobs-tab fdz-css-app-jobs-tab fdz-js-app-jobs-tab&quot;]/div[1]/div[@class=&quot;row-fluid&quot;]/div[@class=&quot;span6&quot;]/div[@class=&quot;jobexecutionsListContainer&quot;]/div[1]/div[@class=&quot;fdz-js-list-and-pagination-container&quot;]/div[@class=&quot;row-fluid widget-content outerPageableListContainer&quot;]/ul[@class=&quot;pageableListContainer&quot;]/li[@class=&quot;widget-container&quot;]/div[@class=&quot;row-fluid widget-content-item fdz-js-resource-list-item-view&quot;]/div[@class=&quot;fdz-js-row-left-view span7&quot;]/a[@class=&quot;edit-resource edit-jobexecutions&quot;][count(. | //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g']) = count(//a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g'])]' not found)"/>
+         <system-out><![CDATA[2018-07-04 11:12:27 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-jobs-tab fdz-css-app-jobs-tab fdz-js-app-jobs-tab"]/div[1]/div[@class="row-fluid"]/div[@class="span6"]/div[@class="jobexecutionsListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="row-fluid widget-content outerPageableListContainer"]/ul[@class="pageableListContainer"]/li[@class="widget-container"]/div[@class="row-fluid widget-content-item fdz-js-resource-list-item-view"]/div[@class="fdz-js-row-left-view span7"]/a[@class="edit-resource edit-jobexecutions"][count(. | //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g']) = count(//a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g'])]' not found)
+
+2018-07-04 11:12:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' is clicked on
+
+2018-07-04 11:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_03_Pulse/i_fa fa-chevron-down' is clicked on
+
+2018-07-04 11:12:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_03_Pulse/i_icon-tab-jobs-32' is clicked on
+
+2018-07-04 11:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_03_Pulse/i_icon-tab-jobs-32' is clicked on
+
+2018-07-04 11:12:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-jobs-tab fdz-css-app-jobs-tab fdz-js-app-jobs-tab"]/div[1]/div[@class="row-fluid"]/div[@class="span6"]/div[@class="jobexecutionsListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="row-fluid widget-content outerPageableListContainer"]/ul[@class="pageableListContainer"]/li[@class="widget-container"]/div[@class="row-fluid widget-content-item fdz-js-resource-list-item-view"]/div[@class="fdz-js-row-left-view span7"]/a[@class="edit-resource edit-jobexecutions"][count(. | //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g']) = count(//a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g'])]' not found)
+
+2018-07-04 11:13:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-jobs-tab fdz-css-app-jobs-tab fdz-js-app-jobs-tab"]/div[1]/div[@class="row-fluid"]/div[@class="span6"]/div[@class="jobexecutionsListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="row-fluid widget-content outerPageableListContainer"]/ul[@class="pageableListContainer"]/li[@class="widget-container"]/div[@class="row-fluid widget-content-item fdz-js-resource-list-item-view"]/div[@class="fdz-js-row-left-view span7"]/a[@class="edit-resource edit-jobexecutions"][count(. | //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g']) = count(//a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g'])]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_111139\\1530682983611.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-04 11:12:27 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-jobs-tab fdz-css-app-jobs-tab fdz-js-app-jobs-tab"]/div[1]/div[@class="row-fluid"]/div[@class="span6"]/div[@class="jobexecutionsListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="row-fluid widget-content outerPageableListContainer"]/ul[@class="pageableListContainer"]/li[@class="widget-container"]/div[@class="row-fluid widget-content-item fdz-js-resource-list-item-view"]/div[@class="fdz-js-row-left-view span7"]/a[@class="edit-resource edit-jobexecutions"][count(. | //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g']) = count(//a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pulse_Test Case/TC_04 Enable Time Machine" classname="Test Cases/Pulse_Test Case/TC_04 Enable Time Machine" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' located by 'By.xpath: //a[@href = '#apps/reliance/dataconfiguration/dependencies/pTF_8KlFGvhowJ7VRJVBdw' and @title = 'FIS Input Adapter' and (text() = 'FIS Input Adapter' or . = 'FIS Input Adapter')]' not found)"/>
+         <system-out><![CDATA[2018-07-04 11:13:04 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_04 Enable Time Machine: Test Cases/Pulse_Test Case/TC_04 Enable Time Machine FAILED because (of) Unable to click on object 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' located by 'By.xpath: //a[@href = '#apps/reliance/dataconfiguration/dependencies/pTF_8KlFGvhowJ7VRJVBdw' and @title = 'FIS Input Adapter' and (text() = 'FIS Input Adapter' or . = 'FIS Input Adapter')]' not found)
+
+2018-07-04 11:13:04 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/TC_04_Pulse/button_2' successfully
+
+2018-07-04 11:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-04 11:13:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC_04_Pulse/button_2' successfully
+
+2018-07-04 11:13:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_2' is clicked on
+
+2018-07-04 11:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_2' is clicked on
+
+2018-07-04 11:13:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' located by 'By.xpath: //a[@href = '#apps/reliance/dataconfiguration/dependencies/pTF_8KlFGvhowJ7VRJVBdw' and @title = 'FIS Input Adapter' and (text() = 'FIS Input Adapter' or . = 'FIS Input Adapter')]' not found)
+
+2018-07-04 11:13:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' located by 'By.xpath: //a[@href = '#apps/reliance/dataconfiguration/dependencies/pTF_8KlFGvhowJ7VRJVBdw' and @title = 'FIS Input Adapter' and (text() = 'FIS Input Adapter' or . = 'FIS Input Adapter')]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\Pulse_Test Case Suite\\20180704_111139\\1530683032140.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-04 11:13:04 - [TEST_CASE][FAILED] - Test Cases/Pulse_Test Case/TC_04 Enable Time Machine: Test Cases/Pulse_Test Case/TC_04 Enable Time Machine FAILED because (of) Unable to click on object 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_04_Pulse/a_FIS Input Adapter' located by 'By.xpath: //a[@href = '#apps/reliance/dataconfiguration/dependencies/pTF_8KlFGvhowJ7VRJVBdw' and @title = 'FIS Input Adapter' and (text() = 'FIS Input Adapter' or . = 'FIS Input Adapter')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 11:11:45 - [TEST_SUITE][FAILED] - Pulse_Test Case Suite: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-jobs-tab fdz-css-app-jobs-tab fdz-js-app-jobs-tab"]/div[1]/div[@class="row-fluid"]/div[@class="span6"]/div[@class="jobexecutionsListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="row-fluid widget-content outerPageableListContainer"]/ul[@class="pageableListContainer"]/li[@class="widget-container"]/div[@class="row-fluid widget-content-item fdz-js-resource-list-item-view"]/div[@class="fdz-js-row-left-view span7"]/a[@class="edit-resource edit-jobexecutions"][count(. | //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g']) = count(//a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-04 11:11:45 - [TEST_SUITE][FAILED] - Pulse_Test Case Suite: Test Cases/Pulse_Test Case/TC_03_Pulse Distribution job execution status FAILED because (of) Unable to click on object 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_03_Pulse/a_Reliance Profile Generation' located by 'By.xpath: id("reliance")/div[1]/div[@class="fdz-js-pulse-center-column fdz-css-pulse-center-column"]/div[@class="main-container fdz-js-section-view-builder-container fdz-css-section-view-builder-container"]/div[@class="app-jobs-tab fdz-css-app-jobs-tab fdz-js-app-jobs-tab"]/div[1]/div[@class="row-fluid"]/div[@class="span6"]/div[@class="jobexecutionsListContainer"]/div[1]/div[@class="fdz-js-list-and-pagination-container"]/div[@class="row-fluid widget-content outerPageableListContainer"]/ul[@class="pageableListContainer"]/li[@class="widget-container"]/div[@class="row-fluid widget-content-item fdz-js-resource-list-item-view"]/div[@class="fdz-js-row-left-view span7"]/a[@class="edit-resource edit-jobexecutions"][count(. | //a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g']) = count(//a[@href = '#apps/reliance/jobs/jobexecutions/q6lUDXj-_yBzWv-mI-pK6g'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="209" tests="5" failures="2" errors="1">
+   <testsuite name="AM_Test Suite" tests="5" failures="2" errors="1" time="209" timestamp="2018-07-04 12:05:02" hostname="Ankur.Jain - LT0021232.in.ril.com" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686179659.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686191778.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686211936.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686234409.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686259156.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686308769.png, C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686309335.png"/>
+         <property name="hostName" value="Ankur.Jain - LT0021232.in.ril.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="d7cc786c13094c272b9f8b8f0b4077d0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:05:03 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-04 12:05:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 12:05:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 12:05:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 12:05:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 12:05:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 12:05:20 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 12:05:20 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-04 12:05:40 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-04 12:05:40 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 12:05:42 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 12:05:42 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 12:05:42 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 12:05:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 12:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 12:05:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:05:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:05:45 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' located by 'By.xpath: //i[@class = 'glyphicon glyphicon-ok']' not found)"/>
+         <system-out><![CDATA[2018-07-04 12:05:45 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud FAILED because (of) Unable to click on object 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' located by 'By.xpath: //i[@class = 'glyphicon glyphicon-ok']' not found)
+
+2018-07-04 12:05:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-04 12:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Merchant' is clicked on
+
+2018-07-04 12:05:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-04 12:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/a_Alerts' is clicked on
+
+2018-07-04 12:05:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' located by 'By.xpath: //i[@class = 'glyphicon glyphicon-ok']' not found)
+
+2018-07-04 12:06:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' located by 'By.xpath: //i[@class = 'glyphicon glyphicon-ok']' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686179659.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-04 12:05:45 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud FAILED because (of) Unable to click on object 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' located by 'By.xpath: //i[@class = 'glyphicon glyphicon-ok']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:06:20 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC02_Mark Alert Fraud
+
+2018-07-04 12:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-04 12:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-remove' is clicked on
+
+2018-07-04 12:06:30 - [TEST_STEP][PASSED] - setText: Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:06:31 - [MESSAGE][PASSED] - Text 'fraud' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:06:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-04 12:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Fraud' is clicked on
+
+2018-07-04 12:06:31 - [TEST_STEP][PASSED] - Statement - Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 12:06:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686191778.png]]
+
+2018-07-04 12:06:32 - [TEST_STEP][PASSED] - comment: Alert Marked as Fraud
+
+2018-07-04 12:06:32 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-04 12:06:42 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:06:42 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC03_Mark Alert Suspicious
+
+2018-07-04 12:06:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-04 12:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-fire' is clicked on
+
+2018-07-04 12:06:43 - [TEST_STEP][PASSED] - setText: Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:06:44 - [MESSAGE][PASSED] - Text 'suspious' is set on object 'Object Repository/TC_01-03_AM/textarea_observation'
+
+2018-07-04 12:06:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:06:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 12:06:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-04 12:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/div_select2-drop-mask' is clicked on
+
+2018-07-04 12:06:47 - [TEST_STEP][PASSED] - setText: Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 12:06:48 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 12:06:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:06:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 12:06:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 12:06:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC_04_Pulse/Obj1'
+
+2018-07-04 12:06:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 12:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 12:06:51 - [TEST_STEP][PASSED] - Statement - Alert_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 12:06:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686211936.png]]
+
+2018-07-04 12:06:52 - [TEST_STEP][PASSED] - comment: Alert Marked as Suspious
+
+2018-07-04 12:06:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:06:55 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:06:55 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC05_MARK Transaction  FRAUD
+
+2018-07-04 12:06:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 12:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 12:06:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 12:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 12:06:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 12:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 12:07:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:07:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:07:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-04 12:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud' is clicked on
+
+2018-07-04 12:07:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:07:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 12:07:13 - [TEST_STEP][PASSED] - setText: Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 12:07:14 - [MESSAGE][PASSED] - Text 'Fraud' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 12:07:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-04 12:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Fraud_1' is clicked on
+
+2018-07-04 12:07:14 - [TEST_STEP][PASSED] - Statement - Transcation_Fraud = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 12:07:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686234409.png]]
+
+2018-07-04 12:07:15 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Fraud
+
+2018-07-04 12:07:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-04 12:07:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-04 12:07:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-04 12:07:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Fraud' are matched.
+
+2018-07-04 12:07:18 - [TEST_STEP][PASSED] - comment: Transcation Status Verifed
+
+2018-07-04 12:07:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:07:20 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud" status="ERROR">
+         <error type="ERROR" message="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/Alert%20Manager_View%20Trans%20Details/TC06_Mark%20Transaction%20as%20NOT%20Fraud/Script1530600840092.groovy: 42: unable to resolve class Transcation_Not 
+ @ line 42, column 17.
+   Transcation_Not Fraud = WebUI.takeScreenshot()
+                   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-07-04 12:07:20 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/Alert%20Manager_View%20Trans%20Details/TC06_Mark%20Transaction%20as%20NOT%20Fraud/Script1530600840092.groovy: 42: unable to resolve class Transcation_Not 
+ @ line 42, column 17.
+   Transcation_Not Fraud = WebUI.takeScreenshot()
+                   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-07-04 12:07:20 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC06_Mark Transaction as NOT Fraud FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/ankur.jain/Katalon%20Studio/Feedzai_Automation/Scripts/Alert%20Manager%20Test%20Cases/Alert%20Manager_View%20Trans%20Details/TC06_Mark%20Transaction%20as%20NOT%20Fraud/Script1530600840092.groovy: 42: unable to resolve class Transcation_Not 
+ @ line 42, column 17.
+   Transcation_Not Fraud = WebUI.takeScreenshot()
+                   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious" classname="Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious" status="PASSED">
+         <system-out><![CDATA[2018-07-04 12:07:21 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious: Test Cases/Alert Manager Test Cases/Alert Manager_View Trans Details/TC07_Mark Transaction Suspious
+
+2018-07-04 12:07:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 12:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/a_Merchant' is clicked on
+
+2018-07-04 12:07:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 12:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/span_Alerts' is clicked on
+
+2018-07-04 12:07:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 12:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/i_glyphicon glyphicon-eye-open' is clicked on
+
+2018-07-04 12:07:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:07:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:07:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-04 12:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05-07_AM/button_Suspicious' is clicked on
+
+2018-07-04 12:07:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:07:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:07:36 - [TEST_STEP][PASSED] - setText: Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 12:07:36 - [MESSAGE][PASSED] - Text 'Suspious' is set on object 'Object Repository/TC05-07_AM/textarea_observation'
+
+2018-07-04 12:07:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:07:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 12:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_04_Pulse/button_Suspicious' is clicked on
+
+2018-07-04 12:07:39 - [TEST_STEP][PASSED] - Statement - Transcation_Suspious = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(): Taking screenshot successfully
+
+2018-07-04 12:07:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686259156.png]]
+
+2018-07-04 12:07:39 - [TEST_STEP][PASSED] - comment: Transcation is Marked as Suspious
+
+2018-07-04 12:07:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:07:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:07:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Suspious' are matched.
+
+2018-07-04 12:07:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC05-07_AM/Status_Suspious' are matched.
+
+2018-07-04 12:07:42 - [TEST_STEP][PASSED] - comment: Transation status is verifed
+
+2018-07-04 12:07:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:07:44 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" classname="Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/div_919860606030' located by 'By.xpath: //div[@class='details-value'][contains(text(),'+919860606030')]' not found)"/>
+         <system-out><![CDATA[2018-07-04 12:07:44 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number FAILED because (of) Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/div_919860606030' located by 'By.xpath: //div[@class='details-value'][contains(text(),'+919860606030')]' not found)
+
+2018-07-04 12:07:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 12:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC08_18 AM/a_Customer' is clicked on
+
+2018-07-04 12:07:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:07:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:07:47 - [TEST_STEP][PASSED] - setText: Text '919860606030' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 12:07:48 - [MESSAGE][PASSED] - Text '919860606030' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 12:07:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 12:07:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 12:07:50 - [TEST_STEP][PASSED] - setText: Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 12:07:50 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/TC08_18 AM/span_Customer'
+
+2018-07-04 12:07:50 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-04 12:07:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-04 12:07:55 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/div_919860606030' located by 'By.xpath: //div[@class='details-value'][contains(text(),'+919860606030')]' not found)
+
+2018-07-04 12:08:29 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/div_919860606030' located by 'By.xpath: //div[@class='details-value'][contains(text(),'+919860606030')]' not found
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686308769.png]]
+
+2018-07-04 12:08:29 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/div_919860606030' located by 'By.xpath: //div[@class='details-value'][contains(text(),'+919860606030')]' not found)
+[[ATTACHMENT|C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_120456\\1530686309335.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-04 12:07:44 - [TEST_CASE][FAILED] - Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number: Test Cases/Alert Manager Test Cases/AM_Customer Search Home Screen/TC08_Customer Search through mobile number FAILED because (of) Verify element text of test object 'Object Repository/TC08_18 AM/div_919860606030' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC08_18 AM/div_919860606030' located by 'By.xpath: //div[@class='details-value'][contains(text(),'+919860606030')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 12:05:02 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud FAILED because (of) Unable to click on object 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' located by 'By.xpath: //i[@class = 'glyphicon glyphicon-ok']' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-04 12:05:02 - [TEST_SUITE][FAILED] - AM_Test Suite: Test Cases/Alert Manager Test Cases/Alert Manager_View Alert/TC01_Mark Alert Not Fraud FAILED because (of) Unable to click on object 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_01-03_AM/i_glyphicon glyphicon-ok' located by 'By.xpath: //i[@class = 'glyphicon glyphicon-ok']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

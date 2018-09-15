@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AM_Test Suite,,,2018-07-11 10:28:20,2018-07-11 10:28:46,26.450s,FAILED
+,,,,,,
+Test Cases/Alert Manager Test Cases/Alert Manager_Search Screen/TC32_Validate Advance search through Processing code,,,2018-07-11 10:28:21,2018-07-11 10:28:46,24.758s,FAILED
+clearText,,,2018-07-11 10:28:23,2018-07-11 10:28:24,1.307s,FAILED
+click,,,2018-07-11 10:28:24,2018-07-11 10:28:24,0.138s,FAILED
+delay,,,2018-07-11 10:28:24,2018-07-11 10:28:26,2.081s,PASSED
+click,,,2018-07-11 10:28:26,2018-07-11 10:28:27,0.037s,FAILED
+click,,,2018-07-11 10:28:27,2018-07-11 10:28:27,0.054s,FAILED
+setText,,,2018-07-11 10:28:27,2018-07-11 10:28:27,0.104s,FAILED
+delay,,,2018-07-11 10:28:27,2018-07-11 10:28:29,2.007s,PASSED
+sendKeys,,,2018-07-11 10:28:29,2018-07-11 10:28:29,0.125s,FAILED
+delay,,,2018-07-11 10:28:29,2018-07-11 10:28:34,5.013s,PASSED
+click,,,2018-07-11 10:28:34,2018-07-11 10:28:34,0.035s,FAILED
+getText,,,2018-07-11 10:28:34,2018-07-11 10:28:34,0.112s,FAILED
+comment,,,2018-07-11 10:28:34,2018-07-11 10:28:34,0.036s,PASSED
+Statement - Resp_code = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(),,,2018-07-11 10:28:34,2018-07-11 10:28:34,0.062s,FAILED
+verifyElementText,,,2018-07-11 10:28:34,2018-07-11 10:28:34,0.076s,FAILED
+refresh,,,2018-07-11 10:28:34,2018-07-11 10:28:34,0.036s,FAILED
+delay,,,2018-07-11 10:28:34,2018-07-11 10:28:46,12.005s,PASSED

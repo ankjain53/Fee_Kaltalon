@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AM_Test Suite" time="109" tests="1" failures="0" errors="1">
+   <testsuite name="AM_Test Suite" tests="1" failures="0" errors="1" time="109" timestamp="2018-07-04 16:29:32" hostname="Ankur.Jain - LT0021232" id="Test Suites/AM_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_162917"/>
+         <property name="logFiles" value="C:\\Users\\ankur.jain\\Katalon Studio\\Feedzai_Automation\\Reports\\AM_Test Suite\\20180704_162917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ankur.Jain - LT0021232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.50.88.74"/>
+         <property name="sessionId" value="db2f926abb920305b6db5996a9163e5c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Alert Manager Test Cases/Alert Manager_Login" classname="Test Cases/Alert Manager Test Cases/Alert Manager_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-04 16:29:36 - [TEST_CASE][PASSED] - Test Cases/Alert Manager Test Cases/Alert Manager_Login: Test Cases/Alert Manager Test Cases/Alert Manager_Login
+
+2018-07-04 16:29:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-04 16:30:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-04 16:30:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-04 16:30:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-04 16:30:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 16:30:44 - [MESSAGE][PASSED] - Navigate to 'https://10.130.236.51/#login' successfully
+
+2018-07-04 16:30:44 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-07-04 16:31:04 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-07-04 16:31:04 - [TEST_STEP][PASSED] - setText: Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 16:31:10 - [MESSAGE][PASSED] - Text 'Ankur.Jain' is set on object 'Object Repository/TC_01-03_AM/input'
+
+2018-07-04 16:31:10 - [TEST_STEP][PASSED] - setText: Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 16:31:10 - [MESSAGE][PASSED] - Text 'Word02Pass' is set on object 'Object Repository/TC_01-03_AM/input_1'
+
+2018-07-04 16:31:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 16:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_01-03_AM/button_Sign In' is clicked on
+
+2018-07-04 16:31:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 16:31:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 16:31:13 - [TEST_STEP][PASSED] - comment: Alert Manager Login Sucesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search" classname="Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search" status="ERROR">
+         <error type="ERROR" message="Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search FAILED because (of) Variable 'Keys' is not defined for test case."/>
+         <system-out><![CDATA[2018-07-04 16:31:13 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search: Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search FAILED because (of) Variable 'Keys' is not defined for test case.
+
+2018-07-04 16:31:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC21_AM/Agent_Icon' is clicked on
+
+2018-07-04 16:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC21_AM/Agent_Icon' is clicked on
+
+2018-07-04 16:31:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 16:31:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 16:31:16 - [TEST_STEP][PASSED] - setText: Text '1000002151' is set on object 'Object Repository/TC21_AM/Agent_Search'
+
+2018-07-04 16:31:17 - [MESSAGE][PASSED] - Text '1000002151' is set on object 'Object Repository/TC21_AM/Agent_Search'
+
+2018-07-04 16:31:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-04 16:31:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-04 16:31:19 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/TC21_AM/Agent_Search']]></system-out>
+         <system-err><![CDATA[2018-07-04 16:31:13 - [TEST_CASE][ERROR] - Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search: Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search FAILED because (of) Variable 'Keys' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 16:29:32 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search FAILED because (of) Variable 'Keys' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-07-04 16:29:32 - [TEST_SUITE][ERROR] - AM_Test Suite: Test Cases/Alert Manager Test Cases/AM_Agent Search/TC21_Validation of Agent Search FAILED because (of) Variable 'Keys' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>
